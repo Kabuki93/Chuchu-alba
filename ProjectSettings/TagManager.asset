@@ -4,22 +4,34 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Ground
+  - Enemy
+  - Hazard
+  - Platform
+  - Pole
+  - Panel
+  - Spring
+  - Surface/Grass
+  - Surface/Wood
+  - Surface/Metal
+  - Volume/Water
+  - Interactive/Rail
+  - Hitbox
+  - Gravity Field
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Ground
+  - 
   - Water
   - UI
+  - Post Processing
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Ignore Projector
+  - Camera Obstructor
+  - Ignore Ledge Hanging
+  - Ignore Ledge Climbing
+  - Unstable Surface
+  - Ignore Wall Sliding
   - 
   - 
   - 

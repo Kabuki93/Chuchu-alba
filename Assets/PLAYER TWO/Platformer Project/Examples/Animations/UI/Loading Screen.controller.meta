@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 080f3b53cc598a54e8379a0421c7af26
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206584
+  packageName: Platformer Project
+  packageVersion: 1.8.5
+  assetPath: Assets/PLAYER TWO/Platformer Project/Examples/Animations/UI/Loading
+    Screen.controller
+  uploadId: 683332

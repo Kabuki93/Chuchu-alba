@@ -42,3 +42,15 @@ The following packages were updated:
   com.unity.feature.development from version 1.0.1 to 1.0.2
   com.unity.timeline from version 1.6.2 to 1.8.6
   com.unity.visualscripting from version 1.7.6 to 1.8.0
+
+=== Mon Sep  2 21:14:30 2024
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.cinemachine from version 2.8.9 to 2.9.5
+  com.unity.inputsystem from version 1.5.1 to 1.7.0
+  com.unity.postprocessing from version 3.2.2 to 3.4.0
+  com.unity.shadergraph from version 12.1.11 to 16.0.5
+  com.unity.splines from version 2.2.1 to 2.5.2
