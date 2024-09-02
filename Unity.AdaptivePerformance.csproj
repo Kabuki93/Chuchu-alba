@@ -120,8 +120,8 @@
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@5.0.1\Runtime\Scalers\AdaptiveLut.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@5.0.1\Runtime\Scalers\AdaptiveFramerate.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@5.0.1\Runtime\Core\CpuTime.cs" />
-    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@5.0.1\Runtime\IPerformanceStatus.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@5.0.1\Runtime\IDevelopmentSettings.cs" />
+    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@5.0.1\Runtime\IPerformanceStatus.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@5.0.1\Runtime\VisualScript\OnPerformanceLevelsUnit.cs" />
   </ItemGroup>
   <ItemGroup>

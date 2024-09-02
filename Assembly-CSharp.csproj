@@ -1026,6 +1026,10 @@
       <Project>{11A81B6F-BC13-1142-2960-88E40405FFED}</Project>
       <Name>Unity.Rider.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.Profiling.Core.csproj">
+      <Project>{D01BB12F-AE91-BC33-BFB7-629F3A4C2E61}</Project>
+      <Name>Unity.Profiling.Core</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Shared.Editor.csproj">
       <Project>{9E59E645-0DA4-9284-0006-0EE4A8DA5E5A}</Project>
       <Name>Unity.VisualScripting.Shared.Editor</Name>
@@ -1034,9 +1038,17 @@
       <Project>{3A5F679D-DF4B-660C-6CF7-820C05C0B441}</Project>
       <Name>Unity.VisualScripting.Core.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.Notifications.csproj">
+      <Project>{3716EB6E-9DEF-3984-76FE-557884BB290C}</Project>
+      <Name>Unity.Notifications</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.csproj">
       <Project>{69E26629-23A4-2567-F936-59CBC796DA59}</Project>
       <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.AdaptivePerformance.csproj">
+      <Project>{60FB3DE4-62C2-74A8-8837-B30357E2EACE}</Project>
+      <Name>Unity.AdaptivePerformance</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Flow.Editor.csproj">
       <Project>{C33A0A3B-8EBA-246B-0871-0912C4516574}</Project>
@@ -1050,6 +1062,14 @@
       <Project>{E5C0DCD0-15DB-83A0-4EDC-3F5CFCBD5F42}</Project>
       <Name>Unity.TextMeshPro</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.AdaptivePerformance.Simulator.Editor.csproj">
+      <Project>{95EF8078-9FB5-0C30-FEAF-5881E5EDC376}</Project>
+      <Name>Unity.AdaptivePerformance.Simulator.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Notifications.Unified.csproj">
+      <Project>{79D8CFC0-9BC0-61A2-BBBE-05EB08B110B1}</Project>
+      <Name>Unity.Notifications.Unified</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.EditorCoroutines.Editor.csproj">
       <Project>{7A58FFD9-3462-ABD6-C9C6-53006FBBB61E}</Project>
       <Name>Unity.EditorCoroutines.Editor</Name>
@@ -1062,37 +1082,37 @@
       <Project>{A31AF13A-6EA1-DF57-547C-21CFCB4F4B58}</Project>
       <Name>Unity.PlasticSCM.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.SettingsProvider.Editor.csproj">
-      <Project>{2DDDCEE8-1788-CA1E-EF43-3620EA24758A}</Project>
-      <Name>Unity.VisualScripting.SettingsProvider.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.csproj">
-      <Project>{7299217C-73D3-0B53-2FBA-543826F11F67}</Project>
-      <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Model</Name>
+    <ProjectReference Include="Unity.Timeline.csproj">
+      <Project>{DB7D0500-4C48-86B2-8BEE-DF10F87A79FF}</Project>
+      <Name>Unity.Timeline</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.State.Editor.csproj">
       <Project>{2FD7D0AF-0560-8B47-B89C-D05070B9AFF9}</Project>
       <Name>Unity.VisualScripting.State.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.Timeline.csproj">
-      <Project>{DB7D0500-4C48-86B2-8BEE-DF10F87A79FF}</Project>
-      <Name>Unity.Timeline</Name>
+    <ProjectReference Include="Unity.Mathematics.csproj">
+      <Project>{5A878FF5-9AC2-A1D2-C7B7-14E31B7BA002}</Project>
+      <Name>Unity.Mathematics</Name>
     </ProjectReference>
     <ProjectReference Include="Cinemachine.csproj">
       <Project>{FCF3D052-5764-D205-56D8-BA3EF66BA42B}</Project>
       <Name>Cinemachine</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.Mathematics.csproj">
-      <Project>{5A878FF5-9AC2-A1D2-C7B7-14E31B7BA002}</Project>
-      <Name>Unity.Mathematics</Name>
+    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.csproj">
+      <Project>{7299217C-73D3-0B53-2FBA-543826F11F67}</Project>
+      <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.csproj">
+      <Project>{F974DC2B-9093-92D0-F112-0F4DA1BB70FA}</Project>
+      <Name>Unity.TestTools.CodeCoverage.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
       <Project>{C6D94594-2E0B-2D4D-4241-1BC9ACBEBE03}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.csproj">
-      <Project>{F974DC2B-9093-92D0-F112-0F4DA1BB70FA}</Project>
-      <Name>Unity.TestTools.CodeCoverage.Editor</Name>
+    <ProjectReference Include="Unity.AdaptivePerformance.UI.Editor.csproj">
+      <Project>{AC4E318C-653F-0CAC-7782-3654AE0BAC46}</Project>
+      <Name>Unity.AdaptivePerformance.UI.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Splines.csproj">
       <Project>{52196BCB-3F31-9B97-4293-C1CB63A20962}</Project>
@@ -1106,17 +1126,41 @@
       <Project>{FEC7F8B8-4767-8E26-6CF1-45FDD703B373}</Project>
       <Name>Unity.Postprocessing.Runtime</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.AdaptivePerformance.Simulator.Extension.csproj">
+      <Project>{03CF37DC-9198-05A8-AB56-609AC857E2EF}</Project>
+      <Name>Unity.AdaptivePerformance.Simulator.Extension</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Mathematics.Editor.csproj">
       <Project>{08FEAC9D-F086-301B-AD1B-2918C0213C26}</Project>
       <Name>Unity.Mathematics.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Notifications.Android.csproj">
+      <Project>{D6F348BB-2CA6-2356-70B9-8A479BF96177}</Project>
+      <Name>Unity.Notifications.Android</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Performance.Profile-Analyzer.Editor.csproj">
       <Project>{D9570A9E-57F5-B5D2-1F43-714E4E7CEF8B}</Project>
       <Name>Unity.Performance.Profile-Analyzer.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.AdaptivePerformance.Profiler.Editor.csproj">
+      <Project>{7C29D8F3-8F76-DFB8-00B9-80D2AAF85C10}</Project>
+      <Name>Unity.AdaptivePerformance.Profiler.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Mobile.AndroidLogcat.Editor.csproj">
+      <Project>{6E70B812-A2FD-7AB8-A6AF-99127134B428}</Project>
+      <Name>Unity.Mobile.AndroidLogcat.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.AdaptivePerformance.Editor.csproj">
+      <Project>{2B275019-FDFD-5FCB-D2D6-2EA76A5EEF10}</Project>
+      <Name>Unity.AdaptivePerformance.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
       <Project>{BBB3C83A-3612-626B-3354-2B63BECE1B67}</Project>
       <Name>Unity.TextMeshPro.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.SettingsProvider.Editor.csproj">
+      <Project>{2DDDCEE8-1788-CA1E-EF43-3620EA24758A}</Project>
+      <Name>Unity.VisualScripting.SettingsProvider.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
       <Project>{3413A50E-2C4D-E7C0-32AF-F3BD57BE7E54}</Project>
@@ -1133,6 +1177,10 @@
     <ProjectReference Include="Unity.InputSystem.csproj">
       <Project>{4F4BEA49-94BC-03D2-D656-00DBAE853463}</Project>
       <Name>Unity.InputSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Notifications.iOS.csproj">
+      <Project>{9FAE8AEB-4BD5-4288-8654-6FC6763AE92A}</Project>
+      <Name>Unity.Notifications.iOS</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

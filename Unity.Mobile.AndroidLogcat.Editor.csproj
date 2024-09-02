@@ -61,7 +61,6 @@
     <Analyzer Include="D:\Programas cole\Unity\2023.2.18f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.unity.mobile.android-logcat@1.4.0\Editor\AndroidLogcatDeviceSelection.cs" />
     <Compile Include="Library\PackageCache\com.unity.mobile.android-logcat@1.4.0\Editor\AndroidLogcatTagInformation.cs" />
     <Compile Include="Library\PackageCache\com.unity.mobile.android-logcat@1.4.0\Editor\AndroidLogcatTags.cs" />
     <Compile Include="Library\PackageCache\com.unity.mobile.android-logcat@1.4.0\Editor\AndroidLogcatCaptureVideo.cs" />
@@ -114,6 +113,7 @@
     <Compile Include="Library\PackageCache\com.unity.mobile.android-logcat@1.4.0\Editor\AndroidLogcatPriority.cs" />
     <Compile Include="Library\PackageCache\com.unity.mobile.android-logcat@1.4.0\Editor\AndroidTools\AndroidBridge.cs" />
     <Compile Include="Library\PackageCache\com.unity.mobile.android-logcat@1.4.0\Editor\AndroidLogcatStyles.cs" />
+    <Compile Include="Library\PackageCache\com.unity.mobile.android-logcat@1.4.0\Editor\AndroidLogcatDeviceSelection.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.mobile.android-logcat@1.4.0\Editor\Unity.Mobile.AndroidLogcat.Editor.asmdef" />
