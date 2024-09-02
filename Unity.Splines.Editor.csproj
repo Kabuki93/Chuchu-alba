@@ -75,14 +75,14 @@
     <Compile Include="Library\PackageCache\com.unity.splines@2.5.2\Editor\GUI\SplineMenu.cs" />
     <Compile Include="Library\PackageCache\com.unity.splines@2.5.2\Editor\Tools\SplineToolContext.cs" />
     <Compile Include="Library\PackageCache\com.unity.splines@2.5.2\Editor\GUI\ToolbarsOverlays\DefaultKnotTypeDropdown.cs" />
-    <Compile Include="Library\PackageCache\com.unity.splines@2.5.2\Editor\GUI\Editors\SplineDataPropertyDrawer.cs" />
     <Compile Include="Library\PackageCache\com.unity.splines@2.5.2\Editor\GUI\Editors\CommonElementDrawer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.splines@2.5.2\Editor\GUI\Editors\SplineDataPropertyDrawer.cs" />
     <Compile Include="Library\PackageCache\com.unity.splines@2.5.2\Editor\Utilities\SplineCacheUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.splines@2.5.2\Editor\Components\SplineContainerEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.splines@2.5.2\Editor\Utilities\SplineSelectionUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.splines@2.5.2\Editor\Core\SplineSelection.cs" />
-    <Compile Include="Library\PackageCache\com.unity.splines@2.5.2\Editor\Tools\SplineMoveTool.cs" />
     <Compile Include="Library\PackageCache\com.unity.splines@2.5.2\Editor\Tools\KnotPlacementTool.cs" />
+    <Compile Include="Library\PackageCache\com.unity.splines@2.5.2\Editor\Tools\SplineMoveTool.cs" />
     <Compile Include="Library\PackageCache\com.unity.splines@2.5.2\Editor\GUI\Editors\SplineDataDictionaryPropertyDrawer.cs" />
     <Compile Include="Library\PackageCache\com.unity.splines@2.5.2\Editor\GUI\Editors\SplineActionZone.cs" />
     <Compile Include="Library\PackageCache\com.unity.splines@2.5.2\Editor\GUI\Editors\ElementInspector.cs" />
@@ -112,8 +112,8 @@
     <Compile Include="Library\PackageCache\com.unity.splines@2.5.2\Editor\GUI\Editors\ReadOnlyField.cs" />
     <Compile Include="Library\PackageCache\com.unity.splines@2.5.2\Editor\GUI\ToolbarsOverlays\HandleRotationDropdown.cs" />
     <Compile Include="Library\PackageCache\com.unity.splines@2.5.2\Editor\GUI\ToolbarsOverlays\Separator.cs" />
-    <Compile Include="Library\PackageCache\com.unity.splines@2.5.2\Editor\GUI\SplineIndexPropertyDrawer.cs" />
     <Compile Include="Library\PackageCache\com.unity.splines@2.5.2\Editor\Controls\KnotHandles.cs" />
+    <Compile Include="Library\PackageCache\com.unity.splines@2.5.2\Editor\GUI\SplineIndexPropertyDrawer.cs" />
     <Compile Include="Library\PackageCache\com.unity.splines@2.5.2\Editor\GUI\ToolbarsOverlays\SplineInspectorOverlay.cs" />
     <Compile Include="Library\PackageCache\com.unity.splines@2.5.2\Editor\GUI\SplineDataConversionWindow.cs" />
     <Compile Include="Library\PackageCache\com.unity.splines@2.5.2\Editor\GUI\EditorSplineGizmos.cs" />
