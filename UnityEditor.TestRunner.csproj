@@ -94,13 +94,13 @@
     <Compile Include="Library\PackageCache\com.unity.test-framework@1.3.9\UnityEditor.TestRunner\UnityTestProtocol\ITestRunnerApiMapper.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework@1.3.9\UnityEditor.TestRunner\TestBuildAssemblyFilter.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework@1.3.9\UnityEditor.TestRunner\NUnitExtension\Attributes\TestPlayerBuildModifierAttribute.cs" />
-    <Compile Include="Library\PackageCache\com.unity.test-framework@1.3.9\UnityEditor.TestRunner\TestRun\Tasks\LegacyPlayerRunTask.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework@1.3.9\UnityEditor.TestRunner\Api\ExecutionSettings.cs" />
+    <Compile Include="Library\PackageCache\com.unity.test-framework@1.3.9\UnityEditor.TestRunner\TestRun\Tasks\LegacyPlayerRunTask.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework@1.3.9\UnityEditor.TestRunner\Api\Analytics\RunFinishedData.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework@1.3.9\UnityEditor.TestRunner\TestRunner\Utils\TestListCacheData.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework@1.3.9\UnityEditor.TestRunner\Api\CallbacksHolder.cs" />
-    <Compile Include="Library\PackageCache\com.unity.test-framework@1.3.9\UnityEditor.TestRunner\TestLaunchers\PlatformSetup\ApplePlatformSetup.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework@1.3.9\UnityEditor.TestRunner\TestRun\RequiredTestRunDataMissingException.cs" />
+    <Compile Include="Library\PackageCache\com.unity.test-framework@1.3.9\UnityEditor.TestRunner\TestLaunchers\PlatformSetup\ApplePlatformSetup.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework@1.3.9\UnityEditor.TestRunner\CommandLineTest\SetupException.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework@1.3.9\UnityEditor.TestRunner\TestRun\Tasks\BuildTestTreeTask.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework@1.3.9\UnityEditor.TestRunner\TestLaunchers\PlatformSetup\UwpPlatformSetup.cs" />

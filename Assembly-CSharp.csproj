@@ -1006,9 +1006,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{C6D94594-2E0B-2D4D-4241-1BC9ACBEBE03}</Project>
-      <Name>UnityEngine.UI</Name>
+    <ProjectReference Include="com.unity.cinemachine.editor.csproj">
+      <Project>{7B28A396-63B0-8408-660B-2993C763B61D}</Project>
+      <Name>com.unity.cinemachine.editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
       <Project>{A31AF13A-6EA1-DF57-547C-21CFCB4F4B58}</Project>
@@ -1017,6 +1017,14 @@
     <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.csproj">
       <Project>{F974DC2B-9093-92D0-F112-0F4DA1BB70FA}</Project>
       <Name>Unity.TestTools.CodeCoverage.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.UI.csproj">
+      <Project>{C6D94594-2E0B-2D4D-4241-1BC9ACBEBE03}</Project>
+      <Name>UnityEngine.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.SettingsProvider.Editor.csproj">
+      <Project>{2DDDCEE8-1788-CA1E-EF43-3620EA24758A}</Project>
+      <Name>Unity.VisualScripting.SettingsProvider.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
       <Project>{71E2B43E-1685-AB08-0EF7-B2F612E2248C}</Project>
@@ -1090,9 +1098,9 @@
       <Project>{7299217C-73D3-0B53-2FBA-543826F11F67}</Project>
       <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Model</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.SettingsProvider.Editor.csproj">
-      <Project>{2DDDCEE8-1788-CA1E-EF43-3620EA24758A}</Project>
-      <Name>Unity.VisualScripting.SettingsProvider.Editor</Name>
+    <ProjectReference Include="Cinemachine.csproj">
+      <Project>{FCF3D052-5764-D205-56D8-BA3EF66BA42B}</Project>
+      <Name>Cinemachine</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
