@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1ac47cc21d0af77499f12a98a567a15f
+timeCreated: 1457969068
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 58462
+  packageName: Basic enter/exit cars
+  packageVersion: 1.2
+  assetPath: Assets/Basic enter exit cars/Models/Materials/Ground.mat
+  uploadId: 150822

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 780690992ab0a1e408411ed3a3c0b6fe
+timeCreated: 1472124179
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 58462
+  packageName: Basic enter/exit cars
+  packageVersion: 1.2
+  assetPath: Assets/Basic enter exit cars/Prefabs/car.prefab
+  uploadId: 150822

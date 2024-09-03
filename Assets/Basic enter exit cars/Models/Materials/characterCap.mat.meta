@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 98e8e374b1eca2f4d9d08f70396aefa1
+timeCreated: 1458053652
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 58462
+  packageName: Basic enter/exit cars
+  packageVersion: 1.2
+  assetPath: Assets/Basic enter exit cars/Models/Materials/characterCap.mat
+  uploadId: 150822

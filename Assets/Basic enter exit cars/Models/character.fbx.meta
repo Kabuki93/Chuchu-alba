@@ -1,0 +1,325 @@
+fileFormatVersion: 2
+guid: 09b1116484181b64d9144e3f76753d6c
+timeCreated: 1458053652
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: chest
+    100004: foot.L
+    100006: foot.L_end
+    100008: foot.R
+    100010: foot.R_end
+    100012: forearm.L
+    100014: forearm.L.001
+    100016: forearm.L.001_end
+    100018: forearm.R
+    100020: forearm.R.001
+    100022: forearm.R.001_end
+    100024: hand.L
+    100026: hand.L_end
+    100028: hand.R
+    100030: hand.R_end
+    100032: head
+    100034: head_end
+    100036: hips
+    100038: neck
+    100040: Player
+    100042: PlayerMesh
+    100044: shin.L
+    100046: shin.R
+    100048: shoulder.L
+    100050: shoulder.R
+    100052: spine
+    100054: thigh.L
+    100056: thigh.R
+    100058: upper_arm.L
+    100060: upper_arm.R
+    400000: //RootNode
+    400002: chest
+    400004: foot.L
+    400006: foot.L_end
+    400008: foot.R
+    400010: foot.R_end
+    400012: forearm.L
+    400014: forearm.L.001
+    400016: forearm.L.001_end
+    400018: forearm.R
+    400020: forearm.R.001
+    400022: forearm.R.001_end
+    400024: hand.L
+    400026: hand.L_end
+    400028: hand.R
+    400030: hand.R_end
+    400032: head
+    400034: head_end
+    400036: hips
+    400038: neck
+    400040: Player
+    400042: PlayerMesh
+    400044: shin.L
+    400046: shin.R
+    400048: shoulder.L
+    400050: shoulder.R
+    400052: spine
+    400054: thigh.L
+    400056: thigh.R
+    400058: upper_arm.L
+    400060: upper_arm.R
+    4300000: PlayerMesh
+    7400000: Player|Die
+    7400002: Idle
+    7400004: Player|Shooting
+    7400006: Walking
+    7400008: PlayerMesh|Shooting
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: PlayerMesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Player|Idle
+      firstFrame: 0
+      lastFrame: 70
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Player
+        weight: 1
+      - path: Player/hips
+        weight: 1
+      - path: Player/hips/spine
+        weight: 1
+      - path: Player/hips/spine/chest
+        weight: 1
+      - path: Player/hips/spine/chest/neck
+        weight: 1
+      - path: Player/hips/spine/chest/neck/head
+        weight: 1
+      - path: Player/hips/spine/chest/neck/head/head_end
+        weight: 1
+      - path: Player/hips/spine/chest/shoulder.L
+        weight: 1
+      - path: Player/hips/spine/chest/shoulder.L/upper_arm.L
+        weight: 1
+      - path: Player/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: Player/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L/forearm.L.001
+        weight: 1
+      - path: Player/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L/forearm.L.001/forearm.L.001_end
+        weight: 1
+      - path: Player/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: Player/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L/hand.L/hand.L_end
+        weight: 1
+      - path: Player/hips/spine/chest/shoulder.R
+        weight: 1
+      - path: Player/hips/spine/chest/shoulder.R/upper_arm.R
+        weight: 1
+      - path: Player/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: Player/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R/forearm.R.001
+        weight: 1
+      - path: Player/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R/forearm.R.001/forearm.R.001_end
+        weight: 1
+      - path: Player/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: Player/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R/hand.R/hand.R_end
+        weight: 1
+      - path: Player/hips/thigh.L
+        weight: 1
+      - path: Player/hips/thigh.L/shin.L
+        weight: 1
+      - path: Player/hips/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: Player/hips/thigh.L/shin.L/foot.L/foot.L_end
+        weight: 1
+      - path: Player/hips/thigh.R
+        weight: 1
+      - path: Player/hips/thigh.R/shin.R
+        weight: 1
+      - path: Player/hips/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: Player/hips/thigh.R/shin.R/foot.R/foot.R_end
+        weight: 1
+      - path: PlayerMesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walking
+      takeName: Player|Walking
+      firstFrame: 0
+      lastFrame: 23
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Player
+        weight: 1
+      - path: Player/hips
+        weight: 1
+      - path: Player/hips/spine
+        weight: 1
+      - path: Player/hips/spine/chest
+        weight: 1
+      - path: Player/hips/spine/chest/neck
+        weight: 1
+      - path: Player/hips/spine/chest/neck/head
+        weight: 1
+      - path: Player/hips/spine/chest/neck/head/head_end
+        weight: 1
+      - path: Player/hips/spine/chest/shoulder.L
+        weight: 1
+      - path: Player/hips/spine/chest/shoulder.L/upper_arm.L
+        weight: 1
+      - path: Player/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: Player/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L/forearm.L.001
+        weight: 1
+      - path: Player/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L/forearm.L.001/forearm.L.001_end
+        weight: 1
+      - path: Player/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: Player/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L/hand.L/hand.L_end
+        weight: 1
+      - path: Player/hips/spine/chest/shoulder.R
+        weight: 1
+      - path: Player/hips/spine/chest/shoulder.R/upper_arm.R
+        weight: 1
+      - path: Player/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: Player/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R/forearm.R.001
+        weight: 1
+      - path: Player/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R/forearm.R.001/forearm.R.001_end
+        weight: 1
+      - path: Player/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: Player/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R/hand.R/hand.R_end
+        weight: 1
+      - path: Player/hips/thigh.L
+        weight: 1
+      - path: Player/hips/thigh.L/shin.L
+        weight: 1
+      - path: Player/hips/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: Player/hips/thigh.L/shin.L/foot.L/foot.L_end
+        weight: 1
+      - path: Player/hips/thigh.R
+        weight: 1
+      - path: Player/hips/thigh.R/shin.R
+        weight: 1
+      - path: Player/hips/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: Player/hips/thigh.R/shin.R/foot.R/foot.R_end
+        weight: 1
+      - path: PlayerMesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .899999976
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 58462
+  packageName: Basic enter/exit cars
+  packageVersion: 1.2
+  assetPath: Assets/Basic enter exit cars/Models/character.fbx
+  uploadId: 150822

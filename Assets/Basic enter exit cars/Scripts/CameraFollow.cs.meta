@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 7545fa46dd0b0bc4a99e3250538e4914
+timeCreated: 1457968066
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 58462
+  packageName: Basic enter/exit cars
+  packageVersion: 1.2
+  assetPath: Assets/Basic enter exit cars/Scripts/CameraFollow.cs
+  uploadId: 150822

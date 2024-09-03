@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 473b70840a9db2f4ab83a7eebc8fc0ea
+timeCreated: 1458140427
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 58462
+  packageName: Basic enter/exit cars
+  packageVersion: 1.2
+  assetPath: Assets/Basic enter exit cars/Scripts/ExampleCar.cs
+  uploadId: 150822
