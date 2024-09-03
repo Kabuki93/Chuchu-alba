@@ -143,6 +143,7 @@
     <Compile Include="Library\PackageCache\com.unity.ugui@2.0.0\Runtime\UGUI\UI\Core\Layout\GridLayoutGroup.cs" />
     <Compile Include="Library\PackageCache\com.unity.ugui@2.0.0\Runtime\UGUI\UI\Core\Toggle.cs" />
     <Compile Include="Library\PackageCache\com.unity.ugui@2.0.0\Runtime\UGUI\UI\Core\Culling\Clipping.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.5\Editor\ShaderGUI\MaterialAssemblyReference\RawRenderQueue.cs" />
     <Compile Include="Library\PackageCache\com.unity.ugui@2.0.0\Runtime\UGUI\UI\Core\FontUpdateTracker.cs" />
     <Compile Include="Library\PackageCache\com.unity.ugui@2.0.0\Runtime\UGUI\UI\Core\Layout\LayoutElement.cs" />
     <Compile Include="Library\PackageCache\com.unity.ugui@2.0.0\Runtime\UGUI\UI\Core\Layout\LayoutGroup.cs" />
@@ -154,6 +155,7 @@
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.shadergraph@16.0.5\Editor\Generation\Targets\BuiltIn\Editor\ShaderGUI\MaterialAssemblyReference\MaterialAssemblyReference.asmref" />
     <None Include="Library\PackageCache\com.unity.ugui@2.0.0\Runtime\UGUI\UnityEngine.UI.asmdef" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.5\Editor\ShaderGUI\MaterialAssemblyReference\MaterialAssemblyReference.asmref" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

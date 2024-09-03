@@ -1152,6 +1152,8 @@
     <ProjectReference Include="Unity.Searcher.Editor.csproj" />
     <ProjectReference Include="Unity.Rider.Editor.csproj" />
     <ProjectReference Include="Unity.AdaptivePerformance.csproj" />
+    <ProjectReference Include="Unity.RenderPipeline.Universal.ShaderLibrary.csproj" />
+    <ProjectReference Include="Unity.RenderPipelines.Universal.Shaders.csproj" />
     <ProjectReference Include="Unity.Notifications.Unified.csproj" />
     <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.Shared.csproj" />
     <ProjectReference Include="Unity.Timeline.Editor.csproj" />
@@ -1171,9 +1173,11 @@
     <ProjectReference Include="Unity.Mobile.AndroidLogcat.Editor.csproj" />
     <ProjectReference Include="Unity.AdaptivePerformance.Editor.csproj" />
     <ProjectReference Include="Unity.Collections.csproj" />
+    <ProjectReference Include="PPv2URPConverters.csproj" />
     <ProjectReference Include="Unity.Rendering.LightTransport.Editor.csproj" />
     <ProjectReference Include="Unity.VisualScripting.Core.csproj" />
     <ProjectReference Include="Unity.Splines.Editor.csproj" />
+    <ProjectReference Include="Unity.RenderPipelines.Universal.Editor.csproj" />
     <ProjectReference Include="Unity.Collections.Editor.csproj" />
     <ProjectReference Include="Unity.Profiling.Core.csproj" />
     <ProjectReference Include="Unity.VisualScripting.Shared.Editor.csproj" />
@@ -1192,6 +1196,7 @@
     <ProjectReference Include="Unity.Mathematics.csproj" />
     <ProjectReference Include="Cinemachine.csproj" />
     <ProjectReference Include="Unity.RenderPipelines.Core.Editor.csproj" />
+    <ProjectReference Include="Unity.RenderPipelines.Universal.Runtime.csproj" />
     <ProjectReference Include="Unity.AdaptivePerformance.UI.Editor.csproj" />
     <ProjectReference Include="Unity.VisualScripting.State.csproj" />
     <ProjectReference Include="Unity.Postprocessing.Runtime.csproj" />
@@ -1204,6 +1209,7 @@
     <ProjectReference Include="Unity.Rendering.LightTransport.Runtime.csproj" />
     <ProjectReference Include="Unity.Notifications.iOS.csproj" />
     <ProjectReference Include="Unity.InputSystem.csproj" />
+    <ProjectReference Include="Unity.RenderPipelines.Universal.2D.Runtime.csproj" />
   </ItemGroup>
   <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
   <ItemGroup>
