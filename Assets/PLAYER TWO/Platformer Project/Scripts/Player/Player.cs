@@ -19,6 +19,8 @@ namespace PLAYERTWO.PlatformerProject
 
 		protected Vector3 m_skinInitialPosition;
 		protected Quaternion m_skinInitialRotation;
+	
+
 
 		/// <summary>
 		/// Returns the Player Input Manager instance.
@@ -741,4 +743,6 @@ namespace PLAYERTWO.PlatformerProject
 			HandleWaterExitCollision(other);
 		}
 	}
-}
+
+ }
+

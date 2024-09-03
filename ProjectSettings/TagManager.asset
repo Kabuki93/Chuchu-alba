@@ -17,6 +17,7 @@ TagManager:
   - Interactive/Rail
   - Hitbox
   - Gravity Field
+  - Train
   layers:
   - Default
   - TransparentFX

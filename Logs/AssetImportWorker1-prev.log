@@ -1,0 +1,1744 @@
+Using pre-set license
+Built from '2023.2/staging' branch; Version is '2023.2.18f1 (1cb755715f58) revision 1881941'; Using compiler version '193431935'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'es' Physical Memory: 32699 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Programas cole\Unity\2023.2.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/Unity proyectos/Juego tren/Chuchu-alba
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+54563
+-job-worker-count
+7
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: D:/Unity proyectos/Juego tren/Chuchu-alba
+D:/Unity proyectos/Juego tren/Chuchu-alba
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [3724] Host "[IP] 192.168.0.105 [Port] 0 [Flags] 2 [Guid] 716638453 [EditorId] 716638453 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-PE8U79O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [3724] Host "[IP] 192.168.0.105 [Port] 0 [Flags] 2 [Guid] 716638453 [EditorId] 716638453 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-PE8U79O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Library Redirect Path: Library/
+Refreshing native plugins compatible for Editor in 4.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2023.2.18f1 (1cb755715f58)
+[Subsystems] Discovering subsystems at path D:/Programas cole/Unity/2023.2.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity proyectos/Juego tren/Chuchu-alba/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 SUPER (ID=0x21c4)
+    Vendor:   NVIDIA
+    VRAM:     5966 MB
+    Driver:   31.0.15.5123
+Initialize mono
+Mono path[0] = 'D:/Programas cole/Unity/2023.2.18f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Programas cole/Unity/2023.2.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Programas cole/Unity/2023.2.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56244
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Registering precompiled unity dll's ...
+Register platform support module: D:/Programas cole/Unity/2023.2.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004326 seconds.
+- Loaded All Assemblies, in  0.563 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Finished resetting the current domain, in  0.418 seconds
+Domain Reload Profiling: 980ms
+	BeginReloadAssembly (216ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (214ms)
+		LoadAssemblies (215ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (211ms)
+			TypeCache.Refresh (209ms)
+				TypeCache.ScanAssembly (191ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (419ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (339ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (7ms)
+			ProcessInitializeOnLoadAttributes (249ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image D:\Unity proyectos\Juego tren\Chuchu-alba\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity proyectos\Juego tren\Chuchu-alba\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.378 seconds
+Refreshing native plugins compatible for Editor in 4.25 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.989 seconds
+Domain Reload Profiling: 2364ms
+	BeginReloadAssembly (539ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (713ms)
+		LoadAssemblies (551ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (344ms)
+			TypeCache.Refresh (283ms)
+				TypeCache.ScanAssembly (262ms)
+			BuildScriptInfoCaches (49ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (990ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (719ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (582ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 5.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 83 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6001 unused Assets / (6.8 MB). Loaded Objects now: 6573.
+Memory consumption went from 221.8 MB to 215.0 MB.
+Total: 12.702000 ms (FindLiveObjects: 1.251100 ms CreateObjectMapping: 1.267600 ms MarkObjects: 7.219300 ms  DeleteObjects: 2.962400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 142588.273516 seconds.
+  path: Assets/Scenes/Pruevas alba.unity
+  artifactKey: Guid(f440e0ef755069844b46cb0d6a0aef0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pruevas alba.unity using Guid(f440e0ef755069844b46cb0d6a0aef0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '880ef7a44b8cf9446aabb32c87690058') in 0.0110239 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 298.925706 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2e67aac931a179c988b5be4729a043b1') in 0.0976044 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Models/Sign.fbx
+  artifactKey: Guid(b4c83167e459c1947b9b4d5398d38e6f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Models/Sign.fbx using Guid(b4c83167e459c1947b9b4d5398d38e6f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'db47f085708bef5d093f5afcd0b1213a') in 0.1540396 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Fonts/Acme-Regular.ttf
+  artifactKey: Guid(42fc4de2501eab343b662656a0080481) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Fonts/Acme-Regular.ttf using Guid(42fc4de2501eab343b662656a0080481) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dd6dba8d95079c6c05dc11269e5607f5') in 0.0578306 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Scripts/Events/PlayerEvent.cs
+  artifactKey: Guid(f1b41dda025a77a4cb86ae3e73017e25) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Scripts/Events/PlayerEvent.cs using Guid(f1b41dda025a77a4cb86ae3e73017e25) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9fba3dd97d224bfec16c3344bd4db3f3') in 0.0164592 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Scripts/Misc/Breakable.cs
+  artifactKey: Guid(c846d346b6b7401469e0ac4b1f94fe97) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Scripts/Misc/Breakable.cs using Guid(c846d346b6b7401469e0ac4b1f94fe97) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b836976f73d1436af2683c7b8e8f9e84') in 0.0227988 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Scripts/Enemy/Enemy.cs
+  artifactKey: Guid(e0d416cb84da2404abef1253057745cf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Scripts/Enemy/Enemy.cs using Guid(e0d416cb84da2404abef1253057745cf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4038fc8f4015821e7faa84525a34c178') in 0.0150024 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Scripts/Enemy/EnemyState.cs
+  artifactKey: Guid(813bd072c1f059d4bb87b24836037be5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Scripts/Enemy/EnemyState.cs using Guid(813bd072c1f059d4bb87b24836037be5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3af85f8b836c636ebc97b6cbaddeaeb0') in 0.0272838 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Scripts/Misc/Glider.cs
+  artifactKey: Guid(fd59df0a57d611b46a806bf94727664a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Scripts/Misc/Glider.cs using Guid(fd59df0a57d611b46a806bf94727664a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '683375dbc1df17c5bdd2badfee6c5f00') in 0.0188767 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Scripts/Misc/Checkpoint.cs
+  artifactKey: Guid(36c2bcd9508db2e43acd83b86227033b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Scripts/Misc/Checkpoint.cs using Guid(36c2bcd9508db2e43acd83b86227033b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0e4c24d16b87640f1753e3afcd39cb81') in 0.0172065 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Scripts/Gravity Field/GravityHandler.cs
+  artifactKey: Guid(813c335a49343ca4b8ae371e83ea3357) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Scripts/Gravity Field/GravityHandler.cs using Guid(813c335a49343ca4b8ae371e83ea3357) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b8b9a806427a259dc7faa824074a4b3f') in 0.0155958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Shaders/Lit Reflective.shadergraph
+  artifactKey: Guid(e7b05e426cffd1341b105d811328abe3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Shaders/Lit Reflective.shadergraph using Guid(e7b05e426cffd1341b105d811328abe3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6a21488acc2494a299f63eb8996c2192') in 0.06788 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Scripts/Gravity Field/GravityField.cs
+  artifactKey: Guid(8a6b31bd92ddfdb4b8c388587ab97b9d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Scripts/Gravity Field/GravityField.cs using Guid(8a6b31bd92ddfdb4b8c388587ab97b9d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '74cff2bb866a900571873080e94b6035') in 0.0184156 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Scripts/Misc/Hazard.cs
+  artifactKey: Guid(56c9942aa7f4a8e4cbe793fb5526b81a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Scripts/Misc/Hazard.cs using Guid(56c9942aa7f4a8e4cbe793fb5526b81a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b58ffc0a15df310603968fcc4f1fe98a') in 0.0173585 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Scripts/Platform/Platform.cs
+  artifactKey: Guid(e3f97dceb7f207c4c8a241d16a50c784) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Scripts/Platform/Platform.cs using Guid(e3f97dceb7f207c4c8a241d16a50c784) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'efde0535e57ea8ade1e699cda01e3712') in 0.0143372 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Scripts/Misc/Pole.cs
+  artifactKey: Guid(c058e58d2e639574882d092206fd340c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Scripts/Misc/Pole.cs using Guid(c058e58d2e639574882d092206fd340c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7ae188a1b331106244a894560e1a3edd') in 0.0198226 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Scripts/Misc/Singleton.cs
+  artifactKey: Guid(ad342a304eaf94546a5163a6cb74833b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Scripts/Misc/Singleton.cs using Guid(ad342a304eaf94546a5163a6cb74833b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7dce71e58263029d72cfe28db80e34a6') in 0.0175319 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Scripts/Misc/ConveyorBelt.cs
+  artifactKey: Guid(f322a2d04244b1b489c5e7744441e61c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Scripts/Misc/ConveyorBelt.cs using Guid(f322a2d04244b1b489c5e7744441e61c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0505dac5e551d8fad6c772031d76e18a') in 0.0176738 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Scripts/Platform/RotatingPlatform.cs
+  artifactKey: Guid(4f33f9c54b55fc346981cc4d9695bae0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Scripts/Platform/RotatingPlatform.cs using Guid(4f33f9c54b55fc346981cc4d9695bae0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd16b59c21b35bbb1cae71f15e47c1332') in 0.0157005 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Avatar Masks/Lily Upper Body.mask
+  artifactKey: Guid(8bb47ec89adb3544694411d65766c1b4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Avatar Masks/Lily Upper Body.mask using Guid(8bb47ec89adb3544694411d65766c1b4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5a0a77b5026629536ced304fc5f9c639') in 0.0441189 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Scripts/Entity/EntityStatsManager.cs
+  artifactKey: Guid(3177b97f45c066a49ba063d200e0f929) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Scripts/Entity/EntityStatsManager.cs using Guid(3177b97f45c066a49ba063d200e0f929) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '22a23a9635946f768572cb616bb06f2d') in 0.0221762 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Scripts/Level/Level.cs
+  artifactKey: Guid(9d4543d69acdaea4091e2b526dec3608) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Scripts/Level/Level.cs using Guid(9d4543d69acdaea4091e2b526dec3608) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b2f48092fd53fe7f25164ea6950fbdd3') in 0.0183865 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Scripts/Misc/MobileRig.cs
+  artifactKey: Guid(1f83caf8aaafe1446ba5bb31d898cf7c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Scripts/Misc/MobileRig.cs using Guid(1f83caf8aaafe1446ba5bb31d898cf7c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bee7ca1bc80fe707c1af03102517915f') in 0.0181734 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Scripts/Enemy/EnemyAudio.cs
+  artifactKey: Guid(db03ed0643c1f814c92cb80ffe878d09) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Scripts/Enemy/EnemyAudio.cs using Guid(db03ed0643c1f814c92cb80ffe878d09) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e03be6c3ecf4e40399341694f91cda18') in 0.0174784 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Shaders/Triplanar.shadergraph
+  artifactKey: Guid(6d8851762acbf7a4a9cec3d21c03b03e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Shaders/Triplanar.shadergraph using Guid(6d8851762acbf7a4a9cec3d21c03b03e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4de54bde5626f57408ff1a99076e838c') in 0.0246531 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Models/Log.fbx
+  artifactKey: Guid(641b801d79f418241a1464e8ebefca1c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Models/Log.fbx using Guid(641b801d79f418241a1464e8ebefca1c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '94c2bcd0ae0e4281163ef38bfa5a3e60') in 0.0287031 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Scripts/Entity/EntityStateManager.cs
+  artifactKey: Guid(5664f0d108d1c354ca3184ffc06996fc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Scripts/Entity/EntityStateManager.cs using Guid(5664f0d108d1c354ca3184ffc06996fc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9b6e1c6575b6b1d275859f74a45a367f') in 0.0177422 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Scripts/Misc/Star.cs
+  artifactKey: Guid(b355de5d7a4ae414d94fe92ba36bdf58) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Scripts/Misc/Star.cs using Guid(b355de5d7a4ae414d94fe92ba36bdf58) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2b061140d1c40c5a36a2a081b9bdc0b8') in 0.0186642 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Scripts/Platform/MovingPlatform.cs
+  artifactKey: Guid(8b3cbd01477764c46a416e0fbca56a00) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Scripts/Platform/MovingPlatform.cs using Guid(8b3cbd01477764c46a416e0fbca56a00) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '87f547415fd18d897e6f59430f163f9f') in 0.0158516 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Scripts/Misc/Fader.cs
+  artifactKey: Guid(9b061817e0bdc8f4cbdefa6d100b389c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Scripts/Misc/Fader.cs using Guid(9b061817e0bdc8f4cbdefa6d100b389c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'af405f8e0569e1e2eeeabe4db50d0672') in 0.0172765 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Scripts/Level/LevelFinisher.cs
+  artifactKey: Guid(2076fe28f30d55c4b9b96a00fd7e1dc9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Scripts/Level/LevelFinisher.cs using Guid(2076fe28f30d55c4b9b96a00fd7e1dc9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dca45c0b9f548415e45124549d7ee88b') in 0.0184272 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Scripts/Game/GameData.cs
+  artifactKey: Guid(781ab28893cfde642a4183082da5ba02) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Scripts/Game/GameData.cs using Guid(781ab28893cfde642a4183082da5ba02) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'be91c2a6916d66c0270498e48b5eb90f') in 0.0167559 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Models/slime.fbx
+  artifactKey: Guid(5c1e6980024d5b441bc1a8b8ea5ea2e0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Models/slime.fbx using Guid(5c1e6980024d5b441bc1a8b8ea5ea2e0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '05d2a9edbf3fa4e0ef64ea9ea5387d56') in 0.1225529 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Scripts/Player/PlayerAnimator.cs
+  artifactKey: Guid(0adeaee7feabea94da87f5ecf1a73e9b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Scripts/Player/PlayerAnimator.cs using Guid(0adeaee7feabea94da87f5ecf1a73e9b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '14b19de25fda241df3aa273b03e4c59e') in 0.0175096 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Scripts/UI/UISaveList.cs
+  artifactKey: Guid(3911be38407ba7f41884fdb523a2272e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Scripts/UI/UISaveList.cs using Guid(3911be38407ba7f41884fdb523a2272e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6c2de7fb379aafcaa6de2cf97b27b4f6') in 0.0160221 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Scripts/Player/PlayerEventListener.cs
+  artifactKey: Guid(acfde7a20381be347bed8d7e4e0652f7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Scripts/Player/PlayerEventListener.cs using Guid(acfde7a20381be347bed8d7e4e0652f7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd14eae87dc2f36c5849a5d13305e533f') in 0.0154005 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/close_glider.wav
+  artifactKey: Guid(c5c638c18ba02a04fa51ad14b3f318e3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/close_glider.wav using Guid(c5c638c18ba02a04fa51ad14b3f318e3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b0fd0402c9bdfd9688a4df0518056edb') in 0.0612561 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Scripts/UI/HUD.cs
+  artifactKey: Guid(6fb0f0030c7e1fb4d904a6dcaf6dafb2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Scripts/UI/HUD.cs using Guid(6fb0f0030c7e1fb4d904a6dcaf6dafb2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '61d786e4b8275cd28d8dc8603f5513cc') in 0.0166927 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Animations/Models/Slime.controller
+  artifactKey: Guid(0cea271f6812e034396621f4e00694c3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Animations/Models/Slime.controller using Guid(0cea271f6812e034396621f4e00694c3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bc7bdec58f3db527165ca47733c8e4fa') in 0.0155977 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Scripts/UI/UISaveCard.cs
+  artifactKey: Guid(15ed8acc64cd2ec4ebc6835a028653f3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Scripts/UI/UISaveCard.cs using Guid(15ed8acc64cd2ec4ebc6835a028653f3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9fb678b906bec240f57a3e5206e0688f') in 0.0153156 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/attack_1.wav
+  artifactKey: Guid(1ec35638e81eca945b1187a0b34a223e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/attack_1.wav using Guid(1ec35638e81eca945b1187a0b34a223e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '190595fbbe84456653679bedda94e048') in 0.0485514 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Scripts/Player/PlayerSpinTrail.cs
+  artifactKey: Guid(e0ac71a73bb4d1e4bb03939aecad7a48) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Scripts/Player/PlayerSpinTrail.cs using Guid(e0ac71a73bb4d1e4bb03939aecad7a48) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ae9792a1e56972428fcf3517f6cd99de') in 0.0142645 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Scripts/Player/PlayerEvents.cs
+  artifactKey: Guid(1929cdd3f69930e4aaad310385ec5d60) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Scripts/Player/PlayerEvents.cs using Guid(1929cdd3f69930e4aaad310385ec5d60) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '22cbaa0a69d64072f9f1a2858f811a79') in 0.0156541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Scripts/Player/PlayerCamera.cs
+  artifactKey: Guid(9bcc7f258d1c7294cb20d48ee0d6965f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Scripts/Player/PlayerCamera.cs using Guid(9bcc7f258d1c7294cb20d48ee0d6965f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '60d44783e838ac121ef5fb32d07de16d') in 0.0183896 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Scripts/Player/PlayerState.cs
+  artifactKey: Guid(35a4542ff10ad9a4faaed93f089a7eda) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Scripts/Player/PlayerState.cs using Guid(35a4542ff10ad9a4faaed93f089a7eda) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4e10d8d488f3afc927b9de47a07e50d5') in 0.0146158 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Scripts/Waypoint/WaypointMode.cs
+  artifactKey: Guid(4cd1892c0028675479ae60002360e629) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Scripts/Waypoint/WaypointMode.cs using Guid(4cd1892c0028675479ae60002360e629) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b5d1fb8e9d783c2bef1a8d8e67ec8d78') in 0.0136661 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/Coin01.aif
+  artifactKey: Guid(1170fdadbd6bf0b46b820aae14f65e17) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/Coin01.aif using Guid(1170fdadbd6bf0b46b820aae14f65e17) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5a240daea3fa9018b262426f4817bbf1') in 0.0650889 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Scripts/Entity/EntityStats.cs
+  artifactKey: Guid(056b5b71156aa6248b3abd0619bf77a0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Scripts/Entity/EntityStats.cs using Guid(056b5b71156aa6248b3abd0619bf77a0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '42789f07bd121311bb4e40206a0f8d95') in 0.014876 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Scripts/Player/PlayerStateManager.cs
+  artifactKey: Guid(dfa44e783da181242b8b02e5e7603467) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Scripts/Player/PlayerStateManager.cs using Guid(dfa44e783da181242b8b02e5e7603467) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4ca5402d69aef69f939d61a5bb5bd4b1') in 0.0154599 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Scenes/LevelSelect.unity
+  artifactKey: Guid(1334fc2701a18a04287675bd4ebab3ac) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Scenes/LevelSelect.unity using Guid(1334fc2701a18a04287675bd4ebab3ac) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eb768013b8b5683ed047d53cfe8093f5') in 0.0251865 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Scripts/Level/LevelScore.cs
+  artifactKey: Guid(4b03f4ce537ea3646bd4f91951292294) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Scripts/Level/LevelScore.cs using Guid(4b03f4ce537ea3646bd4f91951292294) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '382b5c5019f510da9d0cf60ff84b2945') in 0.0180694 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Models/checkpoint.fbx
+  artifactKey: Guid(82f7c05e618e5324d8b0eb4b2378dcac) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Models/checkpoint.fbx using Guid(82f7c05e618e5324d8b0eb4b2378dcac) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '39308b9193415c6a43d567b28dbc889d') in 0.0268724 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Scripts/Game/GameLevel.cs
+  artifactKey: Guid(d6708414002dc254d9feea3dc9681a96) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Scripts/Game/GameLevel.cs using Guid(d6708414002dc254d9feea3dc9681a96) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4b61f196e080633e89ffc6eb782d30a8') in 0.0173641 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Models/Dice.fbx
+  artifactKey: Guid(a133c5169e93d134983730a22561fcd0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Models/Dice.fbx using Guid(a133c5169e93d134983730a22561fcd0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7b4d1f3f97bf6357e859aab64dfb1513') in 0.0461653 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/hurt_4.wav
+  artifactKey: Guid(8f1cee5a09de2534b987be28b6d0ae40) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/hurt_4.wav using Guid(8f1cee5a09de2534b987be28b6d0ae40) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fe824ffb5f17d2dcc0f16c6d04bf0ae7') in 0.0567995 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/hurt_0.wav
+  artifactKey: Guid(91ca9eae86b8eb64c81d77383b4d1345) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/hurt_0.wav using Guid(91ca9eae86b8eb64c81d77383b4d1345) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9fa447b3c335c80dbd3f1382d0e2d525') in 0.0604211 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/hurt_3.wav
+  artifactKey: Guid(2db5b203c93cf7e43b05a11c015d79d8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/hurt_3.wav using Guid(2db5b203c93cf7e43b05a11c015d79d8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2ab9bc9ce11122c449c7a6890ee04238') in 0.0492775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/footstep_wood_2.wav
+  artifactKey: Guid(0bc4ad053476e914cab7b20b94880ad3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/footstep_wood_2.wav using Guid(0bc4ad053476e914cab7b20b94880ad3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '850f7e4ed79523a55440339a70797336') in 0.0525058 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Scripts/Enemy/EnemyAnimator.cs
+  artifactKey: Guid(692b52228a09bf44f9ea74018ef96b36) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Scripts/Enemy/EnemyAnimator.cs using Guid(692b52228a09bf44f9ea74018ef96b36) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0b65276fb0fdc2faf54e2d3179530eeb') in 0.0189589 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Scripts/Player/PlayerLean.cs
+  artifactKey: Guid(90983a3b864db3e4481c424e18f5dcf1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Scripts/Player/PlayerLean.cs using Guid(90983a3b864db3e4481c424e18f5dcf1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '85440ac71ba8022647f0a5695e92c8ce') in 0.0160855 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/footstep_metal_2.wav
+  artifactKey: Guid(ad4f605a4bf074949a61b1135a3e4ce9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/footstep_metal_2.wav using Guid(ad4f605a4bf074949a61b1135a3e4ce9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '562f390564e2e0d7cce276fca17c9570') in 0.049932 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Models/spikes.fbx
+  artifactKey: Guid(8045d4ed82babcf41b732a602e008541) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Models/spikes.fbx using Guid(8045d4ed82babcf41b732a602e008541) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7b837ae00b7148579c6b0a55671a37fa') in 0.0221194 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Scripts/Misc/Spring.cs
+  artifactKey: Guid(cc615626be9fe0b4c9d58bd71a6f19dd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Scripts/Misc/Spring.cs using Guid(cc615626be9fe0b4c9d58bd71a6f19dd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bf24143d237908782c5ae863259a26a2') in 0.0161954 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/lift_1.wav
+  artifactKey: Guid(4bb5bb93f43dabd4e8f20be8a236e001) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/lift_1.wav using Guid(4bb5bb93f43dabd4e8f20be8a236e001) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a569fcd46ab76c6f1d6a36369a4286e2') in 0.0501998 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Scripts/Game/GameTags.cs
+  artifactKey: Guid(d5ee6cb837a4d704ba4c21403eb26a05) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Scripts/Game/GameTags.cs using Guid(d5ee6cb837a4d704ba4c21403eb26a05) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cdd650ebfc3ded8fd208f6e2a3301166') in 0.0137021 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Scripts/Misc/KillZone.cs
+  artifactKey: Guid(1ff86eee049a4f6479e33db2874cc815) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Scripts/Misc/KillZone.cs using Guid(1ff86eee049a4f6479e33db2874cc815) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a4d991aa1ca9f2c006ddfe2c98170090') in 0.0142879 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Scripts/Misc/Rotator.cs
+  artifactKey: Guid(0e4206c7a49e4f84ebff9e66e76f03f4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Scripts/Misc/Rotator.cs using Guid(0e4206c7a49e4f84ebff9e66e76f03f4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5eeedba788b6c5be093307a8bfc27e3b') in 0.013916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Scenes/TestLevelScene.unity
+  artifactKey: Guid(278a551158294f341b62da4310b65882) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Scenes/TestLevelScene.unity using Guid(278a551158294f341b62da4310b65882) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fa6f406c805e899a6c1ea79c6fae30c7') in 0.0348797 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Scripts/Gravity Field/GravityHelper.cs
+  artifactKey: Guid(2a7dc31e73116eb46898f8dc443b008e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Scripts/Gravity Field/GravityHelper.cs using Guid(2a7dc31e73116eb46898f8dc443b008e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f97486bf2fd4773d5701f80d3760ade0') in 0.0172834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Post-processing Profiles/Default Post-processing Profile.asset
+  artifactKey: Guid(3b065ba2a62907d4fb9599e048c532e3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Post-processing Profiles/Default Post-processing Profile.asset using Guid(3b065ba2a62907d4fb9599e048c532e3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dd0128606a2c23489458e905de2408da') in 0.0302452 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/spin.wav
+  artifactKey: Guid(82dec7b293dee164ea65df69a0359f39) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/spin.wav using Guid(82dec7b293dee164ea65df69a0359f39) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bfb604bede6f0a59652bf6a547c01717') in 0.0559929 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005391 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/Upper01.aif
+  artifactKey: Guid(3fbbd258958877f4aba473f0c2f8cf64) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/Upper01.aif using Guid(3fbbd258958877f4aba473f0c2f8cf64) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e819cab76754628378ac5e9261558745') in 0.0912281 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/spring.wav
+  artifactKey: Guid(bd164b0b244d95c4fbf9dc3ad48b67b1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/spring.wav using Guid(bd164b0b244d95c4fbf9dc3ad48b67b1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6053a3a7b8862b57660e830023591078') in 0.0583714 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Materials/Models/Button Panel.mat
+  artifactKey: Guid(b91975172d31832418952d17db990363) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Materials/Models/Button Panel.mat using Guid(b91975172d31832418952d17db990363) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fb0555e4c125e9cc2dc54979061d9e80') in 0.0252555 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/maneuver_4.wav
+  artifactKey: Guid(8871119f7d4bf6041817450a4768f29a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/maneuver_4.wav using Guid(8871119f7d4bf6041817450a4768f29a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b8a77b30f111bf84056228b7e72ecfc6') in 0.0490155 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/squish.wav
+  artifactKey: Guid(d3758d30e09b67f46887dd474526864a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/squish.wav using Guid(d3758d30e09b67f46887dd474526864a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '57c6f33bac9134936d3a25dcea347ef4') in 0.0536547 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Scripts/Waypoint/WaypointManager.cs
+  artifactKey: Guid(4bbaa3ea662af904c8db6d219d7e890c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Scripts/Waypoint/WaypointManager.cs using Guid(4bbaa3ea662af904c8db6d219d7e890c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '693541394975a5070ca7ff2100cf0939') in 0.0156237 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/Rise06.aif
+  artifactKey: Guid(197c8df99f5d97f42821bdb03b4684b0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/Rise06.aif using Guid(197c8df99f5d97f42821bdb03b4684b0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5d7ad69a0d77111945396f65f4de24ec') in 0.0590788 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Animations/Models/Lily.controller
+  artifactKey: Guid(b529e629fb733f34190727eb194a9a5c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Animations/Models/Lily.controller using Guid(b529e629fb733f34190727eb194a9a5c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cd0a9894f4e1ad01b8ca03a92663e82a') in 0.0302344 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 85
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Models/grid_platform.fbx
+  artifactKey: Guid(d8088272ae962c14b8a4c28e409d598d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Models/grid_platform.fbx using Guid(d8088272ae962c14b8a4c28e409d598d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9fa107f935ba76d4a62f8e075814880c') in 0.0277265 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Materials/Models/Crate.mat
+  artifactKey: Guid(e29632b4924ed944598bfbe0b2951050) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Materials/Models/Crate.mat using Guid(e29632b4924ed944598bfbe0b2951050) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0bf2d703ea733c18f335abd46fcfa601') in 0.0177748 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Materials/Models/Red Coin.mat
+  artifactKey: Guid(bee804d08b499bd4b9dca7a23798a080) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Materials/Models/Red Coin.mat using Guid(bee804d08b499bd4b9dca7a23798a080) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd08135c1e1063b5366012a9766847d92') in 0.0207134 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Materials/Models/Glider.mat
+  artifactKey: Guid(994845f5dac2b6b4f90d6e19ee3a7ea5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Materials/Models/Glider.mat using Guid(994845f5dac2b6b4f90d6e19ee3a7ea5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '94d43f04d1b0bf5d5fc3fa85bc9aa36d') in 0.0204202 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Materials/Models/pole.mat
+  artifactKey: Guid(ae6beedba9c11d94680e44a84e6b5e93) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Materials/Models/pole.mat using Guid(ae6beedba9c11d94680e44a84e6b5e93) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '062e165c878138d89ef6523a221508ba') in 0.0174784 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Materials/Models/Metal Crate.mat
+  artifactKey: Guid(51d4d78eee10d3841a14dd1ff0f2bc49) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Materials/Models/Metal Crate.mat using Guid(51d4d78eee10d3841a14dd1ff0f2bc49) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fc251090b3f276b657d660b52552e946') in 0.0204143 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Materials/Models/Flowers.mat
+  artifactKey: Guid(ecc6620a27c794147bb37af48c549356) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Materials/Models/Flowers.mat using Guid(ecc6620a27c794147bb37af48c549356) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dffff5c37bc4285ad135dc0a852f1acd') in 0.020643 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/start_rail_grind.wav
+  artifactKey: Guid(9d81e49a83cae4b4689a0b4aca032110) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/start_rail_grind.wav using Guid(9d81e49a83cae4b4689a0b4aca032110) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '104fd14714eb34ac38b2ee087a6d6321') in 0.054307 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Scripts/Player/PlayerParticles.cs
+  artifactKey: Guid(68f9451d650609a459eed8712fbeff32) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Scripts/Player/PlayerParticles.cs using Guid(68f9451d650609a459eed8712fbeff32) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '52c81c8bf42e05fde48bb2392aebe1a7') in 0.0176216 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Scripts/Misc/Toggle.cs
+  artifactKey: Guid(7204037e7fe3eca46b5813942fa9d86b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Scripts/Misc/Toggle.cs using Guid(7204037e7fe3eca46b5813942fa9d86b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '91e158a6a63ccf6661c0195e97015d3c') in 0.0189134 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Shaders/ProjectorMultiply.shader
+  artifactKey: Guid(f4658c616fb264640b9f4ed631207485) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Shaders/ProjectorMultiply.shader using Guid(f4658c616fb264640b9f4ed631207485) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '47cf4275333a8eb08f11f7ade32374a4') in 0.016096 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Scripts/Game/GameLoader.cs
+  artifactKey: Guid(0b938ab595301ab419c1b32ffc92076d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Scripts/Game/GameLoader.cs using Guid(0b938ab595301ab419c1b32ffc92076d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a5a94304ce74a3d9adb3712e4a854fc3') in 0.0182658 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Scripts/Misc/Panel.cs
+  artifactKey: Guid(42a384933dcea774ab8debf15bf7e8ee) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Scripts/Misc/Panel.cs using Guid(42a384933dcea774ab8debf15bf7e8ee) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '692de318456d94a64044151056b9d52f') in 0.0167828 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/footstep_grass_2.wav
+  artifactKey: Guid(63b27ac9a725ca74a846df6013decaf8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/footstep_grass_2.wav using Guid(63b27ac9a725ca74a846df6013decaf8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '21c4a8283440e782f82aff02ba20a9fd') in 0.0541144 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Scripts/Misc/Buoyancy.cs
+  artifactKey: Guid(8315c474c7668c242898d4361d5209c8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Scripts/Misc/Buoyancy.cs using Guid(8315c474c7668c242898d4361d5209c8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '97c092b6488b28d36f8771877b2bfdfa') in 0.0165703 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/mud_splash_1.wav
+  artifactKey: Guid(8f388e2e122e59541af9770bf99d985c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/mud_splash_1.wav using Guid(8f388e2e122e59541af9770bf99d985c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e3e513346cbef3bb3789b50b15710999') in 0.0512211 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Materials/Models/Checkpoint.mat
+  artifactKey: Guid(4b6429b87a17add4db835c327516e9e6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Materials/Models/Checkpoint.mat using Guid(4b6429b87a17add4db835c327516e9e6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9fd8fa8cb1d8806604bc69a8feab1a94') in 0.0204702 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/maneuver_2.wav
+  artifactKey: Guid(20a1bce754ad3e04d90fc75ae6faa7c5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/maneuver_2.wav using Guid(20a1bce754ad3e04d90fc75ae6faa7c5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '482a7d0a1493c3c21aa30a959552adcd') in 0.0512597 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Materials/Models/Lily.mat
+  artifactKey: Guid(c03558a357b5c0b40ab123dc3237cf15) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Materials/Models/Lily.mat using Guid(c03558a357b5c0b40ab123dc3237cf15) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c6fd38b49040aed698c20fe62255ff6f') in 0.0189827 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/Rise01.aif
+  artifactKey: Guid(b8c58db692b771d43a9badb110362bc6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/Rise01.aif using Guid(b8c58db692b771d43a9badb110362bc6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6e87464fcd98eae734bc6bbfa5d0b1aa') in 0.0850654 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Materials/Particles/Leaves.mat
+  artifactKey: Guid(05ff006f952eafe4690e88722fac07d1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Materials/Particles/Leaves.mat using Guid(05ff006f952eafe4690e88722fac07d1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '73adb7c190b420903f389c26ef67b3f9') in 0.0252538 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Materials/Particles/Portal Sparkles.mat
+  artifactKey: Guid(c94502cfb671c8b48bdaaa8b5b8d74ba) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Materials/Particles/Portal Sparkles.mat using Guid(c94502cfb671c8b48bdaaa8b5b8d74ba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c8e60f0d0d960ad4c42af81ce34ed0f3') in 0.0206141 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Materials/Prototype/Water.mat
+  artifactKey: Guid(a70ceaf3d6bf9e443a8e6213cc830f25) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Materials/Prototype/Water.mat using Guid(a70ceaf3d6bf9e443a8e6213cc830f25) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4021dec8e4a1e7611b321f2bb24bacc3') in 0.0235513 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Materials/Prototype/Brown.mat
+  artifactKey: Guid(831749331b6321e439265868c532bdab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Materials/Prototype/Brown.mat using Guid(831749331b6321e439265868c532bdab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ece4972e018015e2c77808231ed9d023') in 0.0210469 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Materials/Models/Star.mat
+  artifactKey: Guid(58d97efff77ac3948ba134b7351574f7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Materials/Models/Star.mat using Guid(58d97efff77ac3948ba134b7351574f7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7cd429e3caa6b796ea181d5a093b00be') in 0.0221068 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Materials/Prototype/Gelly.mat
+  artifactKey: Guid(ba75b53603cb04a41a107177665a2fb4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Materials/Prototype/Gelly.mat using Guid(ba75b53603cb04a41a107177665a2fb4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b634097955891becd31616c6d0c417da') in 0.0222914 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Materials/Prototype/White.mat
+  artifactKey: Guid(56a9b95549edec54abc1be56d9594444) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Materials/Prototype/White.mat using Guid(56a9b95549edec54abc1be56d9594444) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cb516ed905e2b2004cf001581ed85058') in 0.0182763 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Materials/Prototype/Platform.mat
+  artifactKey: Guid(ac728efecc11da840b52276338a05eb3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Materials/Prototype/Platform.mat using Guid(ac728efecc11da840b52276338a05eb3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '513ee602f6c30ede5ce97023aefbcd04') in 0.0191935 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Materials/Particles/Fire.mat
+  artifactKey: Guid(bb8a07130f0e2b043a513d74c81193ae) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Materials/Particles/Fire.mat using Guid(bb8a07130f0e2b043a513d74c81193ae) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c09e40f2fb0620e4670a09554653f169') in 0.0201891 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Materials/Particles/Sparkle.mat
+  artifactKey: Guid(b1099c2b93712a14aa533b81ba2b2057) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Materials/Particles/Sparkle.mat using Guid(b1099c2b93712a14aa533b81ba2b2057) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7899117cf9c3128380eec9016d30a750') in 0.0175897 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Materials/Particles/Star.mat
+  artifactKey: Guid(fd12c454cc55acd4f85d9fb9e6ccd768) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Materials/Particles/Star.mat using Guid(fd12c454cc55acd4f85d9fb9e6ccd768) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '54d9187c38a9b44214c18308fd8fecb6') in 0.0223636 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/Rise07.aif
+  artifactKey: Guid(d96cdb17674a9d04b9d61081d6c30f3d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/Rise07.aif using Guid(d96cdb17674a9d04b9d61081d6c30f3d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8f0f1ba994e9be5a3528a5b318c92365') in 0.096334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/lift_3.wav
+  artifactKey: Guid(4fdceff72ee54bd4aafccf73feea51d3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/lift_3.wav using Guid(4fdceff72ee54bd4aafccf73feea51d3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f2467988ec7a585dfc540b1b2ff8ab83') in 0.0539109 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Materials/Models/End Panel.mat
+  artifactKey: Guid(e4a3ee813a294d642bd48b562556f1f9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Materials/Models/End Panel.mat using Guid(e4a3ee813a294d642bd48b562556f1f9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f880ce80d1e445150f52815623890138') in 0.0214501 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/jump_1.wav
+  artifactKey: Guid(55e721f1dfaef5246b02e46c56af95b8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/jump_1.wav using Guid(55e721f1dfaef5246b02e46c56af95b8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7bad44adc25695b24009a3e0ccccebdc') in 0.0501953 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/Entities/Lily.prefab
+  artifactKey: Guid(eb0f77ac3ce65a04db54ff55e59b0815) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/Entities/Lily.prefab using Guid(eb0f77ac3ce65a04db54ff55e59b0815) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5923a45fe0f555aadae4fd14a39a58e6') in 0.2596551 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 218
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/Hazards/Flamethrower.prefab
+  artifactKey: Guid(0aede6b5ed06e2348b0b96e4b1e5e667) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/Hazards/Flamethrower.prefab using Guid(0aede6b5ed06e2348b0b96e4b1e5e667) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bcaba7185e12f196192893312eaf67b9') in 0.1186338 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/Global/__POST_PROCESS__.prefab
+  artifactKey: Guid(84ced47a8a9e9ea468c2881eedfd7de6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/Global/__POST_PROCESS__.prefab using Guid(84ced47a8a9e9ea468c2881eedfd7de6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cee345c4d789738c793fd5daef9c21da') in 0.0539411 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/Collectables/Blue Coin.prefab
+  artifactKey: Guid(22e053c81aa938b4180b71911464e260) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/Collectables/Blue Coin.prefab using Guid(22e053c81aa938b4180b71911464e260) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ad4b8c99923f4e19918b5de51bc7b39e') in 0.0565567 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 62
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/Particles/Blue Portal Variant.prefab
+  artifactKey: Guid(70b2269878d7d6c4485f503652e243d8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/Particles/Blue Portal Variant.prefab using Guid(70b2269878d7d6c4485f503652e243d8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3593d06b646034bbfb9703a15f1a6bb1') in 0.0779002 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/Misc/Garden.prefab
+  artifactKey: Guid(6d58fd196070c154192a869283ececb1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/Misc/Garden.prefab using Guid(6d58fd196070c154192a869283ececb1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '298e6e2ee1c32da4bfd1ef4ff02771c5') in 0.0423504 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 170
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/Misc/Spikes Panel.prefab
+  artifactKey: Guid(1bb1fcee0cc32944fb88b74c53b125a7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/Misc/Spikes Panel.prefab using Guid(1bb1fcee0cc32944fb88b74c53b125a7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3167219b51c278b687f7481631615567') in 0.0264888 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/Particles/Coin Collection Particle.prefab
+  artifactKey: Guid(6621c8cd9e9309f4f8870e0dbbca79d2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/Particles/Coin Collection Particle.prefab using Guid(6621c8cd9e9309f4f8870e0dbbca79d2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e3b1a6c135ddeca0c7f37f7d649de665') in 0.0721794 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/Misc/Mud.prefab
+  artifactKey: Guid(88d12671145801e429d634c47141b4b8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/Misc/Mud.prefab using Guid(88d12671145801e429d634c47141b4b8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7741092a2937e22137f6561a7d626237') in 0.0374376 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/Misc/Log.prefab
+  artifactKey: Guid(820aa5fbd34eea7489ffa39b4bd31e04) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/Misc/Log.prefab using Guid(820aa5fbd34eea7489ffa39b4bd31e04) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '15284fc33d946c4e7e124ff06784bdef') in 0.0640494 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/Collectables/Bouncy Life.prefab
+  artifactKey: Guid(ed09296353e28be45a5a8b413a4efe41) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/Collectables/Bouncy Life.prefab using Guid(ed09296353e28be45a5a8b413a4efe41) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd9a4aec20939bc7c393ec9b7acf509a0') in 0.0636144 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 47
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/Collectables/Coin.prefab
+  artifactKey: Guid(252c5346c2bb85b49af1f2f472fa842c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/Collectables/Coin.prefab using Guid(252c5346c2bb85b49af1f2f472fa842c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd751ac20d04999998ec98beb00725fa8') in 0.0455313 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/Misc/Checkpoint.prefab
+  artifactKey: Guid(041bc08f9f2b7854aa01673bb2bbd00d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/Misc/Checkpoint.prefab using Guid(041bc08f9f2b7854aa01673bb2bbd00d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eab9415f801c20eb3ac0be2ec57121f2') in 0.044984 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/Particles/Grind Trail.prefab
+  artifactKey: Guid(73cfb6a04c7a6df42ba9d80ce9526476) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/Particles/Grind Trail.prefab using Guid(73cfb6a04c7a6df42ba9d80ce9526476) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '38c4a25ec3a55dd3d1b5e06de237e41d') in 0.0603284 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/Hazards/Spikes.prefab
+  artifactKey: Guid(85866ea8016e5ed46a5649a0d9d8ee16) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/Hazards/Spikes.prefab using Guid(85866ea8016e5ed46a5649a0d9d8ee16) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7f4ef8623b3968497f35391616fd37a9') in 0.0314038 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/Particles/Wind.prefab
+  artifactKey: Guid(43872e0a8f1dd514d864f3aa5d905187) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/Particles/Wind.prefab using Guid(43872e0a8f1dd514d864f3aa5d905187) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ac79e9c02538869f5bbce4ec91159d91') in 0.0870968 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/Particles/Leaves Wave.prefab
+  artifactKey: Guid(22d6a6f564804994e8432cf3e2e40a22) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/Particles/Leaves Wave.prefab using Guid(22d6a6f564804994e8432cf3e2e40a22) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '838daff4f14c914959e383403316b353') in 0.0552234 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/Misc/End Level Panel.prefab
+  artifactKey: Guid(0ec77f91ffe2bbe4aa8146e83af7355a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/Misc/End Level Panel.prefab using Guid(0ec77f91ffe2bbe4aa8146e83af7355a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1d9b85f808c2e20fb43d7fb48736b595') in 0.0432767 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/Misc/Portal A.prefab
+  artifactKey: Guid(8d538ab94a112034b9022560c83bd62d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/Misc/Portal A.prefab using Guid(8d538ab94a112034b9022560c83bd62d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e20ec547917087378e8d626057a54a83') in 0.0460316 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/Collectables/Bouncy Heart Variant.prefab
+  artifactKey: Guid(0cead871013fe284fbb09991a0e29082) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/Collectables/Bouncy Heart Variant.prefab using Guid(0cead871013fe284fbb09991a0e29082) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7c44e3bb4dbc696b3a1a10ab3e3cce52') in 0.056902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 51
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/Item Boxes/Item Box (Empty).prefab
+  artifactKey: Guid(2276d96b3644cdf47bbdf1c27289b08d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/Item Boxes/Item Box (Empty).prefab using Guid(2276d96b3644cdf47bbdf1c27289b08d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eaf12f0528b4cdfe873e4a8af5650008') in 0.3039903 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/Prototype/Moving Platform.prefab
+  artifactKey: Guid(1311f483dfc239946b216b6927e28db2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/Prototype/Moving Platform.prefab using Guid(1311f483dfc239946b216b6927e28db2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c782a8d6e07676543a4b138b167930b3') in 0.0322028 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Scenes/TestLevelScene/OcclusionCullingData.asset
+  artifactKey: Guid(1693c0e4922205e4c817db684b68769f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Scenes/TestLevelScene/OcclusionCullingData.asset using Guid(1693c0e4922205e4c817db684b68769f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cd3ad790344d9deb33f16b84da7f0f5a') in 0.054498 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/Prototype/Water.prefab
+  artifactKey: Guid(0a20ae9159e36a0409eefaf35cbb5b18) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/Prototype/Water.prefab using Guid(0a20ae9159e36a0409eefaf35cbb5b18) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'df8eef572c1b9a148d39e7d37a8308ef') in 0.051669 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/UI/Level Card.prefab
+  artifactKey: Guid(5b6e7135ff9538f47ab8d8804c07f076) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/UI/Level Card.prefab using Guid(5b6e7135ff9538f47ab8d8804c07f076) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f957646544bd03a55a957c9955a9048f') in 0.0958933 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 91
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/Prototype/Pole.prefab
+  artifactKey: Guid(0059383e189dc14489388db437941e22) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/Prototype/Pole.prefab using Guid(0059383e189dc14489388db437941e22) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '60c3fe3c1da4bae8e568188c12d0cb5b') in 0.0246206 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/UI/HUD.prefab
+  artifactKey: Guid(3feb2e018c7dd44408304675c0fe0b0c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/UI/HUD.prefab using Guid(3feb2e018c7dd44408304675c0fe0b0c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dfdd2b9c1f7ed65d0e518dfd7c6304f6') in 0.0755442 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 64
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Scenes/TestLevelScene 2/OcclusionCullingData.asset
+  artifactKey: Guid(50ce3c7ad6c44114e887a7b9ffa93905) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Scenes/TestLevelScene 2/OcclusionCullingData.asset using Guid(50ce3c7ad6c44114e887a7b9ffa93905) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd0bc534943d626dd9666f1f1239ecfae') in 0.0523269 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Textures/Models/crate_with_heart.png
+  artifactKey: Guid(a007168266e5c23499a408546a84cfe5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Textures/Models/crate_with_heart.png using Guid(a007168266e5c23499a408546a84cfe5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '342c9d03eb116c64c42a377dffa03171') in 0.1114175 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Textures/Models/crate.png
+  artifactKey: Guid(f26a896d4bb5d8e438ccbe2dc32719e6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Textures/Models/crate.png using Guid(f26a896d4bb5d8e438ccbe2dc32719e6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd9a6d986c0e0ad4549a8e256a416c9fd') in 0.0387196 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/UI/Pause Screen.prefab
+  artifactKey: Guid(6fea585d76ce7524fa081e9c755a78fc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/UI/Pause Screen.prefab using Guid(6fea585d76ce7524fa081e9c755a78fc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4630d7870f1dfad10187b81a0eb7853d') in 0.0874904 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 71
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Materials/Prototype/Green.mat
+  artifactKey: Guid(90ae9ba0f86dd1f458b985091823f974) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Materials/Prototype/Green.mat using Guid(90ae9ba0f86dd1f458b985091823f974) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '82fa3cd825249bd44d1dabda1c79689d') in 0.0295424 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/UI/Fader.prefab
+  artifactKey: Guid(b3b0177c16229644097992315b340d38) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/UI/Fader.prefab using Guid(b3b0177c16229644097992315b340d38) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9805c222afdf2d5d818378b04a3efd53') in 0.0834663 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Audios/Musics/8bit Bossa.wav
+  artifactKey: Guid(b0a292b136471f74fa41ac702c3424c5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Audios/Musics/8bit Bossa.wav using Guid(b0a292b136471f74fa41ac702c3424c5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '087af8c62c193d9ca8f51f7918b5d11a') in 0.375943 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/Crates/Metal Crate.prefab
+  artifactKey: Guid(1a0d78d6b16bf3f4c8084847acea3972) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/Crates/Metal Crate.prefab using Guid(1a0d78d6b16bf3f4c8084847acea3972) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8d821b92d48ff4670a9f0767cf0b07fe') in 0.042278 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/FX02.aif
+  artifactKey: Guid(d17c6e033e82ebd4c8bc6fae5f79bdcc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/FX02.aif using Guid(d17c6e033e82ebd4c8bc6fae5f79bdcc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4eab4161e4fae4982c0efc84e816dbe1') in 0.0969846 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Textures/Models/crate_with_coin.png
+  artifactKey: Guid(1438e96775db9114eaea594a108fb5da) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Textures/Models/crate_with_coin.png using Guid(1438e96775db9114eaea594a108fb5da) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e100e380ea91c9eb5798aaf06233d49e') in 0.0233321 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/pick.wav
+  artifactKey: Guid(41650ffaf0fdca24f9c18c3a24ac04be) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/pick.wav using Guid(41650ffaf0fdca24f9c18c3a24ac04be) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e4b38ecb589ef2bc3788b629c718bd75') in 0.0494801 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Textures/UI/Rounded.png
+  artifactKey: Guid(12974aac4db481b4090d884890bed9ba) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Textures/UI/Rounded.png using Guid(12974aac4db481b4090d884890bed9ba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '87b895da3e36a1db09a6a78663241a49') in 0.0321239 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Textures/UI/Hearts.png
+  artifactKey: Guid(0b465bb78c4c92e4888781e21339c5b6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Textures/UI/Hearts.png using Guid(0b465bb78c4c92e4888781e21339c5b6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e7b5985b96d5bf0523cffe251ee31a80') in 0.0329209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Textures/Water/Water.png
+  artifactKey: Guid(31d14d219e5f63e4a9f64fb45ed497c1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Textures/Water/Water.png using Guid(31d14d219e5f63e4a9f64fb45ed497c1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1b00d1e47e69196bf8c21cad8900d3f7') in 0.025285 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Textures/Skyboxes/+z.png
+  artifactKey: Guid(56336020c5b9feb4f871826e4b7e2f11) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Textures/Skyboxes/+z.png using Guid(56336020c5b9feb4f871826e4b7e2f11) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a09411fe794fbc344d2f7232249c2a1d') in 0.029914 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Textures/Skyboxes/-x.png
+  artifactKey: Guid(0c7d6bac8d9aef24c83855732a8bd2ea) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Textures/Skyboxes/-x.png using Guid(0c7d6bac8d9aef24c83855732a8bd2ea) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0a7347de69f6eeb39a460cf05564cd2a') in 0.0348622 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Textures/UI/More Rounded.png
+  artifactKey: Guid(f1761eed68d3992428716d213fefe018) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Textures/UI/More Rounded.png using Guid(f1761eed68d3992428716d213fefe018) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2177d5cb17a65c9178679a90f84c177e') in 0.0273409 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Textures/UI/Retries.png
+  artifactKey: Guid(48cd0d333df24da4e8a41043e47b01b8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Textures/UI/Retries.png using Guid(48cd0d333df24da4e8a41043e47b01b8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f0410c2c15d1d4002da29bc87867c47b') in 0.0255066 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Textures/Skyboxes/-z.png
+  artifactKey: Guid(b0f929135ff7aaa4091a7f6af612160b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Textures/Skyboxes/-z.png using Guid(b0f929135ff7aaa4091a7f6af612160b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '55ab6a9abaeb8e8263cf7534e6a4b619') in 0.0257543 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Textures/Skyboxes/-y.png
+  artifactKey: Guid(83e912982c7a4b6478b4fb9ac2a9888e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Textures/Skyboxes/-y.png using Guid(83e912982c7a4b6478b4fb9ac2a9888e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a8e558a4dcad21fa81457e91d75ebf7d') in 0.0306703 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Scripts/Player/PlayerLevelPause.cs
+  artifactKey: Guid(30a8e8b50286dc241b0671b503c87ca7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Scripts/Player/PlayerLevelPause.cs using Guid(30a8e8b50286dc241b0671b503c87ca7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '172f807b3c867cf885c7dafd8f9516fc') in 0.0187259 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/Crates/Crate With Coin.prefab
+  artifactKey: Guid(10ac6dfa2211aef409300e859c7a5950) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/Crates/Crate With Coin.prefab using Guid(10ac6dfa2211aef409300e859c7a5950) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6bc2ca8098f93c88c8bbfc5cd13c9ebc') in 0.0566148 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 63
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Scripts/Player/PlayerInputManager.cs
+  artifactKey: Guid(b96c8307069affd449e8e956cd9dc68e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Scripts/Player/PlayerInputManager.cs using Guid(b96c8307069affd449e8e956cd9dc68e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7a1b31555917e060628c9f1e9e90a8cf') in 0.0323233 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/Collectables/Star.prefab
+  artifactKey: Guid(44f809803cfadd64cbc04f3f10cef2cf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/Collectables/Star.prefab using Guid(44f809803cfadd64cbc04f3f10cef2cf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3050ed2126de036ab1831662426479d2') in 0.0390469 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Scripts/Player/PlayerController.cs
+  artifactKey: Guid(7cba271ef1cd3754bba788e0410547ae) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Scripts/Player/PlayerController.cs using Guid(7cba271ef1cd3754bba788e0410547ae) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd8d74bcd0027d7e234fbfb6078f20337') in 0.0163165 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Scripts/Platform/FallingPlatform.cs
+  artifactKey: Guid(d6fa9a67e3800844e9f6d1a1b98909aa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Scripts/Platform/FallingPlatform.cs using Guid(d6fa9a67e3800844e9f6d1a1b98909aa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f331240f22f262c335440e7855854bed') in 0.0173204 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Scenes/FileSelect.unity
+  artifactKey: Guid(784a971f04705024890fd845c19c2832) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Scenes/FileSelect.unity using Guid(784a971f04705024890fd845c19c2832) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b552397c6fc70017bdd8092646f47c95') in 0.0227678 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Scenes/TestLevelScene 2.unity
+  artifactKey: Guid(c7fa87c38f465d249b0f3b291e5de4d4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Scenes/TestLevelScene 2.unity using Guid(c7fa87c38f465d249b0f3b291e5de4d4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c756333bc7007bc8fac9a2ad2c7a3656') in 0.0414638 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Scripts/Player/States/IdlePlayerState.cs
+  artifactKey: Guid(54c3b343b735599489fdf4e2a056ac1c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Scripts/Player/States/IdlePlayerState.cs using Guid(54c3b343b735599489fdf4e2a056ac1c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '511b70c55e1a4de9f9035cd4e15c1182') in 0.018154 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Textures/UI/Mobile Buttons/transparentDark08.png
+  artifactKey: Guid(524aeb9efe14b0341a42ea25ac0729a3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Textures/UI/Mobile Buttons/transparentDark08.png using Guid(524aeb9efe14b0341a42ea25ac0729a3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fc964e8a77f4bf30fabdc462dd96fb23') in 0.0266534 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Scripts/Player/States/SpinPlayerState.cs
+  artifactKey: Guid(e4d2eaffa9378714a887a71e21fe0476) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Scripts/Player/States/SpinPlayerState.cs using Guid(e4d2eaffa9378714a887a71e21fe0476) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '29df0c65482cecfdf5a259b92762e908') in 0.0162898 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Scripts/Enemy/States/WaypointEnemyState.cs
+  artifactKey: Guid(a91fcc327e265d7468b1739a40a746f8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Scripts/Enemy/States/WaypointEnemyState.cs using Guid(a91fcc327e265d7468b1739a40a746f8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e64010e6fadf3dba79ee846678e09a37') in 0.0161114 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Scripts/Player/States/BackflipPlayerState.cs
+  artifactKey: Guid(967a490288d24294f87c234a130f56eb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Scripts/Player/States/BackflipPlayerState.cs using Guid(967a490288d24294f87c234a130f56eb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '819bbffd889aef51aa0ec3453fe2cd10') in 0.0160926 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Scripts/Player/States/LedgeClimbingPlayerState.cs
+  artifactKey: Guid(5233485f44375b4428ed7e7585c99663) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Scripts/Player/States/LedgeClimbingPlayerState.cs using Guid(5233485f44375b4428ed7e7585c99663) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7099d76c70e7e005408c04f7b9a90ba0') in 0.0188983 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Textures/UI/Mobile Buttons/transparentDark35.png
+  artifactKey: Guid(7190ee8ce219a0c4aa98e016926ca4d0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Textures/UI/Mobile Buttons/transparentDark35.png using Guid(7190ee8ce219a0c4aa98e016926ca4d0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4cdd6fe8ae148d2560ce57f1fb0eb97a') in 0.0268021 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Scripts/Player/States/DiePlayerState.cs
+  artifactKey: Guid(f2e750e2b005d344c9c66f01428e9337) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Scripts/Player/States/DiePlayerState.cs using Guid(f2e750e2b005d344c9c66f01428e9337) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a863b8356bff20201f1e5cf97cfe5203') in 0.0204489 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Scripts/Player/States/LedgeHangingPlayerState.cs
+  artifactKey: Guid(fdb292ba1ce946e448e98b74f906eaae) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Scripts/Player/States/LedgeHangingPlayerState.cs using Guid(fdb292ba1ce946e448e98b74f906eaae) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0f2d6db5be66586706db90ad5d494ae9') in 0.0171737 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Textures/UI/Mobile Buttons/transparentDark53.png
+  artifactKey: Guid(ecdfc37e6fe554246ab4a12ade83f68e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Textures/UI/Mobile Buttons/transparentDark53.png using Guid(ecdfc37e6fe554246ab4a12ade83f68e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd8a5a1bd32275be1710f095c43c0b84e') in 0.0254797 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Textures/UI/Mobile Buttons/transparentDark37.png
+  artifactKey: Guid(d5a9de33ab19e7e4c8c69de0a3ca9da9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Textures/UI/Mobile Buttons/transparentDark37.png using Guid(d5a9de33ab19e7e4c8c69de0a3ca9da9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9d5f0efa444ee7cfa1c043ac69eb15f0') in 0.0603306 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Textures/UI/Mobile Buttons/transparentDark05.png
+  artifactKey: Guid(424fdc909506a074e8aa29c790ba10d6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Textures/UI/Mobile Buttons/transparentDark05.png using Guid(424fdc909506a074e8aa29c790ba10d6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0a8ad19d26b56cebafb856b887bf5371') in 0.0305447 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Textures/Skyboxes/+x.png
+  artifactKey: Guid(1db7b714ceaf8214bac450fc5497a332) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Textures/Skyboxes/+x.png using Guid(1db7b714ceaf8214bac450fc5497a332) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '344583719f9ec2fa240ae5f6916ab747') in 0.0611223 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Scripts/Entity/Interfaces/IEntityContact.cs
+  artifactKey: Guid(3a0486a5d4aab7a4ab652f6d11289d26) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Scripts/Entity/Interfaces/IEntityContact.cs using Guid(3a0486a5d4aab7a4ab652f6d11289d26) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c6aaccdc7a8dab4b6e18c2837f5a7073') in 0.0830846 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Animations/UI/Loading Screen.controller
+  artifactKey: Guid(080f3b53cc598a54e8379a0421c7af26) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Animations/UI/Loading Screen.controller using Guid(080f3b53cc598a54e8379a0421c7af26) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b8e7f520aa8146bd2a1c50f7cbef72d9') in 0.0221858 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Textures/UI/Mobile Buttons/transparentDark49.png
+  artifactKey: Guid(55b8ad57753b57d47b4e0db816e6a6ac) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Textures/UI/Mobile Buttons/transparentDark49.png using Guid(55b8ad57753b57d47b4e0db816e6a6ac) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6415f77dcd02ae415c085c85dcde0337') in 0.0324663 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Scripts/Entity/EntityController.cs
+  artifactKey: Guid(e73c7dea3f8f85740a2dbd28a957382d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Scripts/Entity/EntityController.cs using Guid(e73c7dea3f8f85740a2dbd28a957382d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0dc98f17037290c153b0ecebc71f21c7') in 0.0181827 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Models/halfpipe_out.fbx
+  artifactKey: Guid(a5fcbfc3af73689449f501b1611508d0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Models/halfpipe_out.fbx using Guid(a5fcbfc3af73689449f501b1611508d0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '294af9c56f4f3b5531c95b18730595dc') in 0.2656002 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Textures/Models/glider.png
+  artifactKey: Guid(c45cda091ca448a49b325861234a5953) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Textures/Models/glider.png using Guid(c45cda091ca448a49b325861234a5953) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '87340c7c8e3841ea270452b7ce756fa5') in 0.0238881 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Textures/UI/Coin.png
+  artifactKey: Guid(f8cd440bd04ace447a7853decad8c80e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Textures/UI/Coin.png using Guid(f8cd440bd04ace447a7853decad8c80e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a4a6f9b54c1fd98f4cf64612dbc7ce69') in 0.028311 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/footstep_wood_0.wav
+  artifactKey: Guid(b655c8406fe76e94cb32d681c8058edb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/footstep_wood_0.wav using Guid(b655c8406fe76e94cb32d681c8058edb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3d7d1f7d3615d7a0902cc7b810a9e8b1') in 0.0496316 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/jump_2.wav
+  artifactKey: Guid(119550d83c92fca47916f66a9edd70fd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/jump_2.wav using Guid(119550d83c92fca47916f66a9edd70fd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7e32d985d589cb886b8169cc0b29ea38') in 0.0514174 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/attack_3.wav
+  artifactKey: Guid(0fd0b68860a57724cbec859645499e9a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/attack_3.wav using Guid(0fd0b68860a57724cbec859645499e9a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6afd4751955ff3a36d6e1cf4c77e7f20') in 0.0607622 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
