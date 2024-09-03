@@ -1,0 +1,446 @@
+Using pre-set license
+Built from '2023.2/staging' branch; Version is '2023.2.18f1 (1cb755715f58) revision 1881941'; Using compiler version '193431935'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'es' Physical Memory: 65441 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2023.2.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker7
+-projectPath
+H:/Unity/Chuchu-alba
+-logFile
+Logs/AssetImportWorker7.log
+-srvPort
+61259
+-job-worker-count
+11
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: H:/Unity/Chuchu-alba
+H:/Unity/Chuchu-alba
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [39940] Host "[IP] 192.168.1.55 [Port] 0 [Flags] 2 [Guid] 2577055777 [EditorId] 2577055777 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KFD4UNI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [39940] Host "[IP] 192.168.1.55 [Port] 0 [Flags] 2 [Guid] 2577055777 [EditorId] 2577055777 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KFD4UNI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 11
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Library Redirect Path: Library/
+Refreshing native plugins compatible for Editor in 2.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2023.2.18f1 (1cb755715f58)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path H:/Unity/Chuchu-alba/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2488)
+    Vendor:   NVIDIA
+    VRAM:     8018 MB
+    Driver:   32.0.15.5599
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56376
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.004944 seconds.
+- Loaded All Assemblies, in  0.312 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Finished resetting the current domain, in  0.275 seconds
+Domain Reload Profiling: 584ms
+	BeginReloadAssembly (102ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (126ms)
+		LoadAssemblies (99ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (124ms)
+			TypeCache.Refresh (123ms)
+				TypeCache.ScanAssembly (112ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (275ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (223ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (38ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (138ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image H:\Unity\Chuchu-alba\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image H:\Unity\Chuchu-alba\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.807 seconds
+Refreshing native plugins compatible for Editor in 1.61 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.753 seconds
+Domain Reload Profiling: 1556ms
+	BeginReloadAssembly (291ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (443ms)
+		LoadAssemblies (278ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (245ms)
+			TypeCache.Refresh (193ms)
+				TypeCache.ScanAssembly (178ms)
+			BuildScriptInfoCaches (38ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (753ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (562ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (463ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 3.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 215 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6535 unused Assets / (7.9 MB). Loaded Objects now: 7253.
+Memory consumption went from 267.2 MB to 259.4 MB.
+Total: 17.218300 ms (FindLiveObjects: 1.195800 ms CreateObjectMapping: 1.611300 ms MarkObjects: 9.195200 ms  DeleteObjects: 5.215000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 111887.906474 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/open_glider.wav
+  artifactKey: Guid(5731886b24a083d4b96f52451958df11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/open_glider.wav using Guid(5731886b24a083d4b96f52451958df11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c4db9bb7a20d56f58b6072fb95563ef9') in 0.080393 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.113987 seconds.
+  path: Assets/Quibli/Demos/Sample Scene with Quibli/Scene Settings/[Quibli] Sample Scene With Quibli Renderer.asset
+  artifactKey: Guid(6f16158b729844a069a0e9f0c124a371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/Sample Scene with Quibli/Scene Settings/[Quibli] Sample Scene With Quibli Renderer.asset using Guid(6f16158b729844a069a0e9f0c124a371) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e510a5f52283b42e77f64a30fc3db5c3') in 0.0172141 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Quibli/Demos/Sample Scene with Quibli/Materials/Sample Scene Props Materials/Q_Plastic_Black_Mat.mat
+  artifactKey: Guid(03f47ffe40e584a539211471e067ca33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/Sample Scene with Quibli/Materials/Sample Scene Props Materials/Q_Plastic_Black_Mat.mat using Guid(03f47ffe40e584a539211471e067ca33) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fdb8a637405d85f0bec89d756ec1f898') in 0.7698756 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Quibli/Demos/Sample Scene with Quibli/Materials/Sample Scene Props Materials/Q_HardHat_Mat.mat
+  artifactKey: Guid(aa4ca21cfb67442328ac02481727baf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/Sample Scene with Quibli/Materials/Sample Scene Props Materials/Q_HardHat_Mat.mat using Guid(aa4ca21cfb67442328ac02481727baf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '849ced45e068abdee9c735402961087c') in 0.5070395 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Quibli/Demos/Kitchenware/Kitchenware Materials Sets/Kitchenware Materials 02 Glossy Blends Vibrant/Kitchenware_02_Mug.mat
+  artifactKey: Guid(c35c31dd2dc9d4f658b475efe7641a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/Kitchenware/Kitchenware Materials Sets/Kitchenware Materials 02 Glossy Blends Vibrant/Kitchenware_02_Mug.mat using Guid(c35c31dd2dc9d4f658b475efe7641a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b1e82e1b924b201a8929857ee67b934') in 0.2414596 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Quibli/Example URP Settings/Quibli Renderer.asset
+  artifactKey: Guid(bfebc9a3f978f4e35907ddff38ce0791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Example URP Settings/Quibli Renderer.asset using Guid(bfebc9a3f978f4e35907ddff38ce0791) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7b964a65f91f0cb370f89bf561e7a2c5') in 0.0030241 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Quibli/Demos/Sample Scene with Quibli/Materials/Sample Scene Props Materials/Q_PaintBrush_Mat.mat
+  artifactKey: Guid(64247094409f94eda996738ffd923406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/Sample Scene with Quibli/Materials/Sample Scene Props Materials/Q_PaintBrush_Mat.mat using Guid(64247094409f94eda996738ffd923406) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b39285815195f798739369751102798') in 0.52251 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/water_splash_0.wav
+  artifactKey: Guid(d054d36892d86444d998d48d52ebf5fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/water_splash_0.wav using Guid(d054d36892d86444d998d48d52ebf5fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3db4d793de8a1c83de5da714c1863223') in 0.0171851 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Quibli/Demos/Kitchenware/Kitchenware Materials Sets/Kitchenware Materials 01 Matte Vibrant/Kitchenware_01_Spoon01.mat
+  artifactKey: Guid(d9787a9e31fa14cac928648f6f933777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/Kitchenware/Kitchenware Materials Sets/Kitchenware Materials 01 Matte Vibrant/Kitchenware_01_Spoon01.mat using Guid(d9787a9e31fa14cac928648f6f933777) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2fa542d9784afda9c124d381c11189d8') in 0.0139772 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Quibli/Demos/Sample Scene with Quibli/Materials/Sample Scene Props Materials/Q_PaintLabel_Mat.mat
+  artifactKey: Guid(3f79ba67bd18e46f4b37999356a6b7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/Sample Scene with Quibli/Materials/Sample Scene Props Materials/Q_PaintLabel_Mat.mat using Guid(3f79ba67bd18e46f4b37999356a6b7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '45eedcdf4028c89d1387775bb11d751b') in 0.5244024 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Quibli/Demos/Sample Scene with Quibli/Materials/Sample Scene Props Materials/Q_Jigsaw_Mat.mat
+  artifactKey: Guid(8e16e521e608e44c680eb5538ac4ba02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/Sample Scene with Quibli/Materials/Sample Scene Props Materials/Q_Jigsaw_Mat.mat using Guid(8e16e521e608e44c680eb5538ac4ba02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '931b4e5236d80af9449073c61ce1ac52') in 0.5765769 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Quibli/Demos/Kitchenware/Kitchenware Materials Sets/Kitchenware Materials 02 Glossy Blends Vibrant/Kitchenware_02_Vase02.mat
+  artifactKey: Guid(aad7e75fa220347b28a3a190d4f1ee0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/Kitchenware/Kitchenware Materials Sets/Kitchenware Materials 02 Glossy Blends Vibrant/Kitchenware_02_Vase02.mat using Guid(aad7e75fa220347b28a3a190d4f1ee0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '58825a785da14c21e5e0ba87de8c3a92') in 0.0137585 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Quibli/Demos/Kitchenware/Kitchenware Materials Sets/Kitchenware Materials 03 Glossy Fixed Vibrant/Kitchenware_03_Vase02.mat
+  artifactKey: Guid(7112f738eb2fb464698f2f216c16d3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/Kitchenware/Kitchenware Materials Sets/Kitchenware Materials 03 Glossy Fixed Vibrant/Kitchenware_03_Vase02.mat using Guid(7112f738eb2fb464698f2f216c16d3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '885981684b5f1726999d8e52ba98d8cb') in 0.0145447 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Quibli/Demos/Sample Scene with Quibli/Models/[3rdParty] Ellen/Ellen Materials/Ellen-Quibli-Mat-01-Body.mat
+  artifactKey: Guid(74d77f5a51b3248b0ad2a226c7f51925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/Sample Scene with Quibli/Models/[3rdParty] Ellen/Ellen Materials/Ellen-Quibli-Mat-01-Body.mat using Guid(74d77f5a51b3248b0ad2a226c7f51925) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c25d3b696681601b473fca154ee3e8e') in 0.595837 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Quibli/Demos/Kitchenware/Kitchenware Materials Sets/Kitchenware Materials 02 Glossy Blends Vibrant/Kitchenware_02_Vase04.mat
+  artifactKey: Guid(60bcc0b54e9304025b0bcbd2a3704cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/Kitchenware/Kitchenware Materials Sets/Kitchenware Materials 02 Glossy Blends Vibrant/Kitchenware_02_Vase04.mat using Guid(60bcc0b54e9304025b0bcbd2a3704cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd241a86598847d12af0f13696a88911c') in 0.0153586 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Quibli/Demos/[Common]/Models/_Foliage Carrier Meshes/MeshCarrier_06_MballSquare.fbx
+  artifactKey: Guid(1a31cc35c7e06494ebec0ba57cce4332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/[Common]/Models/_Foliage Carrier Meshes/MeshCarrier_06_MballSquare.fbx using Guid(1a31cc35c7e06494ebec0ba57cce4332) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e248a41a762c1857975861f049125cda') in 0.0425436 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Quibli/Demos/Sample Scene with Quibli/Materials/Sample Scene Props Materials/Q_LightBulb_Mat.mat
+  artifactKey: Guid(785cfe7b34f41410e80b91a9b6e538c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/Sample Scene with Quibli/Materials/Sample Scene Props Materials/Q_LightBulb_Mat.mat using Guid(785cfe7b34f41410e80b91a9b6e538c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e9c825881f2c7b7f5628eac5eb64c13f') in 0.5123751 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Quibli/Demos/Kitchenware/Kitchenware Materials Sets/Kitchenware Materials 02 Glossy Blends Vibrant/Kitchenware_02_Vase05.mat
+  artifactKey: Guid(2fe9e180d8a8a4d25a92973f753fc845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/Kitchenware/Kitchenware Materials Sets/Kitchenware Materials 02 Glossy Blends Vibrant/Kitchenware_02_Vase05.mat using Guid(2fe9e180d8a8a4d25a92973f753fc845) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '44b2b21c62936aff6be600baa11a6dce') in 0.016969 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Quibli/Demos/Kitchenware/Kitchenware Materials Sets/Kitchenware Materials 02 Glossy Blends Vibrant/Kitchenware_02_Spoon02.mat
+  artifactKey: Guid(2ec47d810a0f34fd29e17da2c7b72e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/Kitchenware/Kitchenware Materials Sets/Kitchenware Materials 02 Glossy Blends Vibrant/Kitchenware_02_Spoon02.mat using Guid(2ec47d810a0f34fd29e17da2c7b72e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e367754dda321fa173ffadaea87a773') in 0.0192357 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Quibli/Demos/Kitchenware/Kitchenware Materials Sets/Kitchenware Materials 01 Matte Vibrant/Kitchenware_01_Vase03.mat
+  artifactKey: Guid(4b50c94a300ab4f2b80e2ab3501bb838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/Kitchenware/Kitchenware Materials Sets/Kitchenware Materials 01 Matte Vibrant/Kitchenware_01_Vase03.mat using Guid(4b50c94a300ab4f2b80e2ab3501bb838) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e8c16705b2ea3adf34ec303f9875c69') in 0.0185554 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/water_splash_1.wav
+  artifactKey: Guid(2d25a7387036df94c98c381b35d5a05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/water_splash_1.wav using Guid(2d25a7387036df94c98c381b35d5a05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '662af635425496a83997f2568b69a7b0') in 0.0170348 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Quibli/Demos/Sample Scene with Quibli/Materials/Sample Scene Props Materials/Q_Plastic_Gray_Mat.mat
+  artifactKey: Guid(3dd233bc6da414bb8b23f2efea8d61c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/Sample Scene with Quibli/Materials/Sample Scene Props Materials/Q_Plastic_Gray_Mat.mat using Guid(3dd233bc6da414bb8b23f2efea8d61c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2887b574e71f85409912443b570b0132') in 0.0172502 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Quibli/Demos/City/Models Generated/City-MeshCarrier_06_MballSquare-Take1 1.asset
+  artifactKey: Guid(eca0455a9fdca4bbb9c878f111cbd088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/City/Models Generated/City-MeshCarrier_06_MballSquare-Take1 1.asset using Guid(eca0455a9fdca4bbb9c878f111cbd088) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8bf0f779541013db4b459b21e086da32') in 0.0125254 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Quibli/Demos/Sample Scene with Quibli/Materials/Sample Scene Props Materials/Q_Plastic_Rough_Mat 2.mat
+  artifactKey: Guid(ca6ea295a595f4b989b361f3bd96f9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/Sample Scene with Quibli/Materials/Sample Scene Props Materials/Q_Plastic_Rough_Mat 2.mat using Guid(ca6ea295a595f4b989b361f3bd96f9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eff07f7b975d8ca3d759cee60eea521c') in 0.6422325 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/squish.wav
+  artifactKey: Guid(d3758d30e09b67f46887dd474526864a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/squish.wav using Guid(d3758d30e09b67f46887dd474526864a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3c84a4fffa977ec8e706d9cb37d28639') in 0.0146131 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Quibli/Demos/Sample Scene with Quibli/Materials/Sample Scene Props Materials/Q_Stud_Mat.mat
+  artifactKey: Guid(8c9b716a80b404aec9070968cafbe85d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/Sample Scene with Quibli/Materials/Sample Scene Props Materials/Q_Stud_Mat.mat using Guid(8c9b716a80b404aec9070968cafbe85d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '27234047fe098fcaeb87b667e499960c') in 0.5586985 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Quibli/Demos/Kitchenware/Kitchenware Materials Sets/Kitchenware Materials 02 Glossy Blends Vibrant/Kitchenware_02_Vase03.mat
+  artifactKey: Guid(51996354bcd52423b81462345f2c1c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/Kitchenware/Kitchenware Materials Sets/Kitchenware Materials 02 Glossy Blends Vibrant/Kitchenware_02_Vase03.mat using Guid(51996354bcd52423b81462345f2c1c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '665d244bc8969485387e26bd828ab1e7') in 0.0173362 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Quibli/Demos/Kitchenware/Kitchenware Materials Sets/Kitchenware Materials 03 Glossy Fixed Vibrant/Kitchenware_03_Mug.mat
+  artifactKey: Guid(65c507019be30493d89bc648a5e0940e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/Kitchenware/Kitchenware Materials Sets/Kitchenware Materials 03 Glossy Fixed Vibrant/Kitchenware_03_Mug.mat using Guid(65c507019be30493d89bc648a5e0940e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c94e8f9a8eadf6ab663e236eb1b59550') in 0.0157794 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Quibli/Demos/Kitchenware/Kitchenware Materials Sets/Kitchenware Materials 02 Glossy Blends Vibrant/Kitchenware_02_Vase06.mat
+  artifactKey: Guid(21530640b39e046e093dccfcded8a33d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/Kitchenware/Kitchenware Materials Sets/Kitchenware Materials 02 Glossy Blends Vibrant/Kitchenware_02_Vase06.mat using Guid(21530640b39e046e093dccfcded8a33d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f38d188506dbdf1c26fffb5e334375a') in 0.0206592 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

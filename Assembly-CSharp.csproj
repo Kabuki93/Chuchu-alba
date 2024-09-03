@@ -62,6 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Game\GameSaver.cs" />
+    <Compile Include="Assets\Quibli\Demos\[Common]\Scripts\AutoLoadPipelineAsset.cs" />
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Misc\Volume.cs" />
     <Compile Include="Assets\Basic enter exit cars\Scripts\ExampleCar.cs" />
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Entity\EntityStateManagerEvents.cs" />
@@ -69,12 +70,14 @@
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Player\States\GlidingPlayerState.cs" />
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Platform\RotatingPlatform.cs" />
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Player\PlayerFootsteps.cs" />
+    <Compile Include="Assets\Quibli\Scripts\Mesh Generators\FoliageGenerator.cs" />
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Player\States\WalkPlayerState.cs" />
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Enemy\States\FollowEnemyState.cs" />
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Player\Player.cs" />
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Misc\ConveyorBelt.cs" />
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Tools\ClassTypeName.cs" />
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Enemy\EnemyStatsManager.cs" />
+    <Compile Include="Assets\Quibli\Post Process\Scripts\CompoundRenderer.cs" />
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Entity\EntityStateManager.cs" />
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Entity\Entity.cs" />
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Gravity Field\GravityHelper.cs" />
@@ -108,9 +111,11 @@
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Enemy\Enemy.cs" />
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Entity\EntityState.cs" />
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Misc\Checkpoint.cs" />
+    <Compile Include="Assets\Quibli\Scripts\Mesh Generators\GrassMeshGeneratorEditor.cs" />
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Misc\ItemBox.cs" />
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Game\GameLevel.cs" />
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Waypoint\WaypointManager.cs" />
+    <Compile Include="Assets\Quibli\Post Process\Effects\Scripts\StylizedDetail.cs" />
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Game\GameData.cs" />
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Level\LevelData.cs" />
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Player\States\BackflipPlayerState.cs" />
@@ -127,6 +132,7 @@
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Level\LevelFinisher.cs" />
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\UI\UILevelCard.cs" />
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Player\PlayerEvents.cs" />
+    <Compile Include="Assets\Quibli\Scripts\Mesh Generators\GrassMeshGenerator.cs" />
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\UI\UILevelList.cs" />
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Misc\Breakable.cs" />
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Gravity Field\GravityHandler.cs" />
@@ -150,6 +156,7 @@
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Misc\Portal.cs" />
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Entity\EntityEvents.cs" />
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\UI\UIAnimator.cs" />
+    <Compile Include="Assets\Quibli\Post Process\Scripts\CompoundPass.cs" />
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Misc\Toggle.cs" />
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Player\PlayerStatsManager.cs" />
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Level\LevelRespawner.cs" />
@@ -174,15 +181,18 @@
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Enemy\States\WaypointEnemyState.cs" />
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Platform\Platform.cs" />
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Player\PlayerSpinTrail.cs" />
+    <Compile Include="Assets\Quibli\Scripts\Mesh Generators\FoliageGeneratorEditor.cs" />
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Misc\Pickable.cs" />
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Misc\ForceField.cs" />
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Level\LevelStarter.cs" />
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Player\PlayerAudio.cs" />
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Level\LevelPauser.cs" />
+    <Compile Include="Assets\Quibli\Scripts\Mesh Generators\CurveRenderer.cs" />
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Entity\EntityHitbox.cs" />
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\UI\HUD.cs" />
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Player\PlayerStateManager.cs" />
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Player\States\BrakePlayerState.cs" />
+    <Compile Include="Assets\Quibli\Post Process\Scripts\QuibliPostProcess.cs" />
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Entity\EntityStatsManager.cs" />
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Player\States\SpinPlayerState.cs" />
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Player\PlayerParticles.cs" />
@@ -191,10 +201,25 @@
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Player\States\RailGrindPlayerState.cs" />
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Player\PlayerState.cs" />
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Player\PlayerCamera.cs" />
+    <Compile Include="Assets\Quibli\Post Process\Effects\Scripts\ColorGrading.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Quibli\Shaders\LibraryUrp\LitForwardPass_DR.hlsl" />
+    <None Include="Assets\Quibli\Shaders\LibraryUrp\QuibliVertex.hlsl" />
+    <None Include="Assets\Quibli\Shaders\LibraryUrp\StylizedInput.hlsl" />
+    <None Include="Assets\Quibli\Shaders\Skybox.shader" />
+    <None Include="Assets\Quibli\Post Process\Effects\Resources\StylizedDetail.shader" />
     <None Include="Assets\PLAYER TWO\Platformer Project\Examples\Shaders\ProjectorMultiply.shader" />
+    <None Include="Assets\Quibli\Post Process\Effects\Resources\ColorGrading.shader" />
+    <None Include="Assets\Quibli\Shaders\LibraryUrp\Lighting_DR.hlsl" />
     <None Include="Assets\PLAYER TWO\Platformer Project\README.txt" />
+    <None Include="Assets\Quibli\Shaders\StylizedLighting.hlsl" />
+    <None Include="Assets\Quibli\Shaders\StylizedLit.shader" />
+    <None Include="Assets\Quibli\Shaders\LibraryUrp\SuppressWarnings.hlsl" />
+    <None Include="Assets\Quibli\Post Process\ShaderLibrary\Core.hlsl" />
+    <None Include="Assets\Quibli\Shaders\Grass\StylizedFoliage.hlsl" />
+    <None Include="Assets\Quibli\Shaders\Grass\FoliageLib.hlsl" />
+    <None Include="Assets\Quibli\Shaders\LightBeam.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -1403,6 +1428,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="ExternalAttributes.Core.csproj">
+      <Project>{99252791-583A-FE29-1860-8B7F4D5CB511}</Project>
+      <Name>ExternalAttributes.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="ExternalAttributes.Editor.csproj">
+      <Project>{C2338EE4-BFA3-E137-C5CF-B559AC9E9D65}</Project>
+      <Name>ExternalAttributes.Editor</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

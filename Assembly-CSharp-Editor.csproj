@@ -61,10 +61,20 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2023.2.18f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Quibli\Utils\Readme\Editor\Readme.cs" />
+    <Compile Include="Assets\Quibli\Scripts\Editor\MaterialMinMaxDrawer.cs" />
+    <Compile Include="Assets\Quibli\Scripts\Editor\QuibliEditor.cs" />
+    <Compile Include="Assets\Quibli\Utils\Readme\Editor\NetworkManager.cs" />
+    <Compile Include="Assets\Quibli\Utils\Readme\Editor\ReadmeEditor.cs" />
+    <Compile Include="Assets\Quibli\Scripts\Editor\Tooltips.cs" />
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Tools\Editor\ClassTypeNameDrawer.cs" />
+    <Compile Include="Assets\Quibli\Scripts\Editor\CustomDrawersShaderEditor.cs" />
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Tools\Editor\UIAnimatorInspector.cs" />
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Gravity Field\Editor\GravityFieldEditor.cs" />
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Entity\Editor\EntityControllerEditor.cs" />
+    <Compile Include="Assets\Quibli\Scripts\Editor\MaterialVector2Drawer.cs" />
+    <Compile Include="Assets\Quibli\Post Process\Editor\QSettingsEditor.cs" />
+    <Compile Include="Assets\Quibli\Scripts\Editor\MaterialGradientDrawer.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -1344,6 +1354,14 @@
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{47892408-2ACD-6656-80E6-C6D36242203F}</Project>
       <Name>Assembly-CSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="ExternalAttributes.Core.csproj">
+      <Project>{99252791-583A-FE29-1860-8B7F4D5CB511}</Project>
+      <Name>ExternalAttributes.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="ExternalAttributes.Editor.csproj">
+      <Project>{C2338EE4-BFA3-E137-C5CF-B559AC9E9D65}</Project>
+      <Name>ExternalAttributes.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
