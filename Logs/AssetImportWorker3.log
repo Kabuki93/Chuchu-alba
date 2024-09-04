@@ -1,0 +1,576 @@
+Using pre-set license
+Built from '2023.2/staging' branch; Version is '2023.2.18f1 (1cb755715f58) revision 1881941'; Using compiler version '193431935'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'es' Physical Memory: 32699 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Programas cole\Unity\2023.2.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+D:/Unity proyectos/Juego tren/Chuchu-alba
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+60478
+-job-worker-count
+7
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: D:/Unity proyectos/Juego tren/Chuchu-alba
+D:/Unity proyectos/Juego tren/Chuchu-alba
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [524] Host "[IP] 192.168.0.105 [Port] 0 [Flags] 2 [Guid] 3071784599 [EditorId] 3071784599 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-PE8U79O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [524] Host "[IP] 192.168.0.105 [Port] 0 [Flags] 2 [Guid] 3071784599 [EditorId] 3071784599 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-PE8U79O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Library Redirect Path: Library/
+Refreshing native plugins compatible for Editor in 5.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2023.2.18f1 (1cb755715f58)
+[Subsystems] Discovering subsystems at path D:/Programas cole/Unity/2023.2.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity proyectos/Juego tren/Chuchu-alba/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 SUPER (ID=0x21c4)
+    Vendor:   NVIDIA
+    VRAM:     5966 MB
+    Driver:   31.0.15.5123
+Initialize mono
+Mono path[0] = 'D:/Programas cole/Unity/2023.2.18f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Programas cole/Unity/2023.2.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Programas cole/Unity/2023.2.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56380
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Registering precompiled unity dll's ...
+Register platform support module: D:/Programas cole/Unity/2023.2.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006477 seconds.
+- Loaded All Assemblies, in  0.688 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Finished resetting the current domain, in  0.496 seconds
+Domain Reload Profiling: 1183ms
+	BeginReloadAssembly (248ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (61ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (82ms)
+	LoadAllAssembliesAndSetupDomain (276ms)
+		LoadAssemblies (246ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (272ms)
+			TypeCache.Refresh (270ms)
+				TypeCache.ScanAssembly (249ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (496ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (425ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (8ms)
+			ProcessInitializeOnLoadAttributes (319ms)
+			ProcessInitializeOnLoadMethodAttributes (76ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image D:\Unity proyectos\Juego tren\Chuchu-alba\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity proyectos\Juego tren\Chuchu-alba\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.741 seconds
+Refreshing native plugins compatible for Editor in 4.81 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.337 seconds
+Domain Reload Profiling: 3074ms
+	BeginReloadAssembly (637ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (65ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (954ms)
+		LoadAssemblies (691ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (471ms)
+			TypeCache.Refresh (374ms)
+				TypeCache.ScanAssembly (344ms)
+			BuildScriptInfoCaches (68ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (1338ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (930ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (102ms)
+			ProcessInitializeOnLoadAttributes (748ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 6.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 240 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6539 unused Assets / (7.5 MB). Loaded Objects now: 7278.
+Memory consumption went from 277.7 MB to 270.2 MB.
+Total: 26.022600 ms (FindLiveObjects: 1.795500 ms CreateObjectMapping: 2.462000 ms MarkObjects: 12.275900 ms  DeleteObjects: 9.484200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 109477.488779 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Materials/Vegetation/Mushrooms.mat
+  artifactKey: Guid(89bbe831582a36f47997b203c5fe09fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Materials/Vegetation/Mushrooms.mat using Guid(89bbe831582a36f47997b203c5fe09fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f2e7cbc899575dd4a7822ef835d5778f') in 0.713297 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Materials/Vegetation/Broadleaf_Branches.mat
+  artifactKey: Guid(1b8fea648fbd0d843a109b0255366f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Materials/Vegetation/Broadleaf_Branches.mat using Guid(1b8fea648fbd0d843a109b0255366f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae3fb8b4c046d6bdc5535e2174d92061') in 1.7661269 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Materials/Vegetation/Birch_Leaves_2.mat
+  artifactKey: Guid(c9a90c8820136b14dafa3d416fbf4e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Materials/Vegetation/Birch_Leaves_2.mat using Guid(c9a90c8820136b14dafa3d416fbf4e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '38a031389594a0cdb4299277025ecb5b') in 1.3753933 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.308587 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Materials/Environment/Bridge.mat
+  artifactKey: Guid(9ca6baf056646a3488260c4bc1c28d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Materials/Environment/Bridge.mat using Guid(9ca6baf056646a3488260c4bc1c28d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b9af1c0e5af16ba4ec15a03997c2fdbb') in 0.0661506 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Materials/Environment/Chest.mat
+  artifactKey: Guid(243d06d7fd0283b40907a516366e147c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Materials/Environment/Chest.mat using Guid(243d06d7fd0283b40907a516366e147c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '178e5073648c7e2e1d4e55c9a04a95fd') in 0.0333454 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Materials/Environment/Floor_2.mat
+  artifactKey: Guid(6b8e8cfb0bd92564baea9adbc299d5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Materials/Environment/Floor_2.mat using Guid(6b8e8cfb0bd92564baea9adbc299d5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a26d5a861ec3ea34ddc02f36fa3f620') in 0.0340275 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Materials/Environment/Floor_1_Ladder.mat
+  artifactKey: Guid(710895e9c07b8f642a1329d0bfb6ae6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Materials/Environment/Floor_1_Ladder.mat using Guid(710895e9c07b8f642a1329d0bfb6ae6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac04c18aadec4f60479278952582e9ae') in 0.0297172 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.550230 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Materials/Other/Mountain_2.mat
+  artifactKey: Guid(1c109cdd005ee8a42832114a66719840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Materials/Other/Mountain_2.mat using Guid(1c109cdd005ee8a42832114a66719840) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fb01707536703cb5150bea7694731b59') in 1.4462107 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.367944 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Demo/Grasslands Demo/TerrainData_4f756f51-92d2-49ee-a525-7c30e4dc6c99.asset
+  artifactKey: Guid(5e2a9e4db79e15c42b8a72f5e128fe1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Demo/Grasslands Demo/TerrainData_4f756f51-92d2-49ee-a525-7c30e4dc6c99.asset using Guid(5e2a9e4db79e15c42b8a72f5e128fe1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ffc95d9d7b1a5f30c444e24393dc4eee') in 0.1668951 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 358
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Demo/Grasslands Demo/TerrainData_362134c8-0b48-4013-a0e4-90f9b56d74c5.asset
+  artifactKey: Guid(2c1741a1f75d2414684190778c194367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Demo/Grasslands Demo/TerrainData_362134c8-0b48-4013-a0e4-90f9b56d74c5.asset using Guid(2c1741a1f75d2414684190778c194367) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd02f9852518a754b0436e1be612cb503') in 0.1458381 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 358
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Demo/Grasslands Demo/TerrainData_4558023e-343a-45a5-8ea7-50d47f090982.asset
+  artifactKey: Guid(d3ed15dff8ac530499d0e40efb43ab30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Demo/Grasslands Demo/TerrainData_4558023e-343a-45a5-8ea7-50d47f090982.asset using Guid(d3ed15dff8ac530499d0e40efb43ab30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ed4c7db1887c00eac023c7751314d173') in 0.1015094 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 136
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.870225 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Environment/Book.fbx
+  artifactKey: Guid(33e528b0080f2004daecbbd467d6b141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Environment/Book.fbx using Guid(33e528b0080f2004daecbbd467d6b141) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e104bb582667e5c45de68118027bd7f2') in 0.0919679 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Environment/Table.fbx
+  artifactKey: Guid(e3f098212be1e5d4e9bde33f7457ce2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Environment/Table.fbx using Guid(e3f098212be1e5d4e9bde33f7457ce2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33f9094b0ba46e2b33a5bbc7917db5da') in 0.0469138 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Environment/Cart_2.fbx
+  artifactKey: Guid(9f54f426a14d8114391303a10a118d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Environment/Cart_2.fbx using Guid(9f54f426a14d8114391303a10a118d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '697e301ac8e8244efbf8f650c11c40b3') in 0.0481416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Environment/Vase_3.fbx
+  artifactKey: Guid(c7018d719dc68a640ba7a996ca42a5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Environment/Vase_3.fbx using Guid(c7018d719dc68a640ba7a996ca42a5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7455b400515c8e3533065c26ac536da8') in 0.0476015 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Environment/Fence_3.fbx
+  artifactKey: Guid(1e692dbe39f0de247a2c724c59a752e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Environment/Fence_3.fbx using Guid(1e692dbe39f0de247a2c724c59a752e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9fd413dc98d6ba1e3876c64ee1b90a8f') in 0.0494093 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Environment/Vase_1.fbx
+  artifactKey: Guid(e7db6ff7839fb814dbc340c6e97c3b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Environment/Vase_1.fbx using Guid(e7db6ff7839fb814dbc340c6e97c3b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f6a1fca12c53887bcc086ac778aaa9ec') in 0.0501645 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Environment/Column_1.fbx
+  artifactKey: Guid(d6642f5d1f98c2d4184df751fcb3a62e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Environment/Column_1.fbx using Guid(d6642f5d1f98c2d4184df751fcb3a62e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '37348c7ed33bce9b9d1a72bf24c174d9') in 0.0580038 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.229772 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Textures/Terrain/Grass_Yellow.png
+  artifactKey: Guid(6b453e40c9941b44ea7e6b2045111a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Textures/Terrain/Grass_Yellow.png using Guid(6b453e40c9941b44ea7e6b2045111a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd3881ebf06f88356f9723360dc750bea') in 0.0226819 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Textures/Terrain/GrassMud_AlbedoSmoothness.png
+  artifactKey: Guid(3b0f0b7c4b4c10e4c9ea06ed1ca650be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Textures/Terrain/GrassMud_AlbedoSmoothness.png using Guid(3b0f0b7c4b4c10e4c9ea06ed1ca650be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e110fb867803a68d54df3fcdf9788b31') in 0.0231204 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Textures/Terrain/Sand_AlbedoSmoothness.png
+  artifactKey: Guid(e18be8f2263515542a9527a28a279ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Textures/Terrain/Sand_AlbedoSmoothness.png using Guid(e18be8f2263515542a9527a28a279ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cc52c2df04950ad626a300c6001a0762') in 0.0239215 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Textures/Terrain/Mud_AlbedoSmoothness.png
+  artifactKey: Guid(aeb6bf86562672e49a71aee540702b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Textures/Terrain/Mud_AlbedoSmoothness.png using Guid(aeb6bf86562672e49a71aee540702b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '888745c485631111e4eba8247972937f') in 0.0227292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.797260 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Vegetation/Birch_Dead_2.fbx
+  artifactKey: Guid(0da74cb4c9ab9c6408a7c2ec6de21dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Vegetation/Birch_Dead_2.fbx using Guid(0da74cb4c9ab9c6408a7c2ec6de21dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9631dcde2f464a9e64a39a3f6709fcc9') in 0.0484679 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Vegetation/Lotus.fbx
+  artifactKey: Guid(0d31286e148c613438868a24b4bf61ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Vegetation/Lotus.fbx using Guid(0d31286e148c613438868a24b4bf61ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ce9d8d24e73d5a442b8fcfe39a93fd4') in 0.0382982 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Vegetation/Mushroom_7.fbx
+  artifactKey: Guid(1ecd681722ec43f4d918f8845d621f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Vegetation/Mushroom_7.fbx using Guid(1ecd681722ec43f4d918f8845d621f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6323008b213edcde9bf974b254b5e20a') in 0.0347864 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Vegetation/Bush_Small.fbx
+  artifactKey: Guid(b4d68352adf3d014bba4042275f1fcb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Vegetation/Bush_Small.fbx using Guid(b4d68352adf3d014bba4042275f1fcb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5407a7862e7332c271829391e9cef419') in 0.0398764 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Vegetation/Mushroom_6.fbx
+  artifactKey: Guid(7036514917ecc4549961a7fc18526c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Vegetation/Mushroom_6.fbx using Guid(7036514917ecc4549961a7fc18526c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b88818be6c7f5536805af2cae1c5b416') in 0.0370742 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Vegetation/Birch_Small_1.fbx
+  artifactKey: Guid(59efa0a7cafba494f944eccc45dd3041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Vegetation/Birch_Small_1.fbx using Guid(59efa0a7cafba494f944eccc45dd3041) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f86ae476b41e5dea2a0d9da22d7d800') in 0.0516645 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Vegetation/Broadleaf_Dead_1.fbx
+  artifactKey: Guid(166aad4005fea5a44b6e95f550027779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Vegetation/Broadleaf_Dead_1.fbx using Guid(166aad4005fea5a44b6e95f550027779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a8c4134e8312fc4af39f1bde70b09672') in 0.0698008 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Vegetation/Birch_Large_1.fbx
+  artifactKey: Guid(fbf7c8f50465c0f46b5e340fc2bf9230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Vegetation/Birch_Large_1.fbx using Guid(fbf7c8f50465c0f46b5e340fc2bf9230) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aa32ec53b12b8e81c7d00b552bd293ec') in 0.0458682 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Vegetation/Mushroom_1.fbx
+  artifactKey: Guid(e52b747f3901b3e4bac11914c920358f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Vegetation/Mushroom_1.fbx using Guid(e52b747f3901b3e4bac11914c920358f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15768fcbcd784a41a943698f314cacec') in 0.0513413 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Vegetation/Mushroom_8.fbx
+  artifactKey: Guid(3085a41732c931944b04d4658203f6eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Vegetation/Mushroom_8.fbx using Guid(3085a41732c931944b04d4658203f6eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d8a139e41b4f13fd094bb7227897f9c') in 0.0372057 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Vegetation/Lotus_Group_2.fbx
+  artifactKey: Guid(88151c367026531488a5253e7f989a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Vegetation/Lotus_Group_2.fbx using Guid(88151c367026531488a5253e7f989a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6603658e1d9cbcabbb4ac2550baf020f') in 0.0369227 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.700927 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Prefabs/Vegetation/Birch_Dead_2.prefab
+  artifactKey: Guid(7ff2502d54ca8b84693b33fa5e54e210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Prefabs/Vegetation/Birch_Dead_2.prefab using Guid(7ff2502d54ca8b84693b33fa5e54e210) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5267191b665f4df48e1e42ac0164d089') in 1.6941286 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Prefabs/Vegetation/Birch_Medium_2.prefab
+  artifactKey: Guid(6a7b635838fe2e840a91ab2ff25060b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Prefabs/Vegetation/Birch_Medium_2.prefab using Guid(6a7b635838fe2e840a91ab2ff25060b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57bde03d97551db66f7a802772a35df8') in 2.6688265 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Prefabs/Vegetation/Birch_Small_1.prefab
+  artifactKey: Guid(97d1b6a9f6f0c4f4ab856b652edbec7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Prefabs/Vegetation/Birch_Small_1.prefab using Guid(97d1b6a9f6f0c4f4ab856b652edbec7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f52a64ff2327fe7830f46523c4379bac') in 0.0435438 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Prefabs/Vegetation/Branch_3.prefab
+  artifactKey: Guid(db5ee953cd56ac34aad3881712c3a524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Prefabs/Vegetation/Branch_3.prefab using Guid(db5ee953cd56ac34aad3881712c3a524) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7301d5e5eaf8beddeb92888da4c7df67') in 0.0381814 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Prefabs/Vegetation/Grass_2_Small.prefab
+  artifactKey: Guid(f5aede9df0381334b9a0bffaefff588c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Prefabs/Vegetation/Grass_2_Small.prefab using Guid(f5aede9df0381334b9a0bffaefff588c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '153682c051b74f161d08f7f69606cb05') in 0.0309028 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Prefabs/Vegetation/Lotus.prefab
+  artifactKey: Guid(90bfb15b1f8aef5448aed7bd0a5b26e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Prefabs/Vegetation/Lotus.prefab using Guid(90bfb15b1f8aef5448aed7bd0a5b26e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '369e8aee36fcbd20d18277f25966667f') in 1.4227537 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 86.238991 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Prefabs/Particle Effects/Cloud_1.prefab
+  artifactKey: Guid(fe5a514e0a1035447ac47f4f0a9cfcc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Prefabs/Particle Effects/Cloud_1.prefab using Guid(fe5a514e0a1035447ac47f4f0a9cfcc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de663e72727955b577ca58a755d67e2d') in 0.0282195 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Prefabs/Particle Effects/GodRays.prefab
+  artifactKey: Guid(c7c086234b47cf941b763cc61c4e1aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Prefabs/Particle Effects/GodRays.prefab using Guid(c7c086234b47cf941b763cc61c4e1aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd9d600f38c2d7a27993f028cf35e3714') in 0.4523324 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Prefabs/Particle Effects/Leaffall_Yellow.prefab
+  artifactKey: Guid(a5e0d3c86a835cc448ff80715954b103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Prefabs/Particle Effects/Leaffall_Yellow.prefab using Guid(a5e0d3c86a835cc448ff80715954b103) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bad94b5a9ed47b65859b5e928df663ce') in 1.0757633 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Prefabs/Particle Effects/Cloud_3.prefab
+  artifactKey: Guid(a662dc8df7399d34bb3ba17f2743c5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Prefabs/Particle Effects/Cloud_3.prefab using Guid(a662dc8df7399d34bb3ba17f2743c5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '99e2938691c63700bfa338d1f8e4f5b9') in 0.0244388 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Prefabs/Particle Effects/Cloud_4.prefab
+  artifactKey: Guid(c2ccf3076b476f04292103ce53da3d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Prefabs/Particle Effects/Cloud_4.prefab using Guid(c2ccf3076b476f04292103ce53da3d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b24cbad4fdc6ab107c54cdaea6083622') in 0.0219581 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Prefabs/Particle Effects/Cloud_2.prefab
+  artifactKey: Guid(3d90314a73b17ab47b98919fea71e16e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Prefabs/Particle Effects/Cloud_2.prefab using Guid(3d90314a73b17ab47b98919fea71e16e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '75071be6f5e6039f001a1fbd96c9db0d') in 0.0224067 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.797568 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Prefabs/Other/Mountain_1.prefab
+  artifactKey: Guid(bb0c9513e62d14d4cb6b14e3c6def33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Prefabs/Other/Mountain_1.prefab using Guid(bb0c9513e62d14d4cb6b14e3c6def33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f7e832ad38474d85118d6a6df9610ba') in 0.0463234 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
