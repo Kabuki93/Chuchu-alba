@@ -86,4 +86,7 @@ public class CameraFollow : MonoBehaviour {
 		//Look at the camera target
         transform.LookAt(camTarget);
     }
+
+
 }
+

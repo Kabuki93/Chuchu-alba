@@ -14,7 +14,7 @@ public class EnterExit : MonoBehaviour {
 	public static bool playerInCar;
 	
 	//not visible
-	GameObject enterExitText;
+	public GameObject enterExitText;
 	Transform[] cars;
 	
 	void Awake()
@@ -95,6 +95,7 @@ public class EnterExit : MonoBehaviour {
 		}
 		
 		//Just to show which keys you should press to enter/exit cars
+		/* 
 		if(showText && !playerInCar){
 			enterExitText.GetComponentInChildren<Text>().text = "Press " + enterKey + " to enter car";
 			enterExitText.SetActive(true);
@@ -106,5 +107,6 @@ public class EnterExit : MonoBehaviour {
 		else{
 			enterExitText.SetActive(false);
 		}
+		*/
 	}
 }
