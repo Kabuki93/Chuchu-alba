@@ -213,23 +213,29 @@
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\Raygeas\Shared Assets\Shaders\URP\Mountains_URP.shader" />
     <None Include="Assets\Raygeas\Shared Assets\Shaders\Built-In\Mountains.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile-2-Pass.shader" />
     <None Include="Assets\Quibli\Shaders\LibraryUrp\LitForwardPass_DR.hlsl" />
+    <None Include="Assets\Raygeas\Shared Assets\Shaders\URP\Clouds_URP.shader" />
     <None Include="Assets\Raygeas\Shared Assets\Shaders\Built-In\Clouds.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\Quibli\Shaders\LibraryUrp\QuibliVertex.hlsl" />
+    <None Include="Assets\Raygeas\Shared Assets\Shaders\URP\Surface_URP.shader" />
     <None Include="Assets\Raygeas\Shared Assets\Shaders\Built-In\Surface.shader" />
+    <None Include="Assets\Raygeas\Shared Assets\Shaders\URP\Billboard_URP.shader" />
     <None Include="Assets\Raygeas\Shared Assets\Shaders\Built-In\Billboard.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\Quibli\Shaders\LibraryUrp\StylizedInput.hlsl" />
     <None Include="Assets\Quibli\Shaders\Skybox.shader" />
     <None Include="Assets\Quibli\Post Process\Effects\Resources\StylizedDetail.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+    <None Include="Assets\Raygeas\Shared Assets\Shaders\URP\Vegetation_URP.shader" />
     <None Include="Assets\Raygeas\Shared Assets\Shaders\Built-In\Vegetation.shader" />
     <None Include="Assets\PLAYER TWO\Platformer Project\Examples\Shaders\ProjectorMultiply.shader" />
     <None Include="Assets\Quibli\Post Process\Effects\Resources\ColorGrading.shader" />
     <None Include="Assets\Raygeas\Shared Assets\Shaders\Built-In\Waterfall.shader" />
+    <None Include="Assets\Raygeas\Shared Assets\Shaders\URP\Waterfall_URP.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\SDFFunctions.hlsl" />
     <None Include="Assets\Quibli\Shaders\LibraryUrp\Lighting_DR.hlsl" />
@@ -245,6 +251,7 @@
     <None Include="Assets\Quibli\Shaders\StylizedLighting.hlsl" />
     <None Include="Assets\Quibli\Shaders\StylizedLit.shader" />
     <None Include="Assets\Quibli\Shaders\LibraryUrp\SuppressWarnings.hlsl" />
+    <None Include="Assets\Raygeas\Shared Assets\Shaders\URP\Water_URP.shader" />
     <None Include="Assets\Raygeas\Shared Assets\Shaders\Built-In\Water.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\Quibli\Post Process\ShaderLibrary\Core.hlsl" />

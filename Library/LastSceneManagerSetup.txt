@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/PLAYER TWO/Platformer Project/Examples/Scenes/Pruevas.unity
+- path: Assets/Raygeas/Grasslands - Stylized Nature/Demo/Grasslands Demo.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
