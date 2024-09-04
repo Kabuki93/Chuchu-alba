@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
 
@@ -17,7 +17,8 @@ public class EnterExit : MonoBehaviour {
 	GameObject enterExitText;
 	Transform[] cars;
 	
-	void Awake(){
+	void Awake()
+	{
 		enterExitText = GameObject.Find("enter/exit text");
 		cars = Camera.main.GetComponent<CameraFollow>().targetCars;
 	}
@@ -58,9 +59,12 @@ public class EnterExit : MonoBehaviour {
 			
 			//Let the camera know that the player is driving a car
 			playerInCar = true;
+
+		
 			}
 		}
-		
+
+	
 		//Check if player is in a car and exit key is pressed
 		if(playerInCar && Input.GetKeyDown(exitKey)){
 			

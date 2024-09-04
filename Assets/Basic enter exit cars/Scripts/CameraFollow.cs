@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class CameraFollow : MonoBehaviour {
@@ -25,19 +25,19 @@ public class CameraFollow : MonoBehaviour {
 		}
 	}
 	 
-	void LateUpdate(){
-		//Check if player is in car
-		if(EnterExit.playerInCar){
-			//Get all cars attached to the camera
-			foreach(Transform car in targetCars){
-				//Get scripts from the car to check if the car is active
-				foreach(Behaviour controller in car.GetComponent<EnterExit>().carControllerScripts){
-					//if car scripts are active (player is driving the car), than follow that car
-					if(controller.enabled == true){
-					camTarget = car;
-					}
-				}
-			}
+ void LateUpdate(){
+        // Check if player is in car
+        if(EnterExit.playerInCar){
+            // Get all cars attached to the camera
+            foreach(Transform car in targetCars){
+                // Get scripts from the car to check if the car is active
+                foreach(Behaviour controller in car.GetComponent<EnterExit>().carControllerScripts){
+                    // If car scripts are active (player is driving the car), then follow that car
+                    if(controller.enabled == true){
+                        camTarget = car;
+                    }
+                }
+            }
 			//Make camera distance and camera height bigger when driving a car
 			distance = Distance * 1.5f;
 			height = Height * 1.3f;

@@ -161,7 +161,7 @@ PlayerSettings:
   androidMinAspectRatio: 1
   applicationIdentifier:
     Android: com.PLAYERTWO.platformerproject
-    Standalone: com.PLAYERTWO.platformer-project
+    Standalone: com.DefaultCompany.Chuchu-alba
   buildNumber:
     Bratwurst: 0
     Standalone: 0
@@ -852,7 +852,7 @@ PlayerSettings:
   qnxGraphicConfPath: 
   apiCompatibilityLevel: 6
   captureStartupLogs: {}
-  activeInputHandler: 1
+  activeInputHandler: 2
   windowsGamepadBackendHint: 0
   cloudProjectId: f238aec5-82a5-4a82-b6ea-4e54a14282ed
   framebufferDepthMemorylessMode: 0
