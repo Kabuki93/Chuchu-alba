@@ -1,29 +1,29 @@
 Using pre-set license
 Built from '2023.2/staging' branch; Version is '2023.2.18f1 (1cb755715f58) revision 1881941'; Using compiler version '193431935'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'es' Physical Memory: 65441 MB
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'es' Physical Memory: 32699 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2023.2.18f1\Editor\Unity.exe
+D:\Programas cole\Unity\2023.2.18f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker2
 -projectPath
-H:/Unity/Chuchu-alba
+E:/Tren/Chuchu-alba
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-52617
+54386
 -job-worker-count
-11
+7
 -background-job-worker-count
 8
 -asset-garbage-collectors
 1
-Successfully changed project path to: H:/Unity/Chuchu-alba
-H:/Unity/Chuchu-alba
+Successfully changed project path to: E:/Tren/Chuchu-alba
+E:/Tren/Chuchu-alba
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -58,28 +58,28 @@ H:/Unity/Chuchu-alba
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [23132] Host "[IP] 192.168.1.55 [Port] 0 [Flags] 2 [Guid] 3191610957 [EditorId] 3191610957 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KFD4UNI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
-Player connection [23132] Host "[IP] 192.168.1.55 [Port] 0 [Flags] 2 [Guid] 3191610957 [EditorId] 3191610957 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KFD4UNI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 11
-[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Player connection [7304] Host "[IP] 192.168.0.105 [Port] 0 [Flags] 2 [Guid] 1461587830 [EditorId] 1461587830 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-PE8U79O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [7304] Host "[IP] 192.168.0.105 [Port] 0 [Flags] 2 [Guid] 1461587830 [EditorId] 1461587830 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-PE8U79O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
 Library Redirect Path: Library/
-Refreshing native plugins compatible for Editor in 2.96 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 6.09 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2023.2.18f1 (1cb755715f58)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path H:/Unity/Chuchu-alba/Assets
+[Subsystems] Discovering subsystems at path D:/Programas cole/Unity/2023.2.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Tren/Chuchu-alba/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2488)
+    Renderer: NVIDIA GeForce GTX 1660 SUPER (ID=0x21c4)
     Vendor:   NVIDIA
-    VRAM:     8018 MB
-    Driver:   32.0.15.5599
+    VRAM:     5966 MB
+    Driver:   31.0.15.5123
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56960
+Mono path[0] = 'D:/Programas cole/Unity/2023.2.18f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Programas cole/Unity/2023.2.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Programas cole/Unity/2023.2.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56096
 Begin MonoManager ReloadAssembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
@@ -92,46 +92,42 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.004711 seconds.
-- Loaded All Assemblies, in  0.371 seconds
-Native extension for UWP target not found
+Register platform support module: D:/Programas cole/Unity/2023.2.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003974 seconds.
+- Loaded All Assemblies, in  0.575 seconds
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
 Mono: successfully reloaded assembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-- Finished resetting the current domain, in  0.281 seconds
-Domain Reload Profiling: 649ms
-	BeginReloadAssembly (150ms)
+- Finished resetting the current domain, in  0.456 seconds
+Domain Reload Profiling: 1030ms
+	BeginReloadAssembly (224ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (46ms)
-	LoadAllAssembliesAndSetupDomain (130ms)
-		LoadAssemblies (147ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (217ms)
+		LoadAssemblies (222ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (127ms)
-			TypeCache.Refresh (125ms)
-				TypeCache.ScanAssembly (114ms)
+		AnalyzeDomain (213ms)
+			TypeCache.Refresh (211ms)
+				TypeCache.ScanAssembly (194ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (281ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (457ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (231ms)
+		SetupLoadedEditorAssemblies (379ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (39ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (4ms)
-			ProcessInitializeOnLoadAttributes (145ms)
-			ProcessInitializeOnLoadMethodAttributes (39ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (6ms)
+			ProcessInitializeOnLoadAttributes (283ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -152,13 +148,11 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image H:\Unity\Chuchu-alba\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image H:\Unity\Chuchu-alba\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.768 seconds
-Refreshing native plugins compatible for Editor in 1.97 ms, found 3 plugins.
-Native extension for UWP target not found
+Symbol file LoadedFromMemory doesn't match image E:\Tren\Chuchu-alba\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Tren\Chuchu-alba\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.471 seconds
+Refreshing native plugins compatible for Editor in 3.95 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
 Mono: successfully reloaded assembly
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -167,194 +161,1070 @@ Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.737 seconds
-Domain Reload Profiling: 1502ms
-	BeginReloadAssembly (288ms)
+- Finished resetting the current domain, in  1.139 seconds
+Domain Reload Profiling: 2608ms
+	BeginReloadAssembly (579ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (410ms)
-		LoadAssemblies (277ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (773ms)
+		LoadAssemblies (552ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (210ms)
-			TypeCache.Refresh (167ms)
-				TypeCache.ScanAssembly (154ms)
-			BuildScriptInfoCaches (30ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (737ms)
+		AnalyzeDomain (419ms)
+			TypeCache.Refresh (332ms)
+				TypeCache.ScanAssembly (311ms)
+			BuildScriptInfoCaches (60ms)
+			ResolveRequiredComponents (24ms)
+	FinalizeReload (1140ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (543ms)
+		SetupLoadedEditorAssemblies (763ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (52ms)
-			ProcessInitializeOnLoadAttributes (445ms)
-			ProcessInitializeOnLoadMethodAttributes (28ms)
-			AfterProcessingInitializeOnLoad (5ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (613ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 2.61 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.85 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 250 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6539 unused Assets / (7.0 MB). Loaded Objects now: 7312.
-Memory consumption went from 280.8 MB to 273.9 MB.
-Total: 12.592400 ms (FindLiveObjects: 1.095500 ms CreateObjectMapping: 0.737000 ms MarkObjects: 6.451600 ms  DeleteObjects: 4.306900 ms)
+Unloading 251 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6539 unused Assets / (7.2 MB). Loaded Objects now: 7296.
+Memory consumption went from 285.1 MB to 278.0 MB.
+Total: 16.902500 ms (FindLiveObjects: 1.233100 ms CreateObjectMapping: 1.744300 ms MarkObjects: 9.312100 ms  DeleteObjects: 4.611000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 8296.997138 seconds.
-  path: Assets/PLAYER TWO/Platformer Project/Examples/Scenes/TestLevelScene 1.unity
-  artifactKey: Guid(e9ab8af1264c9fc48a20e1121717cc38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PLAYER TWO/Platformer Project/Examples/Scenes/TestLevelScene 1.unity using Guid(e9ab8af1264c9fc48a20e1121717cc38) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d623bdcc34cbf480eb3c1db358e2bdc') in 0.0041746 seconds
+  Time since last request: 185462.028237 seconds.
+  path: Assets/Quibli/Demos/City/Models/Pillar_part_3.fbx
+  artifactKey: Guid(7c027a0ab36124ad297f1d41294b5b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/City/Models/Pillar_part_3.fbx using Guid(7c027a0ab36124ad297f1d41294b5b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a6053ea701d4f101e2cce2e1a0e8ff3c') in 0.5232465 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.333617 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Vegetation/Mushroom_2.fbx
+  artifactKey: Guid(2533fe91f7e6b1846a5c07c16c72da86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Vegetation/Mushroom_2.fbx using Guid(2533fe91f7e6b1846a5c07c16c72da86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '11ac890226e6b849f40aa4ac7abf9358') in 0.0390715 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Vegetation/Mushroom_8.fbx
+  artifactKey: Guid(3085a41732c931944b04d4658203f6eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Vegetation/Mushroom_8.fbx using Guid(3085a41732c931944b04d4658203f6eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da6c61dd8c6dd6e017d67dc0ccbecf59') in 0.0424128 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.805703 seconds.
+  path: Assets/Quibli/Demos/[Common]/Models/_Foliage Carrier Meshes/MeshCarrier_11_RoundedCubeDome.fbx
+  artifactKey: Guid(f2122e17d56f947c89fe80899508821e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/[Common]/Models/_Foliage Carrier Meshes/MeshCarrier_11_RoundedCubeDome.fbx using Guid(f2122e17d56f947c89fe80899508821e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6606385a62abc09866578b6a2b0cf0cb') in 0.0260903 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Other/Mountain_2.fbx
+  artifactKey: Guid(bf67e427ba4e88e458b933c255b055c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Other/Mountain_2.fbx using Guid(bf67e427ba4e88e458b933c255b055c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd530ae9fcee13c610e00f1ffe59408fd') in 0.0457936 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Quibli/Demos/[Common]/Models/_Foliage Particle Meshes/MeshParticle_CrossPlanes.fbx
+  artifactKey: Guid(912e181f4a6ad47fa8c2e73d7b00bc4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/[Common]/Models/_Foliage Particle Meshes/MeshParticle_CrossPlanes.fbx using Guid(912e181f4a6ad47fa8c2e73d7b00bc4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f626e6d2f341cc4daeecfed7c4dae37b') in 0.0544723 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017979 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Vegetation/Lotus_Group_2.fbx
+  artifactKey: Guid(88151c367026531488a5253e7f989a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Vegetation/Lotus_Group_2.fbx using Guid(88151c367026531488a5253e7f989a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '368679831d32385be2cb610ff1fde4b9') in 0.0735827 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001002 seconds.
+  path: Assets/Quibli/Demos/[Common]/Models/_Foliage Carrier Meshes/MeshCarrier_02_NoiseSphere.fbx
+  artifactKey: Guid(e05cb21fad22c41d39d0b810f0527139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/[Common]/Models/_Foliage Carrier Meshes/MeshCarrier_02_NoiseSphere.fbx using Guid(e05cb21fad22c41d39d0b810f0527139) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b2bc15f1f42076b98da75c3d1c954f9') in 0.0356313 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Quibli/Demos/[Common]/Models/_Foliage Carrier Meshes/MeshCarrier_08_Drops_1.fbx
+  artifactKey: Guid(66fa7f7e1d6d24634b6111473c5b6fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/[Common]/Models/_Foliage Carrier Meshes/MeshCarrier_08_Drops_1.fbx using Guid(66fa7f7e1d6d24634b6111473c5b6fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3380c0c3ace721de48127a260bd654a6') in 0.0476978 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Quibli/Demos/[Common]/Models/_Foliage Carrier Meshes/MeshCarrier_06_MballSquare.fbx
+  artifactKey: Guid(1a31cc35c7e06494ebec0ba57cce4332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/[Common]/Models/_Foliage Carrier Meshes/MeshCarrier_06_MballSquare.fbx using Guid(1a31cc35c7e06494ebec0ba57cce4332) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4604d1f38cc6909d039604cdbe6bddfa') in 0.0236794 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.196664 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Models/heart.fbx
+  artifactKey: Guid(4ac3f8e864ef3694c8ef79c319d1a1e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Models/heart.fbx using Guid(4ac3f8e864ef3694c8ef79c319d1a1e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4872b7d17b9b3bf01b7ee6ccfcebee93') in 0.0257441 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Quibli/Demos/Sample Scene with Quibli/Models/magneticlevel_low.fbx
+  artifactKey: Guid(bae110eee250e4b418b188f4ae4e3170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/Sample Scene with Quibli/Models/magneticlevel_low.fbx using Guid(bae110eee250e4b418b188f4ae4e3170) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0532cfc68b5ad2f1f0b6d3ad90e9b2a4') in 0.0308815 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.088968 seconds.
+  path: Assets/Quibli/Demos/Nature/Models/GrassMesh.assetLOD0.asset
+  artifactKey: Guid(cdebe143080224b58927df1d575602a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/Nature/Models/GrassMesh.assetLOD0.asset using Guid(cdebe143080224b58927df1d575602a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af8eb749703dd72d2b337aab5f334531') in 0.0214286 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Quibli/Demos/City/Models/Gutter_part_3.fbx
+  artifactKey: Guid(961e4a813b943421ea0e1dbc580c3b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/City/Models/Gutter_part_3.fbx using Guid(961e4a813b943421ea0e1dbc580c3b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '742cc0cc0a9a51ad8da09ae62882dc47') in 0.0230757 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Environment/Gold.fbx
+  artifactKey: Guid(c63eded22a6a2754cb645b709ad079f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Environment/Gold.fbx using Guid(c63eded22a6a2754cb645b709ad079f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bd52b0f442399056bc9bd5b111282dca') in 0.0381984 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Vegetation/Flowers_2.fbx
+  artifactKey: Guid(7249a1f5e85e6e34cb5b7baf6bca3408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Vegetation/Flowers_2.fbx using Guid(7249a1f5e85e6e34cb5b7baf6bca3408) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9bcf76d57bb3f51a3739cc62bec6b647') in 0.024493 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.570745 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Other/Fake_Tree.fbx
+  artifactKey: Guid(94e6bf3e57a005a4881acaf2d80c7b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Other/Fake_Tree.fbx using Guid(94e6bf3e57a005a4881acaf2d80c7b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '519d7ca71ad10d29983b2b0eb6f72c65') in 0.8407709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.511222 seconds.
+  path: Assets/Quibli/Demos/Plants/Models/Generated Plants/ExamplePlant_3-MeshCarrier_04_HalfEllipsis-Take1.asset
+  artifactKey: Guid(7351f6833c6644e8c8e89fe8f303fc7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/Plants/Models/Generated Plants/ExamplePlant_3-MeshCarrier_04_HalfEllipsis-Take1.asset using Guid(7351f6833c6644e8c8e89fe8f303fc7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '66724cc4ea0ec3717c6852e8c372f2ed') in 0.0202925 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Quibli/Demos/Plants/Models/Generated Plants/ExamplePlant_7-Sphere-Take1.asset
+  artifactKey: Guid(7c647e986045d4ec0a0f39bdb74db91c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/Plants/Models/Generated Plants/ExamplePlant_7-Sphere-Take1.asset using Guid(7c647e986045d4ec0a0f39bdb74db91c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '73531a48da589520ca1c669d6d95942d') in 0.0182425 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Quibli/Demos/Plants/Models/Generated Plants/ExamplePlant_15-Sphere-Take1.asset
+  artifactKey: Guid(dd58e43a751fa4a258090b84ebdd93b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/Plants/Models/Generated Plants/ExamplePlant_15-Sphere-Take1.asset using Guid(dd58e43a751fa4a258090b84ebdd93b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '32ff2021c6d5879effbd9be0aadee8cd') in 0.0171002 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Quibli/Demos/Plants/Models/Generated Plants/ExamplePlant_9-MeshCarrier_RoundedCubeDome-Take1.asset
+  artifactKey: Guid(d9391aa52657240b0aeb84c3480e5e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/Plants/Models/Generated Plants/ExamplePlant_9-MeshCarrier_RoundedCubeDome-Take1.asset using Guid(d9391aa52657240b0aeb84c3480e5e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e3ab20cb1d07aa82100e0b14fb953680') in 0.0188395 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.225219 seconds.
+  path: Assets/Quibli/Demos/Nature/Models/NatureScene_Car.fbx
+  artifactKey: Guid(87eced17e1b104366bae9d11e63d0a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/Nature/Models/NatureScene_Car.fbx using Guid(87eced17e1b104366bae9d11e63d0a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c587c6d52e177670218589ab2de662e') in 0.3731322 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 197
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.110332 seconds.
+  path: Assets/Quibli/Demos/[Common]/Models/Foliage Generator Exported Meshes/BillboardBush-MeshCarrier_03_Dome-Take1.asset
+  artifactKey: Guid(0120ab8283aa24780a1677cd135774af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/[Common]/Models/Foliage Generator Exported Meshes/BillboardBush-MeshCarrier_03_Dome-Take1.asset using Guid(0120ab8283aa24780a1677cd135774af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '13cf5ed6b24e093995d60f2df2e9663e') in 0.0230916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Quibli/Demos/[Common]/Models/Foliage Generator Exported Meshes/BillboardBush-MeshCarrier_09_MBallBubbles-Take1.asset
+  artifactKey: Guid(a610c3c6e84a041a2aec13a90f8d7132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/[Common]/Models/Foliage Generator Exported Meshes/BillboardBush-MeshCarrier_09_MBallBubbles-Take1.asset using Guid(a610c3c6e84a041a2aec13a90f8d7132) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2383361644e4ad54a94498bb68f780bb') in 0.0223729 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.127989 seconds.
+  path: Assets/Quibli/Demos/City/Models/BuildingBlock_1_balcony.fbx
+  artifactKey: Guid(ac5c2250b141f4b9cb3a0a655ae4b415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/City/Models/BuildingBlock_1_balcony.fbx using Guid(ac5c2250b141f4b9cb3a0a655ae4b415) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '86c50fc4934cd1e90136b9e4dc738399') in 0.0270209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Quibli/Demos/City/Models/BuildingBlock_5_2.fbx
+  artifactKey: Guid(2a3d4c2d3916a47a0aebff6bcb6f474f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/City/Models/BuildingBlock_5_2.fbx using Guid(2a3d4c2d3916a47a0aebff6bcb6f474f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc7761597b02c8e02cae714f087bf938') in 0.0278031 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Quibli/Demos/City/Models/BuildingBlock_4_2.fbx
+  artifactKey: Guid(58d69ba57bd34494bb7aef1ba8f09674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/City/Models/BuildingBlock_4_2.fbx using Guid(58d69ba57bd34494bb7aef1ba8f09674) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a8b4f148fb06138a132a1c48249c947c') in 0.0245312 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Quibli/Demos/City/Models/BuildingBlock_2_ladder.fbx
+  artifactKey: Guid(c8c0826bb4ad949cb9dc2d7487010132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/City/Models/BuildingBlock_2_ladder.fbx using Guid(c8c0826bb4ad949cb9dc2d7487010132) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd2d63f1b422ea37cf36175a9f2593013') in 0.0245348 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Colliders/Chair_Collider.fbx
+  artifactKey: Guid(872a344ff10174648a0bb99d3dcc04ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Colliders/Chair_Collider.fbx using Guid(872a344ff10174648a0bb99d3dcc04ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd8b7f575a4325e0c78b512a7f84a8421') in 0.025058 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.896130 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Environment/Chest.fbx
+  artifactKey: Guid(19a7b53b36c3520479d09aa5646d4c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Environment/Chest.fbx using Guid(19a7b53b36c3520479d09aa5646d4c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '06dd34568721aa13b6e7f7ccfb62bd0b') in 0.0622119 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.101705 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Rocks/Clif_3.fbx
+  artifactKey: Guid(72f17a5bb827784448223a7ad2db8f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Rocks/Clif_3.fbx using Guid(72f17a5bb827784448223a7ad2db8f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a88dfba87f5ff9f533815751a48cc6c8') in 0.0478098 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.250877 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Environment/Column_2.fbx
+  artifactKey: Guid(15fc6e61fe170494c93dd763aaacaa29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Environment/Column_2.fbx using Guid(15fc6e61fe170494c93dd763aaacaa29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '220625bb6d7f4cd657c159205bd00d3c') in 0.0464133 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Models/long_platform.fbx
+  artifactKey: Guid(bd78bcabe3d62c946a2a0a4d29d9ee36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Models/long_platform.fbx using Guid(bd78bcabe3d62c946a2a0a4d29d9ee36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0190513c09a03552cc85c9c30e84489b') in 0.0219206 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.147776 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Models/item_box.fbx
+  artifactKey: Guid(6b9b904330bffd440a05e0fbeeb09c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Models/item_box.fbx using Guid(6b9b904330bffd440a05e0fbeeb09c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4882784ca8ae4d414aa8603ca4db56db') in 0.0293472 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Models/flamethrower.fbx
+  artifactKey: Guid(cfcb3694bbfed4644b6cdfbdf2b1660e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Models/flamethrower.fbx using Guid(cfcb3694bbfed4644b6cdfbdf2b1660e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '86a5601c082e8469a4254fef5c9fb5dc') in 0.0256498 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Quibli/Demos/Sample Scene with Quibli/Models/[3rdParty] Ellen/Ellen Model.fbx
+  artifactKey: Guid(2b065caab356c40e483a11160293937d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/Sample Scene with Quibli/Models/[3rdParty] Ellen/Ellen Model.fbx using Guid(2b065caab356c40e483a11160293937d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '16aafd1cc630a62e8608c1b083febed6') in 0.095494 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 225
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.195375 seconds.
+  path: Assets/Quibli/Readme.asset
+  artifactKey: Guid(86703daca539b44f1a684cdf5d932087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Readme.asset using Guid(86703daca539b44f1a684cdf5d932087) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c795cbc4f9e237f71948096a30a6e8c7') in 0.0018073 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.400707 seconds.
+  path: Assets/Quibli/Prefabs
+  artifactKey: Guid(db5f673fbf9b24583ab69918baf792fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Prefabs using Guid(db5f673fbf9b24583ab69918baf792fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '38c436390d8a64caff17f7622fb403f8') in 0.0006342 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.303696 seconds.
-  path: Assets/PLAYER TWO/Platformer Project/Examples/Scenes/TestLevelScene 2.unity
-  artifactKey: Guid(c7fa87c38f465d249b0f3b291e5de4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PLAYER TWO/Platformer Project/Examples/Scenes/TestLevelScene 2.unity using Guid(c7fa87c38f465d249b0f3b291e5de4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19c95b3d6e87a5d89efbfc723cff4ec0') in 0.0004561 seconds
+  Time since last request: 0.063712 seconds.
+  path: Assets/Quibli/Prefabs/Foliage Generator.prefab
+  artifactKey: Guid(e954cd48c54b54ac5aea20eabb8e83b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Prefabs/Foliage Generator.prefab using Guid(e954cd48c54b54ac5aea20eabb8e83b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ea771b0f8a765ea5377117045471ad7e') in 0.0037161 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.224770 seconds.
+  path: Assets/Quibli/Post Process
+  artifactKey: Guid(e49afd51c96b2456cb058b511f3ad641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Post Process using Guid(e49afd51c96b2456cb058b511f3ad641) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '63715b98ba88f366f02e71f0dd66376e') in 0.0005983 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.545057 seconds.
+  path: Assets/Quibli/Post Process/Editor
+  artifactKey: Guid(1366b021838cf426493a69f7caf9f1c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Post Process/Editor using Guid(1366b021838cf426493a69f7caf9f1c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'baae98f3214b0aedc1560e0e5ed4f63b') in 0.0006399 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.347145 seconds.
+  path: Assets/Quibli/Demos
+  artifactKey: Guid(9f8308e1726a143ba8d767ab44ccb311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos using Guid(9f8308e1726a143ba8d767ab44ccb311) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd25042c3dbca4dfca83b03e482386b25') in 0.0006966 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.972060 seconds.
+  path: Assets/Quibli/Demos/City
+  artifactKey: Guid(297e8c48ec9394923930f4bde4a4b5a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/City using Guid(297e8c48ec9394923930f4bde4a4b5a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7acaae3fd578b46bdc260c2508771b3c') in 0.0006266 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.185548 seconds.
+  path: Assets/Quibli/Demos/City/Models
+  artifactKey: Guid(e8312a442b66b4226ad259fa668517d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/City/Models using Guid(e8312a442b66b4226ad259fa668517d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '858b592487bf6d266d848e0d0b2a5a89') in 0.0006725 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.058839 seconds.
+  path: Assets/Quibli/Demos/City/Models/Bicycle.fbx
+  artifactKey: Guid(317cbd732a96c492ea21070e64405311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/City/Models/Bicycle.fbx using Guid(317cbd732a96c492ea21070e64405311) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '06ba2a14dfd4689e3e23072a0d927edb') in 0.0697004 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Quibli/Demos/City/Models/Building_Roof_deco_1.fbx
+  artifactKey: Guid(af836c289d84f4c1e81fbfa23e2be8ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/City/Models/Building_Roof_deco_1.fbx using Guid(af836c289d84f4c1e81fbfa23e2be8ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '42f1a3d859895b7fb939f7217e9383d8') in 0.0409297 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Quibli/Demos/City/Models/BuildingBlock_1_5.fbx
+  artifactKey: Guid(14f030b30ccd9422d870cf66c5fd4ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/City/Models/BuildingBlock_1_5.fbx using Guid(14f030b30ccd9422d870cf66c5fd4ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e471f7f72a75c12c6299f2dd5d9648fe') in 0.0256193 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.331969 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Prefabs
+  artifactKey: Guid(bbb1602e994f8d94b8de4b7848d0197d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Prefabs using Guid(bbb1602e994f8d94b8de4b7848d0197d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c36f50536d679367ba43292ad5967ea2') in 0.0006613 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.960821 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/Car_1.fbx
+  artifactKey: Guid(f3bf1cf3b45c7a44fb92dc0e1c34bbac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/Car_1.fbx using Guid(f3bf1cf3b45c7a44fb92dc0e1c34bbac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cce2efc56e041a3f76d3790f83e1fe37') in 0.0234055 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.494188 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/COCHE.fbx
+  artifactKey: Guid(f3bf1cf3b45c7a44fb92dc0e1c34bbac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/COCHE.fbx using Guid(f3bf1cf3b45c7a44fb92dc0e1c34bbac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ec5d94d17b581e744a365a4515e7f230') in 0.021624 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.842663 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Scenes/Urilandia.unity
+  artifactKey: Guid(ef6ed3773c5cdcf4f93605c651f142e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Scenes/Urilandia.unity using Guid(ef6ed3773c5cdcf4f93605c651f142e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2478419311db7ffe46846e7a60a611a7') in 0.0006879 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.825103 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Scripts/Train.cs
+  artifactKey: Guid(5a846afd88205c54f82f25bb700bc521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PLAYER TWO/Platformer Project/Scripts/Train.cs using Guid(5a846afd88205c54f82f25bb700bc521) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '556f09a6b117f39d8c799675a48bbdc6') in 0.0006569 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image H:\Unity\Chuchu-alba\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image H:\Unity\Chuchu-alba\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.590 seconds
-Refreshing native plugins compatible for Editor in 1.46 ms, found 3 plugins.
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.737 seconds
-Domain Reload Profiling: 1328ms
-	BeginReloadAssembly (181ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (48ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (24ms)
-	LoadAllAssembliesAndSetupDomain (342ms)
-		LoadAssemblies (273ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (154ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (134ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (737ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (541ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (52ms)
-			ProcessInitializeOnLoadAttributes (436ms)
-			ProcessInitializeOnLoadMethodAttributes (35ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (22ms)
-Refreshing native plugins compatible for Editor in 2.65 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6537 unused Assets / (6.8 MB). Loaded Objects now: 7315.
-Memory consumption went from 242.7 MB to 235.8 MB.
-Total: 15.082500 ms (FindLiveObjects: 1.195200 ms CreateObjectMapping: 0.793600 ms MarkObjects: 8.291500 ms  DeleteObjects: 4.801000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image H:\Unity\Chuchu-alba\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image H:\Unity\Chuchu-alba\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.581 seconds
-Refreshing native plugins compatible for Editor in 1.65 ms, found 3 plugins.
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.725 seconds
-Domain Reload Profiling: 1306ms
-	BeginReloadAssembly (163ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (44ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (347ms)
-		LoadAssemblies (272ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (152ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (132ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (725ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (538ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (51ms)
-			ProcessInitializeOnLoadAttributes (434ms)
-			ProcessInitializeOnLoadMethodAttributes (34ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (19ms)
-Refreshing native plugins compatible for Editor in 2.96 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.77 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6537 unused Assets / (6.7 MB). Loaded Objects now: 7315.
-Memory consumption went from 244.5 MB to 237.7 MB.
-Total: 15.212700 ms (FindLiveObjects: 1.303200 ms CreateObjectMapping: 1.220400 ms MarkObjects: 8.443600 ms  DeleteObjects: 4.244300 ms)
+Unloading 6518 unused Assets / (7.1 MB). Loaded Objects now: 7557.
+Memory consumption went from 254.2 MB to 247.1 MB.
+Total: 21.917800 ms (FindLiveObjects: 1.107000 ms CreateObjectMapping: 1.807600 ms MarkObjects: 12.680300 ms  DeleteObjects: 6.321300 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image E:\Tren\Chuchu-alba\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Tren\Chuchu-alba\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.075 seconds
+Refreshing native plugins compatible for Editor in 3.91 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.977 seconds
+Domain Reload Profiling: 2053ms
+	BeginReloadAssembly (365ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (110ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (611ms)
+		LoadAssemblies (527ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (261ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (3ms)
+			BuildScriptInfoCaches (227ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (977ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (648ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (512ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (35ms)
+Refreshing native plugins compatible for Editor in 4.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 41 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6536 unused Assets / (7.1 MB). Loaded Objects now: 7376.
+Memory consumption went from 265.5 MB to 258.4 MB.
+Total: 12.649900 ms (FindLiveObjects: 1.114100 ms CreateObjectMapping: 0.979800 ms MarkObjects: 6.429300 ms  DeleteObjects: 4.124300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 15.304981 seconds.
+  path: Assets/Basic enter exit cars/Prefabs
+  artifactKey: Guid(103806b84c32a194cb87ede428ef0d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic enter exit cars/Prefabs using Guid(103806b84c32a194cb87ede428ef0d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c06b4533ff3c20ed4356b12341690ffa') in 0.0359156 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.988800 seconds.
+  path: Assets/Basic enter exit cars/Scripts
+  artifactKey: Guid(4f6110f137e601c45a8e909114e8197a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic enter exit cars/Scripts using Guid(4f6110f137e601c45a8e909114e8197a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '83871f32842de27312534f7f0295e79c') in 0.0007326 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image E:\Tren\Chuchu-alba\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Tren\Chuchu-alba\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.207 seconds
+Refreshing native plugins compatible for Editor in 3.76 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.098 seconds
+Domain Reload Profiling: 2305ms
+	BeginReloadAssembly (457ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (123ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (639ms)
+		LoadAssemblies (598ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (282ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (251ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1099ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (741ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (96ms)
+			ProcessInitializeOnLoadAttributes (580ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (52ms)
+Refreshing native plugins compatible for Editor in 4.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6536 unused Assets / (7.2 MB). Loaded Objects now: 7376.
+Memory consumption went from 266.0 MB to 258.8 MB.
+Total: 14.572400 ms (FindLiveObjects: 1.142900 ms CreateObjectMapping: 1.433300 ms MarkObjects: 6.965100 ms  DeleteObjects: 5.029400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 257.206677 seconds.
+  path: Assets/Basic enter exit cars/Scripts/ExampleCar.cs
+  artifactKey: Guid(473b70840a9db2f4ab83a7eebc8fc0ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic enter exit cars/Scripts/ExampleCar.cs using Guid(473b70840a9db2f4ab83a7eebc8fc0ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '135bda9794d1eddb6923d0ecb4c4fef1') in 0.0183864 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image E:\Tren\Chuchu-alba\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Tren\Chuchu-alba\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.201 seconds
+Refreshing native plugins compatible for Editor in 5.28 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.631 seconds
+Domain Reload Profiling: 3836ms
+	BeginReloadAssembly (926ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (111ms)
+	RebuildCommonClasses (93ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (1109ms)
+		LoadAssemblies (1403ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (416ms)
+			TypeCache.Refresh (24ms)
+				TypeCache.ScanAssembly (5ms)
+			BuildScriptInfoCaches (346ms)
+			ResolveRequiredComponents (39ms)
+	FinalizeReload (1632ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1121ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (124ms)
+			ProcessInitializeOnLoadAttributes (871ms)
+			ProcessInitializeOnLoadMethodAttributes (108ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (60ms)
+Refreshing native plugins compatible for Editor in 6.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6536 unused Assets / (7.3 MB). Loaded Objects now: 7376.
+Memory consumption went from 268.0 MB to 260.7 MB.
+Total: 22.057400 ms (FindLiveObjects: 1.455500 ms CreateObjectMapping: 1.828700 ms MarkObjects: 9.140400 ms  DeleteObjects: 9.630200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 31.852791 seconds.
+  path: Assets/Basic enter exit cars/Scripts/ExampleCar.cs
+  artifactKey: Guid(473b70840a9db2f4ab83a7eebc8fc0ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic enter exit cars/Scripts/ExampleCar.cs using Guid(473b70840a9db2f4ab83a7eebc8fc0ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1fda61e3d61f3afdc01136adf9692389') in 0.026655 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image E:\Tren\Chuchu-alba\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Tren\Chuchu-alba\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.146 seconds
+Refreshing native plugins compatible for Editor in 4.18 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.289 seconds
+Domain Reload Profiling: 2438ms
+	BeginReloadAssembly (329ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (73ms)
+	RebuildCommonClasses (57ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (697ms)
+		LoadAssemblies (596ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (295ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (260ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (1290ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (879ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (103ms)
+			ProcessInitializeOnLoadAttributes (702ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (46ms)
+Refreshing native plugins compatible for Editor in 6.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6536 unused Assets / (7.2 MB). Loaded Objects now: 7376.
+Memory consumption went from 269.9 MB to 262.7 MB.
+Total: 25.514800 ms (FindLiveObjects: 1.536700 ms CreateObjectMapping: 2.070100 ms MarkObjects: 12.679200 ms  DeleteObjects: 9.225800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 93.288787 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Scenes/Albalandia.unity
+  artifactKey: Guid(278a551158294f341b62da4310b65882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Scenes/Albalandia.unity using Guid(278a551158294f341b62da4310b65882) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a4bdee14936c73e0af2970d8bd8cb31') in 0.0145092 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.828946 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Audios/Musics/8bit Bossa.wav
+  artifactKey: Guid(b0a292b136471f74fa41ac702c3424c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Audios/Musics/8bit Bossa.wav using Guid(b0a292b136471f74fa41ac702c3424c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61ea31d3d7c40d933911b8e00a483585') in 0.379636 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Quibli/Demos/Sample Scene with Quibli/Materials/BIllboardBush_Details_01.mat
+  artifactKey: Guid(7be3f5a7e544a41719ed46f7a18a6bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/Sample Scene with Quibli/Materials/BIllboardBush_Details_01.mat using Guid(7be3f5a7e544a41719ed46f7a18a6bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe158e7a95343434ba651334c353c2bb') in 0.4464778 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Environment/Book.fbx
+  artifactKey: Guid(33e528b0080f2004daecbbd467d6b141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Environment/Book.fbx using Guid(33e528b0080f2004daecbbd467d6b141) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1502e04a15a757f5a65321bb7d56e339') in 0.1073321 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Quibli/Demos/Sample Scene with Quibli/Materials/BIllboardBush_03.mat
+  artifactKey: Guid(8f9025565a02b4f5a9570aff3148a62a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/Sample Scene with Quibli/Materials/BIllboardBush_03.mat using Guid(8f9025565a02b4f5a9570aff3148a62a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd9ded9a7d7b3092fb165a9039a99c8ee') in 0.0315886 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Materials/Environment/Book.mat
+  artifactKey: Guid(bd031dac73baa734987a125f16ff65fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Materials/Environment/Book.mat using Guid(bd031dac73baa734987a125f16ff65fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8ba0bcf5f414ddd40bb70c115f6d383b') in 0.083791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Quibli/Demos/Sample Scene with Quibli/Materials/BIllboardBush_04.mat
+  artifactKey: Guid(0c538f847425a45cab08d919f7cde3bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/Sample Scene with Quibli/Materials/BIllboardBush_04.mat using Guid(0c538f847425a45cab08d919f7cde3bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '48e925fd9d5bb37da8f55d0fae52c529') in 0.0363484 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Quibli/Demos/Sample Scene with Quibli/Materials/BIllboardBush_01.mat
+  artifactKey: Guid(cca4d2465912a4e2a8c70567f56a732c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/Sample Scene with Quibli/Materials/BIllboardBush_01.mat using Guid(cca4d2465912a4e2a8c70567f56a732c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '44f26aaf854cd7601904679de4b2bdea') in 0.0325782 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Quibli/Demos/City/Scene Settings/[Quibli] City Demo Scene Renderer.asset
+  artifactKey: Guid(5faa69b1fbf014452a2c65a2f748a895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/City/Scene Settings/[Quibli] City Demo Scene Renderer.asset using Guid(5faa69b1fbf014452a2c65a2f748a895) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5118cc932d347b257149dabfead2ad32') in 0.0021713 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Quibli/Demos/Sample Scene with Quibli/Materials/BillboardBush_07-far.mat
+  artifactKey: Guid(9718689a8db954c0aadba53a62847d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/Sample Scene with Quibli/Materials/BillboardBush_07-far.mat using Guid(9718689a8db954c0aadba53a62847d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '244f50b38e757c97c85480283f8ea41c') in 0.032032 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Quibli/Demos/[Common]/Foliage Generator Presets/BillboardBush_01.preset
+  artifactKey: Guid(642203437b16c4ecaab3360afb06e2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/[Common]/Foliage Generator Presets/BillboardBush_01.preset using Guid(642203437b16c4ecaab3360afb06e2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f03d6cc434a30894f2162b3b6c7a541d') in 0.0046134 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Quibli/Demos/Sample Scene with Quibli/Materials/BIllboardBush_02.mat
+  artifactKey: Guid(d32b9679f0e2e4456adb25d4f9f3dd4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/Sample Scene with Quibli/Materials/BIllboardBush_02.mat using Guid(d32b9679f0e2e4456adb25d4f9f3dd4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2cbddd82b41b48e8bb2ceb6c36057c58') in 0.0337128 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Textures/Environment/Book_Albedo.png
+  artifactKey: Guid(251e9ce7c80de5b48992b229432b42cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Textures/Environment/Book_Albedo.png using Guid(251e9ce7c80de5b48992b229432b42cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c3e04da92c9e5fb99e460659f1f05e7d') in 0.0245137 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Models/Lily.fbx
+  artifactKey: Guid(40e21d8ce79cdf04a9168a06cb1ed52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Models/Lily.fbx using Guid(40e21d8ce79cdf04a9168a06cb1ed52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3bb11dcf15c563cf9ed5acfc7c57ef69') in 0.0653628 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 116
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Quibli/Demos/[Common]/Models/Foliage Generator Exported Meshes/BillboardBush-Sphere-Take3.asset
+  artifactKey: Guid(d4c743589ed07413a9ecded023bdb702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/[Common]/Models/Foliage Generator Exported Meshes/BillboardBush-Sphere-Take3.asset using Guid(d4c743589ed07413a9ecded023bdb702) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b09617373c24cca5e8844bc743509b48') in 0.0226293 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Quibli/Demos/Sample Scene with Quibli/Materials/BillboardBush_06.mat
+  artifactKey: Guid(aa29fa6ad35a54f64aa7b38a1254cd51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/Sample Scene with Quibli/Materials/BillboardBush_06.mat using Guid(aa29fa6ad35a54f64aa7b38a1254cd51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c3e497ca871a128c9408c66f80391512') in 0.0329104 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Quibli/Demos/Sample Scene with Quibli/Materials/BillboardBush_03_Close.mat
+  artifactKey: Guid(6624acddba61646a8946f0eae277e0b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/Sample Scene with Quibli/Materials/BillboardBush_03_Close.mat using Guid(6624acddba61646a8946f0eae277e0b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '37513e80fc34c33f74d0e74bccd4c61c') in 1.5676588 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Quibli/Utils/EditorAttributes/Core/ExternalAttributes.Core.asmdef
+  artifactKey: Guid(7c27ae99b8207f043b347799a32e3298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Utils/EditorAttributes/Core/ExternalAttributes.Core.asmdef using Guid(7c27ae99b8207f043b347799a32e3298) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9f8c562081e0201c90746a088095f7dc') in 0.0011964 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/Misc/Button Panel.prefab
+  artifactKey: Guid(3db54f548e2385243bec4087d1315c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/Misc/Button Panel.prefab using Guid(3db54f548e2385243bec4087d1315c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '84b002f6e9f7f6eb9a25958f15f7bb21') in 0.0313981 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Prefabs/Environment/Book.prefab
+  artifactKey: Guid(cd78285c515c65646be79302a67459d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Prefabs/Environment/Book.prefab using Guid(cd78285c515c65646be79302a67459d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '304630f310d21350137a87c68e4e3f10') in 0.0376102 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Quibli/Demos/Sample Scene with Quibli/Materials/BillboardBush_08.mat
+  artifactKey: Guid(ceb5d8a3125994d81be6b75dd0e63f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/Sample Scene with Quibli/Materials/BillboardBush_08.mat using Guid(ceb5d8a3125994d81be6b75dd0e63f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba5514cae4af234ed98b6e487dcfd146') in 0.0319771 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Quibli/Demos/[Common]/Foliage Generator Presets/BillboardBush_03.preset
+  artifactKey: Guid(007c11f26f45841629cedd9db74e0bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/[Common]/Foliage Generator Presets/BillboardBush_03.preset using Guid(007c11f26f45841629cedd9db74e0bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '56b4fb5b25c87c9adc11a8e0d52cc9e1') in 0.0024884 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Quibli/Demos/Sample Scene with Quibli/Materials/BillboardBush_06_Close.mat
+  artifactKey: Guid(dd6778d0a416e4c8ab49019c2fcd41ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/Sample Scene with Quibli/Materials/BillboardBush_06_Close.mat using Guid(dd6778d0a416e4c8ab49019c2fcd41ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4894bfd7d7feb1f5062b940b53c4a8bb') in 0.0347608 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Quibli/Utils/EditorAttributes/Editor/ExternalAttributes.Editor.asmdef
+  artifactKey: Guid(20a9cf74cdfe58e46802a4ac11efdfb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Utils/EditorAttributes/Editor/ExternalAttributes.Editor.asmdef using Guid(20a9cf74cdfe58e46802a4ac11efdfb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e7e4b1a8db41c3fdd6da94aeeb077521') in 0.0009013 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Materials/Models/Button Panel.mat
+  artifactKey: Guid(b91975172d31832418952d17db990363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Materials/Models/Button Panel.mat using Guid(b91975172d31832418952d17db990363) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '01b047e2f15c3c9bdb51cb51a3fdbf5f') in 0.0252387 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Quibli/Demos/[Common]/Foliage Generator Presets/BillboardBush_02.preset
+  artifactKey: Guid(f522e490c3dcb48aeacab228b3dcc3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/[Common]/Foliage Generator Presets/BillboardBush_02.preset using Guid(f522e490c3dcb48aeacab228b3dcc3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f8f4147701e92376bab491caacea304') in 0.0020278 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Quibli/Demos/Nature/Scene Settings/[Quibli] Nature Demo Scene Renderer.asset
+  artifactKey: Guid(ff1b7cd2c5cc4487598151b6cacc5b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/Nature/Scene Settings/[Quibli] Nature Demo Scene Renderer.asset using Guid(ff1b7cd2c5cc4487598151b6cacc5b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2ed3096b876aab21c717ae32e64a9613') in 0.0017032 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Quibli/Demos/Sample Scene with Quibli/Materials/BillboardBush_01_Close.mat
+  artifactKey: Guid(f9ed157a6afad4d5394df0525f17f2c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/Sample Scene with Quibli/Materials/BillboardBush_01_Close.mat using Guid(f9ed157a6afad4d5394df0525f17f2c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '62f90057a1bee7f7c8bffad19d7917f4') in 0.0331689 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Textures/Models/button_panel.png
+  artifactKey: Guid(b479c617cb1336d4b968ce78387a2485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Textures/Models/button_panel.png using Guid(b479c617cb1336d4b968ce78387a2485) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de1648e28149339b1b1ce1e61090348e') in 0.0285921 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.512457 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Colliders/Arch_1_Collider.fbx
+  artifactKey: Guid(b7be13c274eb0e24ab92bb7842a8bba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Colliders/Arch_1_Collider.fbx using Guid(b7be13c274eb0e24ab92bb7842a8bba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19b3f472e7dbea1cefdeacbbe918797b') in 0.0303195 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Vegetation/Big_Branch_1.fbx
+  artifactKey: Guid(b5b2d9cc7d1d4364caa9d6040411196e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Vegetation/Big_Branch_1.fbx using Guid(b5b2d9cc7d1d4364caa9d6040411196e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c6a2f76dacccfe63df0d8aabb3c78b3') in 0.0509679 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Environment/Barrel.fbx
+  artifactKey: Guid(d008b14de6e58614287ae492da7ad0c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Environment/Barrel.fbx using Guid(d008b14de6e58614287ae492da7ad0c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a0aae961cf6c244645fb8ecf856a69a1') in 0.0541962 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Vegetation/Birch_Medium_2.fbx
+  artifactKey: Guid(6e2c3384bd3ca1a41a76b709cafef61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Vegetation/Birch_Medium_2.fbx using Guid(6e2c3384bd3ca1a41a76b709cafef61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1dad4e28b88ce9f263103ce078c09c8c') in 0.0810216 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Vegetation/Birch_Medium_1.fbx
+  artifactKey: Guid(a18623fd06b225b4daa1950b79f60c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Vegetation/Birch_Medium_1.fbx using Guid(a18623fd06b225b4daa1950b79f60c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67f826ea56a10f94fb9f058f73cdbf9f') in 0.0555063 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Vegetation/Branch_1.fbx
+  artifactKey: Guid(9fa9aae3bd3a7ae4cb751601148b1d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Vegetation/Branch_1.fbx using Guid(9fa9aae3bd3a7ae4cb751601148b1d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db56f75decbd3f62e4410db9c4435e17') in 0.0435618 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Vegetation/Birch_Small_2.fbx
+  artifactKey: Guid(3325a54b28c5e544ba31b2c05e85154c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Vegetation/Birch_Small_2.fbx using Guid(3325a54b28c5e544ba31b2c05e85154c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae7ae681cfaedf57c06e63365ffae222') in 0.0764522 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Vegetation/Birch_Dead_2.fbx
+  artifactKey: Guid(0da74cb4c9ab9c6408a7c2ec6de21dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Vegetation/Birch_Dead_2.fbx using Guid(0da74cb4c9ab9c6408a7c2ec6de21dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '52e0ebcfb756c5803a080b171af58e78') in 0.0635496 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.549783 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Vegetation/Branch_3.fbx
+  artifactKey: Guid(876418a0db45548409b9ee623eb94454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Vegetation/Branch_3.fbx using Guid(876418a0db45548409b9ee623eb94454) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd69341ca2e71e4343b0a6250de492bc1') in 0.0428418 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

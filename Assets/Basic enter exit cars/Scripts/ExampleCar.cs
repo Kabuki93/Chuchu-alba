@@ -5,15 +5,15 @@ public class ExampleCar : MonoBehaviour {
 
 	void Update () {
 	//move the car
-	if(Input.GetKey("y")){
+	if(Input.GetKey("w")){
 		transform.Translate(Vector3.forward * Time.deltaTime * 10);
 	}
 	
 	//rotate the car
-	if(Input.GetKey("g")){
+	if(Input.GetKey("a")){
 		transform.Rotate(Vector3.up * Time.deltaTime * -70);
 	}
-	if(Input.GetKey("j")){
+	if(Input.GetKey("d")){
 		transform.Rotate(Vector3.up * Time.deltaTime * 70);
 	}
 	}
