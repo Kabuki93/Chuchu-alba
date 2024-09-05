@@ -109,7 +109,6 @@
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Misc\Mover.cs" />
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Level\LevelController.cs" />
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Misc\Buoyancy.cs" />
-    <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Train.cs" />
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Player\PlayerAnimator.cs" />
     <Compile Include="Assets\Raygeas\Shared Assets\Scripts\PhysicsObject.cs" />
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Game\GameLoader.cs" />
@@ -172,6 +171,7 @@
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Player\States\FallPlayerState.cs" />
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Misc\Fader.cs" />
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Player\PlayerStats.cs" />
+    <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Watercontroll.cs" />
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Entity\EntityController.cs" />
     <Compile Include="Assets\Basic enter exit cars\Scripts\ExamplePlayer.cs" />
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Misc\MobileRig.cs" />
