@@ -15,7 +15,7 @@ H:/Unity/Chuchu-alba
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-52617
+53047
 -job-worker-count
 11
 -background-job-worker-count
@@ -58,12 +58,12 @@ H:/Unity/Chuchu-alba
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [34048] Host "[IP] 192.168.1.55 [Port] 0 [Flags] 2 [Guid] 2563798470 [EditorId] 2563798470 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KFD4UNI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
-Player connection [34048] Host "[IP] 192.168.1.55 [Port] 0 [Flags] 2 [Guid] 2563798470 [EditorId] 2563798470 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KFD4UNI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [41352] Host "[IP] 192.168.1.55 [Port] 0 [Flags] 2 [Guid] 3550125055 [EditorId] 3550125055 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KFD4UNI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [41352] Host "[IP] 192.168.1.55 [Port] 0 [Flags] 2 [Guid] 3550125055 [EditorId] 3550125055 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KFD4UNI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 11
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
 Library Redirect Path: Library/
-Refreshing native plugins compatible for Editor in 1.89 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.00 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2023.2.18f1 (1cb755715f58)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/Resources/UnitySubsystems
@@ -79,7 +79,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56796
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56080
 Begin MonoManager ReloadAssembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
@@ -95,42 +95,42 @@ Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.004519 seconds.
-- Loaded All Assemblies, in  0.318 seconds
+Registered in 0.004814 seconds.
+- Loaded All Assemblies, in  0.310 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-- Finished resetting the current domain, in  0.281 seconds
-Domain Reload Profiling: 596ms
-	BeginReloadAssembly (106ms)
+- Finished resetting the current domain, in  0.274 seconds
+Domain Reload Profiling: 581ms
+	BeginReloadAssembly (105ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (10ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
 	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (128ms)
+	LoadAllAssembliesAndSetupDomain (123ms)
 		LoadAssemblies (103ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (126ms)
-			TypeCache.Refresh (125ms)
-				TypeCache.ScanAssembly (114ms)
+		AnalyzeDomain (120ms)
+			TypeCache.Refresh (119ms)
+				TypeCache.ScanAssembly (109ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (281ms)
+	FinalizeReload (274ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (234ms)
+		SetupLoadedEditorAssemblies (227ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (37ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (3ms)
 			BeforeProcessingInitializeOnLoad (4ms)
-			ProcessInitializeOnLoadAttributes (151ms)
+			ProcessInitializeOnLoadAttributes (147ms)
 			ProcessInitializeOnLoadMethodAttributes (37ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
@@ -154,8 +154,8 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Symbol file LoadedFromMemory doesn't match image H:\Unity\Chuchu-alba\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image H:\Unity\Chuchu-alba\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.792 seconds
-Refreshing native plugins compatible for Editor in 1.50 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.802 seconds
+Refreshing native plugins compatible for Editor in 1.69 ms, found 3 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -167,87 +167,284 @@ Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.772 seconds
+- Finished resetting the current domain, in  0.763 seconds
 Domain Reload Profiling: 1561ms
 	BeginReloadAssembly (301ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (29ms)
-	RebuildCommonClasses (29ms)
+	RebuildCommonClasses (28ms)
 	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (418ms)
-		LoadAssemblies (280ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (426ms)
+		LoadAssemblies (290ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (220ms)
-			TypeCache.Refresh (176ms)
-				TypeCache.ScanAssembly (162ms)
+		AnalyzeDomain (219ms)
+			TypeCache.Refresh (175ms)
+				TypeCache.ScanAssembly (161ms)
 			BuildScriptInfoCaches (31ms)
 			ResolveRequiredComponents (10ms)
-	FinalizeReload (773ms)
+	FinalizeReload (764ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (568ms)
+		SetupLoadedEditorAssemblies (567ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (10ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (55ms)
-			ProcessInitializeOnLoadAttributes (466ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (468ms)
 			ProcessInitializeOnLoadMethodAttributes (29ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (8ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 2.80 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.08 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 250 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6539 unused Assets / (7.0 MB). Loaded Objects now: 7312.
-Memory consumption went from 282.7 MB to 275.7 MB.
-Total: 15.165500 ms (FindLiveObjects: 1.399200 ms CreateObjectMapping: 0.927500 ms MarkObjects: 8.517300 ms  DeleteObjects: 4.319700 ms)
+Unloading 251 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6539 unused Assets / (4.8 MB). Loaded Objects now: 7313.
+Memory consumption went from 283.3 MB to 278.5 MB.
+Total: 15.192900 ms (FindLiveObjects: 1.305700 ms CreateObjectMapping: 1.026700 ms MarkObjects: 9.060000 ms  DeleteObjects: 3.799400 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 8285.043337 seconds.
-  path: Assets/ASSETS/tuerca_tren_DefaultMaterial_Height.1001.png
-  artifactKey: Guid(6b8534b8b1bb98048a27baef5294787d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASSETS/tuerca_tren_DefaultMaterial_Height.1001.png using Guid(6b8534b8b1bb98048a27baef5294787d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ea910935b1a38eff5a95acfdde0932d7') in 0.0600028 seconds
+  Time since last request: 9198.162525 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Scenes/Urilandia.unity
+  artifactKey: Guid(ef6ed3773c5cdcf4f93605c651f142e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Scenes/Urilandia.unity using Guid(ef6ed3773c5cdcf4f93605c651f142e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd1311efcfdc8a67986c846eb994651d2') in 0.0070687 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.812345 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/Prototype/Water.prefab
+  artifactKey: Guid(0a20ae9159e36a0409eefaf35cbb5b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Prefabs/Prototype/Water.prefab using Guid(0a20ae9159e36a0409eefaf35cbb5b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cee44eb70ee444969575bacc1971ba12') in 0.4665709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/water_splash_0.wav
+  artifactKey: Guid(d054d36892d86444d998d48d52ebf5fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/water_splash_0.wav using Guid(d054d36892d86444d998d48d52ebf5fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7df4a84c75871124d1a7f500f4813762') in 0.0367694 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Audio/SceneMixer.mixer
+  artifactKey: Guid(0665dad8c29b42e4bafc93d713b131c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Audio/SceneMixer.mixer using Guid(0665dad8c29b42e4bafc93d713b131c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)Refreshing native plugins compatible for Editor in 1.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ -> (artifact id: '5f7d8fa957f0bb19713d1e0e436345e1') in 0.0040579 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Audio/Nature/Water/Water_Creek_1.wav
+  artifactKey: Guid(1eab612d32472a94a8e57ef0151018fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Audio/Nature/Water/Water_Creek_1.wav using Guid(1eab612d32472a94a8e57ef0151018fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d6055d265e8847c64d20144a6a5f991') in 0.3570071 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/water_splash_1.wav
+  artifactKey: Guid(2d25a7387036df94c98c381b35d5a05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Audios/Effects/water_splash_1.wav using Guid(2d25a7387036df94c98c381b35d5a05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f2cc62297e70ee0b02215fbea7d2e1c') in 0.0136547 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Audio/Nature/Water/Water_Creek_2.wav
+  artifactKey: Guid(cf519a9f5ef67a1438ae666e271defd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Audio/Nature/Water/Water_Creek_2.wav using Guid(cf519a9f5ef67a1438ae666e271defd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d983d5ee408b139f46fc4069bb7fc26') in 0.2293199 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Shaders/Water.shadergraph
+  artifactKey: Guid(7e4b76f48b00bba428572accb090a7cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Shaders/Water.shadergraph using Guid(7e4b76f48b00bba428572accb090a7cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15cd23ff6820708ce0f77c2265ac2ca8') in 0.0256965 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Audio/Nature/Water/Water_Creek_3.wav
+  artifactKey: Guid(8396275540834144589e4bdf0eff7304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Audio/Nature/Water/Water_Creek_3.wav using Guid(8396275540834144589e4bdf0eff7304) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0594233e4a803259c3ae71ff39d8f874') in 0.2719791 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000019 seconds.
-  path: Assets/ASSETS/tuerca_tren_DefaultMaterial_BaseColor.1001.png
-  artifactKey: Guid(e751b34de1beafc489ab63e8c2287171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASSETS/tuerca_tren_DefaultMaterial_BaseColor.1001.png using Guid(e751b34de1beafc489ab63e8c2287171) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '523ca08452e3db8124fd7be3260d0ae3') in 0.0109692 seconds
+  path: Assets/PLAYER TWO/Platformer Project/Examples/Textures/Water/Water.png
+  artifactKey: Guid(31d14d219e5f63e4a9f64fb45ed497c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PLAYER TWO/Platformer Project/Examples/Textures/Water/Water.png using Guid(31d14d219e5f63e4a9f64fb45ed497c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b02c9cfab18efc70c1ce441ce67a192d') in 0.0162596 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/ASSETS/tuerca_tren_DefaultMaterial_Normal.1001.png
-  artifactKey: Guid(89f67bccbc5afc24abbe612da447ce87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASSETS/tuerca_tren_DefaultMaterial_Normal.1001.png using Guid(89f67bccbc5afc24abbe612da447ce87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '47595f6f04a9a518c7c2dc00fc9034a9') in 0.0150246 seconds
+  Time since last request: 46.542716 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Materials/Rocks/Clif_1_(no_grass).mat
+  artifactKey: Guid(511c9e02ec0541641bd5079da56eb9e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Materials/Rocks/Clif_1_(no_grass).mat using Guid(511c9e02ec0541641bd5079da56eb9e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '420ad1c9410aec7cfac5eeaf7e0fff0d') in 0.5109999 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.633405 seconds.
+  path: Assets/Quibli/Demos/[Common]/Textures/Foliage - Contour Textures/Foliage_Contour_Bush_InnerGradient_06.png
+  artifactKey: Guid(2fbf92a12b49443c49e5de6a896b6364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/[Common]/Textures/Foliage - Contour Textures/Foliage_Contour_Bush_InnerGradient_06.png using Guid(2fbf92a12b49443c49e5de6a896b6364) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '471c8f1aabe0cadc90cd18506797f13b') in 0.0161605 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/ASSETS/tuerca_tren_DefaultMaterial_Roughness.1001.png
-  artifactKey: Guid(847bb783af1b6b146bfbb5fe354bbc26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASSETS/tuerca_tren_DefaultMaterial_Roughness.1001.png using Guid(847bb783af1b6b146bfbb5fe354bbc26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '48365e2cb9ee9a317652b8eee306bf01') in 0.0113281 seconds
+  Time since last request: 0.362285 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Audio/Footsteps/Footstep_Grass_1.wav
+  artifactKey: Guid(9b66751b47036de45abde64423499873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Audio/Footsteps/Footstep_Grass_1.wav using Guid(9b66751b47036de45abde64423499873) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f1fc7d942da8e91a32c52eb18c3c16d2') in 0.0122479 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/ASSETS/tuerca.mat
-  artifactKey: Guid(92bc2837b760a9b47b3e731f5d306c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASSETS/tuerca.mat using Guid(92bc2837b760a9b47b3e731f5d306c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dea9a1ce8d2540b0451ad715b4f5574e') in 0.2356422 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+  Time since last request: 0.000022 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Audio/Footsteps/Footstep_Grass_4.wav
+  artifactKey: Guid(ae37335309db4fb4eace488591542d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Audio/Footsteps/Footstep_Grass_4.wav using Guid(ae37335309db4fb4eace488591542d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4dabcd2e5ba56729eebaa16722eafa86') in 0.0111156 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
+========================================================================
+Received Import Request.
+  Time since last request: 1.230309 seconds.
+  path: Assets/Quibli/Demos/Plants/Prefabs/Grass Patch Long 1.prefab
+  artifactKey: Guid(8c974734a6d4041538c0cc45823aacac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/Plants/Prefabs/Grass Patch Long 1.prefab using Guid(8c974734a6d4041538c0cc45823aacac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9fbfb43104650688c96f4eff75bb3eeb') in 1.0658259 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027218 seconds.
+  path: Assets/Quibli/Demos/City/Models/Grass_Sprout_01.fbx
+  artifactKey: Guid(35f7d057938e94e1fa6253aa41353118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/City/Models/Grass_Sprout_01.fbx using Guid(35f7d057938e94e1fa6253aa41353118) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e74085c6ea95380c65cf838f506d23b8') in 0.0308391 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.668942 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Audio/Other/Grasslands - MusicTrack.wav
+  artifactKey: Guid(3114a23f28c59064cbcd4f20128ef8bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Audio/Other/Grasslands - MusicTrack.wav using Guid(3114a23f28c59064cbcd4f20128ef8bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e334a69b333066eeb97d6ae97e6d3c8') in 0.4841176 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Quibli/Demos/Nature/Materials/NatureScene_Grass_Details.mat
+  artifactKey: Guid(bc3edf82fc6eb47759ca80e684ab77c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/Nature/Materials/NatureScene_Grass_Details.mat using Guid(bc3edf82fc6eb47759ca80e684ab77c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '78604bb2b534a968701a5996979240ba') in 0.0878495 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Quibli/Demos/Nature/Materials/NatureScene_Grass_Short.mat
+  artifactKey: Guid(443826f78fa784b67a44a6c3cf2bb1c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/Nature/Materials/NatureScene_Grass_Short.mat using Guid(443826f78fa784b67a44a6c3cf2bb1c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ebb024919b47bed02cad0940ec706af') in 0.0390087 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Quibli/Demos/Sample Scene with Quibli/Prefabs/SampleScene - Grass Patch.prefab
+  artifactKey: Guid(f02d7d5e9024b401d9aa0aa382f5a861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Demos/Sample Scene with Quibli/Prefabs/SampleScene - Grass Patch.prefab using Guid(f02d7d5e9024b401d9aa0aa382f5a861) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4464e2cf309c111414a7ccbda7548d9e') in 0.0495976 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.724849 seconds.
+  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Textures/Vegetation/Big_branches_Albedo.png
+  artifactKey: Guid(2003265ce948fba41b02654a63f65930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Textures/Vegetation/Big_branches_Albedo.png using Guid(2003265ce948fba41b02654a63f65930) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b31b6619f5cf3a04b8f09503cf79644') in 0.0376055 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image H:\Unity\Chuchu-alba\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image H:\Unity\Chuchu-alba\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.647 seconds
+Refreshing native plugins compatible for Editor in 1.85 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.774 seconds
+Domain Reload Profiling: 1421ms
+	BeginReloadAssembly (191ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (394ms)
+		LoadAssemblies (309ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (167ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (140ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (774ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (556ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (441ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (24ms)
+Refreshing native plugins compatible for Editor in 3.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 43 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6537 unused Assets / (4.2 MB). Loaded Objects now: 7401.
+Memory consumption went from 253.6 MB to 249.4 MB.
+Total: 16.045200 ms (FindLiveObjects: 1.314800 ms CreateObjectMapping: 1.085700 ms MarkObjects: 10.089500 ms  DeleteObjects: 3.553700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
