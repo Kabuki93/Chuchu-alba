@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/PLAYER TWO/Platformer Project/Examples/Scenes/LevelSelect.unity
     guid: 1334fc2701a18a04287675bd4ebab3ac
   - enabled: 1
-    path: Assets/PLAYER TWO/Platformer Project/Examples/Scenes/Albalandia.unity
+    path: Assets/PLAYER TWO/Platformer Project/Examples/Scenes/Pruevas.unity
     guid: 278a551158294f341b62da4310b65882
   - enabled: 1
     path: Assets/PLAYER TWO/Platformer Project/Examples/Scenes/TestLevelScene 2.unity
