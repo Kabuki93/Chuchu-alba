@@ -18,6 +18,7 @@ TagManager:
   - Hitbox
   - Gravity Field
   - Train
+  - Button
   layers:
   - Default
   - TransparentFX
