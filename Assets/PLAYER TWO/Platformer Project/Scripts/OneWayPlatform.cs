@@ -6,44 +6,54 @@ using UnityEngine.AdaptivePerformance.VisualScripting;
 
 public class OneWayPlatform : MonoBehaviour
 {
-    public Collider platformCollider;  // El collider de la plataforma
-    public GameObject player;         // Referencia al jugador
+   private Collider platformCollider; // El Collider de la plataforma
+    public string playerTag = "Player"; // Tag del jugador
+    public float playerThreshold = 0.1f; // Umbral para detectar si el jugador está justo debajo de la plataforma
+
+    private GameObject player;
 
     void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player");  // Encuentra al jugador
-    }
+        // Obtener automáticamente el Collider de la plataforma
+        platformCollider = GetComponent<Collider>();
 
-    void OnTriggerEnter(Collider other)
-    {
-        // Verifica si el objeto que entra al trigger es el jugador
-        if (other.CompareTag("Player"))
-        {
-           
-        player = GameObject.FindGameObjectWithTag("Player");  // Encuentra al jugador
         if (platformCollider == null)
         {
-            UnityEngine.Debug.Log("El collider de la plataforma no está asignado.");
+           UnityEngine.Debug.Log("No se encontró un Collider en la plataforma.");
         }
+
+        // Encontrar al jugador usando el tag asignado
+        player = GameObject.FindGameObjectWithTag(playerTag);
         if (player == null)
         {
-            UnityEngine.Debug.Log("No se pudo encontrar el objeto con el tag 'Player'.");
-        }
+           UnityEngine.Debug.Log("No se encontró el jugador en la escena.");
         }
     }
 
-    void OnTriggerExit(Collider other)
+    void Update()
     {
-        // Verifica si el jugador sale del trigger
-        if (other.CompareTag("Player"))
+        if (player != null && platformCollider != null)
         {
-           UnityEngine.Debug.Log("El jugador ha salido del trigger.");
-            // Cuando el jugador esté sobre la plataforma, desactiva el trigger para que no pueda caer
-            if (other.transform.position.y > transform.position.y)
+            // Verifica si el jugador está por debajo de la plataforma
+            if (IsPlayerBelowPlatform())
             {
-                platformCollider.isTrigger = false;  
-               UnityEngine.Debug.Log ("El jugador esta encima");
+                platformCollider.enabled = false; // Desactivar el colisionador para permitir el paso
+            }
+            else
+            {
+                platformCollider.enabled = true; // Activar el colisionador para impedir el paso desde arriba
             }
         }
+    }
+
+    // Método para verificar si el jugador está debajo de la plataforma
+    private bool IsPlayerBelowPlatform()
+    {
+        // Obtener la posición Y del jugador y de la plataforma
+        float playerY = player.transform.position.y;
+        float platformY = transform.position.y;
+
+        // El jugador está debajo de la plataforma si su posición Y es menor que la plataforma (con un margen de umbral)
+        return playerY < platformY - playerThreshold;
     }
 }
