@@ -3,15 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class cotroladoragua : MonoBehaviour
-{    
-    
-    public GameObject waterObject; // Referencia al objeto de agua
+{  
+     public GameObject waterObject; // Referencia al objeto de agua
     public Transform startPoint; // Punto de inicio para el movimiento del agua
     public Transform endPoint; // Punto final para el movimiento del agua
     public float moveSpeed = 2f; // Velocidad a la que el agua se mueve
-    public string playerTag = "Player"; // Tag del jugador
 
     private bool shouldMove = false; // Si el agua debería moverse
+    private int colliderCount = 0; // Contador de colisionadores activados
+
+    public int requiredColliders = 3; // Número de colisionadores requeridos
 
     void Start()
     {
@@ -44,34 +45,23 @@ public class cotroladoragua : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter(Collider other)
+    // Este método será llamado desde cada botón
+    public void IncrementColliderCount()
     {
-        // Verificar que el collider activado tiene el tag del jugador
-        if (other.CompareTag(playerTag))
+        // Incrementar el contador de colisionadores
+        colliderCount++;
+        Debug.Log("Colliders passed: " + colliderCount);
+
+        // Verificar si se han activado suficientes colisionadores
+        if (colliderCount >= requiredColliders)
         {
-            Debug.Log("Player detected: " + other.name);
             ActivateWater();
         }
     }
-
-    private void OnTriggerExit(Collider other)
-    {
-        // Verificar que el collider que sale es el jugador
-        if (other.CompareTag(playerTag))
-        {
-            Debug.Log("Player left: " + other.name);
-            DeactivateWater();
-        }
-    }
-
     private void ActivateWater()
     {
         shouldMove = true; // Iniciar el movimiento del agua
-    }
-
-    private void DeactivateWater()
-    {
-        shouldMove = false; // Detener el movimiento del agua
+        Debug.Log("Water activated!");
     }
 }
 

@@ -437,6 +437,7 @@
 "Assets/Basic enter exit cars/Scripts/EnterExit1.cs"
 "Assets/Basic enter exit cars/Scripts/ExampleCar.cs"
 "Assets/Basic enter exit cars/Scripts/ExamplePlayer.cs"
+"Assets/PLAYER TWO/Platformer Project/Scripts/ButtonController.cs"
 "Assets/PLAYER TWO/Platformer Project/Scripts/cotroladoragua.cs"
 "Assets/PLAYER TWO/Platformer Project/Scripts/Enemy/Enemy.cs"
 "Assets/PLAYER TWO/Platformer Project/Scripts/Enemy/EnemyAnimator.cs"
