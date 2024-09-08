@@ -51,7 +51,7 @@ PrefabInstance:
     - target: {fileID: 5800499823128224579, guid: 1e82ffa9dbb4f184d93770f3fc00de36,
         type: 3}
       propertyPath: m_Name
-      value: Blue Coin
+      value: Coin_Tuerca
       objectReference: {fileID: 0}
     - target: {fileID: 5800499823128224580, guid: 1e82ffa9dbb4f184d93770f3fc00de36,
         type: 3}
