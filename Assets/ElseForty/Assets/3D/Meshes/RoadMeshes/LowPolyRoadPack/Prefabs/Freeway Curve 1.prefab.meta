@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 6373f7d3f749b254081c2c8c9372face
+labels:
+- street
+- road
+- freeway
+- low-poly
+- lowpoly
+timeCreated: 1468486766
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284880
+  packageName: Spline Plus Core
+  packageVersion: 1.0
+  assetPath: Assets/ElseForty/Assets/3D/Meshes/RoadMeshes/LowPolyRoadPack/Prefabs/Freeway
+    Curve 1.prefab
+  uploadId: 690216

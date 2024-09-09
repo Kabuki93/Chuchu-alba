@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 68c5ae70e700541e39cc941a02820a28
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284880
+  packageName: Spline Plus Core
+  packageVersion: 1.0
+  assetPath: Assets/ElseForty/Modifiers/Animation/Shared/Plugins/AnimationSharedAssembly.asmdef
+  uploadId: 690216

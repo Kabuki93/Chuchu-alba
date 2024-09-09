@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9c8280f4dc1c19b4abebf96bc3d992f2
+timeCreated: 1448284322
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284880
+  packageName: Spline Plus Core
+  packageVersion: 1.0
+  assetPath: Assets/ElseForty/Assets/FX/Prefabs/Environment/Smoke/Dark/SmokeDarkTrail.prefab
+  uploadId: 690216

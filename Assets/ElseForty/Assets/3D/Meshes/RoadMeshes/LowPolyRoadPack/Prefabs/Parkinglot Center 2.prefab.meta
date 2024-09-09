@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 5687d55acdf3c094aa163098fed8dbbc
+labels:
+- street
+- road
+- freeway
+- low-poly
+- lowpoly
+- parkinglot
+timeCreated: 1468486762
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284880
+  packageName: Spline Plus Core
+  packageVersion: 1.0
+  assetPath: Assets/ElseForty/Assets/3D/Meshes/RoadMeshes/LowPolyRoadPack/Prefabs/Parkinglot
+    Center 2.prefab
+  uploadId: 690216

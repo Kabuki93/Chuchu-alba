@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: b5baae8b9b6343c4484a2886ccff5179
+labels:
+- street
+- road
+- freeway
+- low-poly
+- lowpoly
+timeCreated: 1468486766
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284880
+  packageName: Spline Plus Core
+  packageVersion: 1.0
+  assetPath: Assets/ElseForty/Assets/3D/Meshes/RoadMeshes/LowPolyRoadPack/Prefabs/Highway
+    Straight 1.prefab
+  uploadId: 690216

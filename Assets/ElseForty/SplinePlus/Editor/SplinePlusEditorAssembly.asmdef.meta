@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: cab65d0c778264f9997c159f8ff65363
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284880
+  packageName: Spline Plus Core
+  packageVersion: 1.0
+  assetPath: Assets/ElseForty/SplinePlus/Editor/SplinePlusEditorAssembly.asmdef
+  uploadId: 690216

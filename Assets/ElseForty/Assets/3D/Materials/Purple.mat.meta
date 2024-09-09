@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 313befa7da6b7454898561dc2905b1ba
+timeCreated: 1525651358
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284880
+  packageName: Spline Plus Core
+  packageVersion: 1.0
+  assetPath: Assets/ElseForty/Assets/3D/Materials/Purple.mat
+  uploadId: 690216

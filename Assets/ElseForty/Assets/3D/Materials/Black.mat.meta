@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: b6af475b631bf4415bc7d2cf3648140d
+timeCreated: 1525651358
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284880
+  packageName: Spline Plus Core
+  packageVersion: 1.0
+  assetPath: Assets/ElseForty/Assets/3D/Materials/Black.mat
+  uploadId: 690216

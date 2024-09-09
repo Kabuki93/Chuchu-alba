@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: ceba717d01c1fa1458e34f93acc30651
+labels:
+- street
+- road
+- freeway
+- low-poly
+- lowpoly
+- tunnel
+timeCreated: 1468486760
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284880
+  packageName: Spline Plus Core
+  packageVersion: 1.0
+  assetPath: Assets/ElseForty/Assets/3D/Meshes/RoadMeshes/LowPolyRoadPack/Prefabs/Tunnel
+    Entrance 1.prefab
+  uploadId: 690216

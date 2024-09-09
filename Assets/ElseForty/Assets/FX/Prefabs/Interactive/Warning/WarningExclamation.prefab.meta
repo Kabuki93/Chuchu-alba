@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 05541640f4492734a88f2b15963e15d2
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284880
+  packageName: Spline Plus Core
+  packageVersion: 1.0
+  assetPath: Assets/ElseForty/Assets/FX/Prefabs/Interactive/Warning/WarningExclamation.prefab
+  uploadId: 690216

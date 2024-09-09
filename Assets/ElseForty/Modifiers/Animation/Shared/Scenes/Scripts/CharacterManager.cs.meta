@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: c7f53e6ce8ee009499ab2724e1726998
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284880
+  packageName: Spline Plus Core
+  packageVersion: 1.0
+  assetPath: Assets/ElseForty/Modifiers/Animation/Shared/Scenes/Scripts/CharacterManager.cs
+  uploadId: 690216

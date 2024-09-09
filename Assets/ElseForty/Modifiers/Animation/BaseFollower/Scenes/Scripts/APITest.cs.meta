@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: af7047a89af3e4ed29447d1ff54b6d2e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284880
+  packageName: Spline Plus Core
+  packageVersion: 1.0
+  assetPath: Assets/ElseForty/Modifiers/Animation/BaseFollower/Scenes/Scripts/APITest.cs
+  uploadId: 690216
