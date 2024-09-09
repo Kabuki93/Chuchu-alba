@@ -652,8 +652,8 @@
     <Compile Include="Library\PackageCache\com.unity.shadergraph@16.0.5\Editor\Generation\Enumerations\IncludeLocation.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@16.0.5\Editor\Data\Nodes\Utility\Logic\NandNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@16.0.5\Editor\Data\Legacy\VisualEffectMasterNode1.cs" />
-    <Compile Include="Library\PackageCache\com.unity.shadergraph@16.0.5\Editor\Drawing\Controls\VectorControl.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@16.0.5\Editor\Data\Attributes\SRPFilterAttribute.cs" />
+    <Compile Include="Library\PackageCache\com.unity.shadergraph@16.0.5\Editor\Drawing\Controls\VectorControl.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@16.0.5\Editor\Data\Graphs\ColorMaterialSlot.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@16.0.5\Editor\Data\Interfaces\IMayRequireFaceSign.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@16.0.5\Editor\Generation\Targets\BuiltIn\Editor\ShaderGraph\AssetCallbacks\CreateUnlitShaderGraph.cs" />
