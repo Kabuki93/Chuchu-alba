@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e0e7f4865ae654cb5acff0721302fbd6
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293491
+  packageName: Spline Plus Mesh
+  packageVersion: 1.0
+  assetPath: Assets/ElseForty/Modifiers/Mesh/MeshDeform/Plugins/MeshDeformAssembly.asmdef
+  uploadId: 690223

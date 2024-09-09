@@ -1,0 +1,40 @@
+fileFormatVersion: 2
+guid: b919cb3c827f44ae48511a9e6982a3ca
+PluginImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  iconMap: {}
+  executionOrder: {}
+  defineConstraints: []
+  isPreloaded: 0
+  isOverridable: 0
+  isExplicitlyReferenced: 0
+  validateReferences: 1
+  platformData:
+  - first:
+      Any: 
+    second:
+      enabled: 0
+      settings: {}
+  - first:
+      Editor: Editor
+    second:
+      enabled: 1
+      settings:
+        DefaultValueInitialized: true
+  - first:
+      Windows Store Apps: WindowsStoreApps
+    second:
+      enabled: 0
+      settings:
+        CPU: AnyCPU
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293491
+  packageName: Spline Plus Mesh
+  packageVersion: 1.0
+  assetPath: Assets/ElseForty/Modifiers/Mesh/TubeMesh/Editor/TubeMeshEditor.dll
+  uploadId: 690223

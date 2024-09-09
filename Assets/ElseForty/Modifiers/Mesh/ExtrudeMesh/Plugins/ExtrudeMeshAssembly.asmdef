@@ -1,0 +1,17 @@
+{
+    "name": "ExtrudeMeshAssembly",
+    "rootNamespace": "",
+    "references": [
+        "GUID:6b57cf9fdefd946ac90bc4f40dfbdca0",
+        "GUID:e1f28ad9f1a4948f4b8424fa472c6974"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -743,12 +743,32 @@
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="ComplexFollower">
+      <HintPath>Assets\ElseForty\Modifiers\Animation\ComplexFollower\Plugins\ComplexFollower.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Mono.Cecil">
       <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil@1.11.4\Mono.Cecil.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="ComplexFollower">
-      <HintPath>Assets\ElseForty\Modifiers\Animation\ComplexFollower\Plugins\ComplexFollower.dll</HintPath>
+    <Reference Include="ExtrudeMesh">
+      <HintPath>Assets\ElseForty\Modifiers\Mesh\ExtrudeMesh\Plugins\ExtrudeMesh.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MeshDeform">
+      <HintPath>Assets\ElseForty\Modifiers\Mesh\MeshDeform\Plugins\MeshDeform.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="TubeMesh">
+      <HintPath>Assets\ElseForty\Modifiers\Mesh\TubeMesh\Plugins\TubeMesh.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MeshShared">
+      <HintPath>Assets\ElseForty\Modifiers\Mesh\Shared\Plugins\MeshShared.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PlaneMesh">
+      <HintPath>Assets\ElseForty\Modifiers\Mesh\PlaneMesh\Plugins\PlaneMesh.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="netstandard">
@@ -1295,16 +1315,12 @@
       <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.RenderPipelines.Core.Editor.Shared">
-      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.Shared.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Notifications.Android">
-      <HintPath>Library\ScriptAssemblies\Unity.Notifications.Android.dll</HintPath>
+    <Reference Include="Unity.RenderPipelines.Core.Editor.Shared">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.Shared.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.ShaderGraph.Editor">
@@ -1317,6 +1333,10 @@
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Notifications.Android">
+      <HintPath>Library\ScriptAssemblies\Unity.Notifications.Android.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Splines">

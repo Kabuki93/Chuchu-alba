@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e1f28ad9f1a4948f4b8424fa472c6974
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293491
+  packageName: Spline Plus Mesh
+  packageVersion: 1.0
+  assetPath: Assets/ElseForty/Modifiers/Mesh/Shared/Plugins/MeshSharedAssembly.asmdef
+  uploadId: 690223

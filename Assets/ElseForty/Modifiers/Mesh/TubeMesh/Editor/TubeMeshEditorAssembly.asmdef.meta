@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f20b67484a9ca43f18a7a6f64f4714ed
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293491
+  packageName: Spline Plus Mesh
+  packageVersion: 1.0
+  assetPath: Assets/ElseForty/Modifiers/Mesh/TubeMesh/Editor/TubeMeshEditorAssembly.asmdef
+  uploadId: 690223

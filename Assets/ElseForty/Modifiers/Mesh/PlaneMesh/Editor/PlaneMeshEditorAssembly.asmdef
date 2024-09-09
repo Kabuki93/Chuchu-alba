@@ -1,0 +1,18 @@
+{
+    "name": "PlaneMeshEditorAssembly",
+    "rootNamespace": "",
+    "references": [
+        "GUID:6b57cf9fdefd946ac90bc4f40dfbdca0",
+        "GUID:e1f28ad9f1a4948f4b8424fa472c6974",
+        "GUID:613b19d8a0ca64f34a13476fb49923de"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

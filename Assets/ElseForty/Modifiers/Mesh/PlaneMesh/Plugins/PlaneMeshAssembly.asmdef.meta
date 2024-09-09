@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6aca6fb0a56844339bea9a77745a7fe3
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293491
+  packageName: Spline Plus Mesh
+  packageVersion: 1.0
+  assetPath: Assets/ElseForty/Modifiers/Mesh/PlaneMesh/Plugins/PlaneMeshAssembly.asmdef
+  uploadId: 690223
