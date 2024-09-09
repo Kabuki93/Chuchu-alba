@@ -129,6 +129,8 @@
 -define:CSHARP_7_3_OR_NEWER
 -r:"Assets/ElseForty/Modifiers/Animation/BaseFollower/Editor/BaseFollowerEditor.dll"
 -r:"Assets/ElseForty/Modifiers/Animation/BaseFollower/Plugins/BaseFollower.dll"
+-r:"Assets/ElseForty/Modifiers/Animation/ComplexFollower/Editor/ComplexFollowerEditor.dll"
+-r:"Assets/ElseForty/Modifiers/Animation/ComplexFollower/Plugins/ComplexFollower.dll"
 -r:"Assets/ElseForty/Modifiers/Animation/Shared/Editor/AnimationSharedEditor.dll"
 -r:"Assets/ElseForty/Modifiers/Animation/Shared/Plugins/AnimationShared.dll"
 -r:"Assets/ElseForty/SplinePlus/Editor/SplinePlusEditor.dll"

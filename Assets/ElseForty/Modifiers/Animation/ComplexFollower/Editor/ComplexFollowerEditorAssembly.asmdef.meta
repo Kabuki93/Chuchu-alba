@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 2142b867aebde4aa5b611b63eaadb0da
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293490
+  packageName: Spline Plus Animation
+  packageVersion: 1.0
+  assetPath: Assets/ElseForty/Modifiers/Animation/ComplexFollower/Editor/ComplexFollowerEditorAssembly.asmdef
+  uploadId: 690220

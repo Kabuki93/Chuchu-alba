@@ -1,0 +1,19 @@
+{
+    "name": "ComplexFollowerEditorAssembly",
+    "rootNamespace": "",
+    "references": [
+        "GUID:6b57cf9fdefd946ac90bc4f40dfbdca0",
+        "GUID:68c5ae70e700541e39cc941a02820a28",
+        "GUID:78ce303a7bf1f4b9494422652e5c4300",
+        "GUID:2f5413e400ad641d2b4caa044685ef64"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
