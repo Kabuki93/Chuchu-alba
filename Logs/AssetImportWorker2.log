@@ -15,7 +15,7 @@ H:/Unity/Chuchu-alba
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-49739
+52579
 -job-worker-count
 11
 -background-job-worker-count
@@ -58,12 +58,12 @@ H:/Unity/Chuchu-alba
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [41788] Host "[IP] 192.168.1.55 [Port] 0 [Flags] 2 [Guid] 1593007796 [EditorId] 1593007796 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KFD4UNI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
-Player connection [41788] Host "[IP] 192.168.1.55 [Port] 0 [Flags] 2 [Guid] 1593007796 [EditorId] 1593007796 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KFD4UNI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [10984] Host "[IP] 192.168.1.55 [Port] 0 [Flags] 2 [Guid] 3400180082 [EditorId] 3400180082 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KFD4UNI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [10984] Host "[IP] 192.168.1.55 [Port] 0 [Flags] 2 [Guid] 3400180082 [EditorId] 3400180082 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KFD4UNI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 11
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
 Library Redirect Path: Library/
-Refreshing native plugins compatible for Editor in 2.79 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.15 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2023.2.18f1 (1cb755715f58)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/Resources/UnitySubsystems
@@ -79,7 +79,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56752
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56840
 Begin MonoManager ReloadAssembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
@@ -95,43 +95,43 @@ Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.004932 seconds.
-- Loaded All Assemblies, in  0.342 seconds
+Registered in 0.004763 seconds.
+- Loaded All Assemblies, in  0.306 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-- Finished resetting the current domain, in  0.287 seconds
-Domain Reload Profiling: 626ms
-	BeginReloadAssembly (123ms)
+- Finished resetting the current domain, in  0.257 seconds
+Domain Reload Profiling: 560ms
+	BeginReloadAssembly (108ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (49ms)
-	LoadAllAssembliesAndSetupDomain (127ms)
-		LoadAssemblies (121ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (118ms)
+		LoadAssemblies (106ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (124ms)
-			TypeCache.Refresh (123ms)
-				TypeCache.ScanAssembly (112ms)
+		AnalyzeDomain (115ms)
+			TypeCache.Refresh (114ms)
+				TypeCache.ScanAssembly (104ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (287ms)
+	FinalizeReload (257ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (236ms)
+		SetupLoadedEditorAssemblies (210ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (36ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (3ms)
 			BeforeProcessingInitializeOnLoad (4ms)
-			ProcessInitializeOnLoadAttributes (154ms)
-			ProcessInitializeOnLoadMethodAttributes (37ms)
+			ProcessInitializeOnLoadAttributes (134ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -154,8 +154,8 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Symbol file LoadedFromMemory doesn't match image H:\Unity\Chuchu-alba\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image H:\Unity\Chuchu-alba\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.891 seconds
-Refreshing native plugins compatible for Editor in 1.38 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.802 seconds
+Refreshing native plugins compatible for Editor in 1.46 ms, found 3 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -167,96 +167,111 @@ Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.800 seconds
-Domain Reload Profiling: 1687ms
-	BeginReloadAssembly (355ms)
+- Finished resetting the current domain, in  0.727 seconds
+Domain Reload Profiling: 1527ms
+	BeginReloadAssembly (304ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (32ms)
-	RebuildCommonClasses (29ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (31ms)
 	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (458ms)
-		LoadAssemblies (342ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (423ms)
+		LoadAssemblies (303ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (213ms)
-			TypeCache.Refresh (168ms)
-				TypeCache.ScanAssembly (155ms)
-			BuildScriptInfoCaches (33ms)
+		AnalyzeDomain (205ms)
+			TypeCache.Refresh (163ms)
+				TypeCache.ScanAssembly (150ms)
+			BuildScriptInfoCaches (30ms)
 			ResolveRequiredComponents (10ms)
-	FinalizeReload (800ms)
+	FinalizeReload (728ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (588ms)
+		SetupLoadedEditorAssemblies (544ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (58ms)
-			ProcessInitializeOnLoadAttributes (484ms)
-			ProcessInitializeOnLoadMethodAttributes (29ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (444ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
 			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 1.68 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 250 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6640 unused Assets / (7.0 MB). Loaded Objects now: 7397.
-Memory consumption went from 210.1 MB to 203.1 MB.
-Total: 8.296900 ms (FindLiveObjects: 0.670500 ms CreateObjectMapping: 0.438600 ms MarkObjects: 4.893500 ms  DeleteObjects: 2.293400 ms)
+Unloading 251 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6640 unused Assets / (7.2 MB). Loaded Objects now: 7400.
+Memory consumption went from 215.4 MB to 208.3 MB.
+Total: 7.651200 ms (FindLiveObjects: 0.634300 ms CreateObjectMapping: 0.282300 ms MarkObjects: 4.431200 ms  DeleteObjects: 2.302800 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 381696.017147 seconds.
-  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Environment/Arch_1.fbx
-  artifactKey: Guid(1a2eb1f537a120a4b8b9bff98bf5adb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Environment/Arch_1.fbx using Guid(1a2eb1f537a120a4b8b9bff98bf5adb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dcafd536566a872038eeb4b637209a49') in 0.408015 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image H:\Unity\Chuchu-alba\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image H:\Unity\Chuchu-alba\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.617 seconds
+Refreshing native plugins compatible for Editor in 1.65 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.707 seconds
+Domain Reload Profiling: 1324ms
+	BeginReloadAssembly (177ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (378ms)
+		LoadAssemblies (315ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (148ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (129ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (708ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (526ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (56ms)
+			ProcessInitializeOnLoadAttributes (423ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 2.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6638 unused Assets / (7.5 MB). Loaded Objects now: 7401.
+Memory consumption went from 176.9 MB to 169.3 MB.
+Total: 11.901900 ms (FindLiveObjects: 0.866400 ms CreateObjectMapping: 0.525900 ms MarkObjects: 5.943700 ms  DeleteObjects: 4.564700 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 2.132553 seconds.
-  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Vegetation/Big_Branch_1.fbx
-  artifactKey: Guid(b5b2d9cc7d1d4364caa9d6040411196e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Vegetation/Big_Branch_1.fbx using Guid(b5b2d9cc7d1d4364caa9d6040411196e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c6a2f76dacccfe63df0d8aabb3c78b3') in 0.0413916 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.544505 seconds.
-  path: Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Vegetation/Branch_1.fbx
-  artifactKey: Guid(9fa9aae3bd3a7ae4cb751601148b1d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Raygeas/Grasslands - Stylized Nature/Assets/Models/Vegetation/Branch_1.fbx using Guid(9fa9aae3bd3a7ae4cb751601148b1d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db56f75decbd3f62e4410db9c4435e17') in 0.0422494 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Quibli/Demos/City/Models/Building_Decoration_2.fbx
-  artifactKey: Guid(6a871ad4b4d75495eac03380d686334e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quibli/Demos/City/Models/Building_Decoration_2.fbx using Guid(6a871ad4b4d75495eac03380d686334e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '315b18102bd893ab500522c2f82f8cff') in 0.0400543 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.619724 seconds.
-  path: Assets/ElseForty/Assets/3D/Meshes/RoadMeshes/LowPolyRoadPack/Models/Road Straight 1.dae
-  artifactKey: Guid(b4923c0dba942fa43a6c6e6831a89113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ElseForty/Assets/3D/Meshes/RoadMeshes/LowPolyRoadPack/Models/Road Straight 1.dae using Guid(b4923c0dba942fa43a6c6e6831a89113) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '63c27a9c160d2af856b3f2b9d1bcaf49') in 0.0276525 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/ElseForty/Assets/3D/Meshes/RoadMeshes/LowPolyRoadPack/Models/Tunnel Straight 4.dae
-  artifactKey: Guid(f5363fa7f00d1a14dace523483cf17f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ElseForty/Assets/3D/Meshes/RoadMeshes/LowPolyRoadPack/Models/Tunnel Straight 4.dae using Guid(f5363fa7f00d1a14dace523483cf17f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf77d34d20f9b4defda09d81526b8696') in 0.0133678 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Prepare: number of updated asset objects reloaded= 0

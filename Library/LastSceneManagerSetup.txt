@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/ElseForty/Modifiers/Animation/ComplexFollower/Scenes/Train.unity
+- path: Assets/PLAYER TWO/Platformer Project/Examples/Scenes/Urilandia.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

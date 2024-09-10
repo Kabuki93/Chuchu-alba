@@ -715,6 +715,10 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\2023.2.18f1\Editor\Data\Managed\UnityEngine\UnityEditor.XRModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="ExtrudeMesh">
+      <HintPath>Assets\ElseForty\Modifiers\Mesh\ExtrudeMesh\Plugins\ExtrudeMesh.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="SplinePlus">
       <HintPath>Assets\ElseForty\SplinePlus\Plugins\SplinePlus.dll</HintPath>
       <Private>False</Private>
@@ -731,12 +735,24 @@
       <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.2.5\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="MeshShared">
+      <HintPath>Assets\ElseForty\Modifiers\Mesh\Shared\Plugins\MeshShared.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="BaseFollower">
       <HintPath>Assets\ElseForty\Modifiers\Animation\BaseFollower\Plugins\BaseFollower.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="AnimationShared">
       <HintPath>Assets\ElseForty\Modifiers\Animation\Shared\Plugins\AnimationShared.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PlaneMesh">
+      <HintPath>Assets\ElseForty\Modifiers\Mesh\PlaneMesh\Plugins\PlaneMesh.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="TubeMesh">
+      <HintPath>Assets\ElseForty\Modifiers\Mesh\TubeMesh\Plugins\TubeMesh.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
@@ -751,24 +767,8 @@
       <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil@1.11.4\Mono.Cecil.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="ExtrudeMesh">
-      <HintPath>Assets\ElseForty\Modifiers\Mesh\ExtrudeMesh\Plugins\ExtrudeMesh.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="MeshDeform">
       <HintPath>Assets\ElseForty\Modifiers\Mesh\MeshDeform\Plugins\MeshDeform.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="TubeMesh">
-      <HintPath>Assets\ElseForty\Modifiers\Mesh\TubeMesh\Plugins\TubeMesh.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="MeshShared">
-      <HintPath>Assets\ElseForty\Modifiers\Mesh\Shared\Plugins\MeshShared.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="PlaneMesh">
-      <HintPath>Assets\ElseForty\Modifiers\Mesh\PlaneMesh\Plugins\PlaneMesh.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="netstandard">
@@ -1275,12 +1275,12 @@
       <HintPath>Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.AI.Navigation">
-      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation">
+      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.AdaptivePerformance">
@@ -1323,16 +1323,16 @@
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.Shared.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.ShaderGraph.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.ShaderGraph.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Notifications.Android">
