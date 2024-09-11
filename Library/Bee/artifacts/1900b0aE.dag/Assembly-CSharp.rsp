@@ -457,6 +457,7 @@
 "Assets/ElseForty/Modifiers/Animation/Shared/Scenes/Scripts/CharacterManager.cs"
 "Assets/ElseForty/Modifiers/Animation/Shared/Scenes/Scripts/RobotManager.cs"
 "Assets/PLAYER TWO/Platformer Project/Scripts/ButtonController.cs"
+"Assets/PLAYER TWO/Platformer Project/Scripts/CameraMouseControl.cs"
 "Assets/PLAYER TWO/Platformer Project/Scripts/cotroladoragua.cs"
 "Assets/PLAYER TWO/Platformer Project/Scripts/Enemy/Enemy.cs"
 "Assets/PLAYER TWO/Platformer Project/Scripts/Enemy/EnemyAnimator.cs"

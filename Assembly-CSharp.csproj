@@ -207,6 +207,7 @@
     <Compile Include="Assets\Quibli\Scripts\Mesh Generators\CurveRenderer.cs" />
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Entity\EntityHitbox.cs" />
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\UI\HUD.cs" />
+    <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\CameraMouseControl.cs" />
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Player\PlayerStateManager.cs" />
     <Compile Include="Assets\PLAYER TWO\Platformer Project\Scripts\Player\States\BrakePlayerState.cs" />
     <Compile Include="Assets\Quibli\Post Process\Scripts\QuibliPostProcess.cs" />
