@@ -64,20 +64,20 @@
     <Analyzer Include="D:\Programas cole\Unity\2023.2.18f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.unity.burst@1.8.13\Unity.Burst.CodeGen\CecilExtensions.cs" />
-    <Compile Include="Library\PackageCache\com.unity.burst@1.8.13\Unity.Burst.CodeGen\BurstILPostProcessor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.burst@1.8.13\Unity.Burst.CodeGen\AssemblyResolver.cs" />
-    <Compile Include="Library\PackageCache\com.unity.burst@1.8.13\Unity.Burst.CodeGen\FunctionPointerInvokeTransform.cs" />
-    <Compile Include="Library\PackageCache\com.unity.burst@1.8.13\Unity.Burst.CodeGen\ILPostProcessing.cs" />
-    <Compile Include="Library\PackageCache\com.unity.burst@1.8.13\Unity.Burst.CodeGen\GenericContext.cs" />
-    <Compile Include="Library\PackageCache\com.unity.burst@1.8.13\Unity.Burst.CodeGen\ILPostProcessingLegacy.cs" />
+    <Compile Include="Library\PackageCache\com.unity.burst@1.8.17\Unity.Burst.CodeGen\CecilExtensions.cs" />
+    <Compile Include="Library\PackageCache\com.unity.burst@1.8.17\Unity.Burst.CodeGen\BurstILPostProcessor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.burst@1.8.17\Unity.Burst.CodeGen\AssemblyResolver.cs" />
+    <Compile Include="Library\PackageCache\com.unity.burst@1.8.17\Unity.Burst.CodeGen\FunctionPointerInvokeTransform.cs" />
+    <Compile Include="Library\PackageCache\com.unity.burst@1.8.17\Unity.Burst.CodeGen\ILPostProcessing.cs" />
+    <Compile Include="Library\PackageCache\com.unity.burst@1.8.17\Unity.Burst.CodeGen\GenericContext.cs" />
+    <Compile Include="Library\PackageCache\com.unity.burst@1.8.17\Unity.Burst.CodeGen\ILPostProcessingLegacy.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Library\PackageCache\com.unity.burst@1.8.13\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll" />
-    <None Include="Library\PackageCache\com.unity.burst@1.8.13\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll" />
-    <None Include="Library\PackageCache\com.unity.burst@1.8.13\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll" />
-    <None Include="Library\PackageCache\com.unity.burst@1.8.13\Unity.Burst.CodeGen\Unity.Burst.CodeGen.asmdef" />
-    <None Include="Library\PackageCache\com.unity.burst@1.8.13\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll" />
+    <None Include="Library\PackageCache\com.unity.burst@1.8.17\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll" />
+    <None Include="Library\PackageCache\com.unity.burst@1.8.17\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll" />
+    <None Include="Library\PackageCache\com.unity.burst@1.8.17\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll" />
+    <None Include="Library\PackageCache\com.unity.burst@1.8.17\Unity.Burst.CodeGen\Unity.Burst.CodeGen.asmdef" />
+    <None Include="Library\PackageCache\com.unity.burst@1.8.17\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -537,19 +537,19 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Burst.Cecil">
-      <HintPath>Library\PackageCache\com.unity.burst@1.8.13\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.burst@1.8.17\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Rocks">
-      <HintPath>Library\PackageCache\com.unity.burst@1.8.13\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.burst@1.8.17\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Pdb">
-      <HintPath>Library\PackageCache\com.unity.burst@1.8.13\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.burst@1.8.17\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Mdb">
-      <HintPath>Library\PackageCache\com.unity.burst@1.8.13\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.burst@1.8.17\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="mscorlib">
