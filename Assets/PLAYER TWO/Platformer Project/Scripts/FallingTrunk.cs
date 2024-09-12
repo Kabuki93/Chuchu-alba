@@ -3,55 +3,78 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class FallingTrunk : MonoBehaviour
-{
+{   
+    public float fallDuration = 1f;   // Duración de la caída
+    public float fallAngle = 90f;     // Ángulo de caída (90 grados para una caída completa)
 
-    public float fallDuration = 1f; // Duración de la caída
-    public float fallAngle = 30f; // Ángulo de caída en grados
-
-    private bool isFalling = false;
-    private float fallStartTime;
-    private Quaternion initialRotation;
+    private bool isFalling = false;   // Bandera para controlar si el tronco ya está cayendo
+    private bool playerInTrigger = false; // Bandera para controlar si el jugador está dentro del Trigger
+    private Quaternion initialLocalRotation;
+    private Quaternion targetLocalRotation;
 
     void Start()
     {
-        initialRotation = transform.rotation;
+        // Guardamos la rotación inicial del tronco en su espacio local
+        initialLocalRotation = transform.localRotation;
     }
 
-    void OnCollisionEnter(Collision collision)
+    void OnTriggerEnter(Collider other)
     {
-        // Asegúrate de que el golpe proviene de un objeto con etiqueta "Player"
-        if (collision.gameObject.CompareTag("Player"))
+        // Detectar si el objeto que entra al trigger tiene la etiqueta "Player"
+        if (other.CompareTag("Player"))
         {
-            // Calcula la dirección del golpe
-            Vector3 directionToPlayer = transform.position - collision.transform.position;
-            directionToPlayer.Normalize();
-
-            // Aplica la fuerza de caída en la dirección opuesta al jugador
-            if (!isFalling)
-            {
-                isFalling = true;
-                fallStartTime = Time.time;
-
-                // Calcula el ángulo de rotación basado en la dirección del golpe
-                float angle = fallAngle;
-                Vector3 rotationAxis = Vector3.Cross(directionToPlayer, Vector3.up).normalized;
-
-                // Calcula la rotación final
-                Quaternion targetRotation = Quaternion.AngleAxis(angle, rotationAxis) * initialRotation;
-                StartCoroutine(RotateOverTime(targetRotation, fallDuration));
-            }
+            playerInTrigger = true;
         }
     }
 
-    private IEnumerator RotateOverTime(Quaternion targetRotation, float duration)
+    void OnTriggerExit(Collider other)
+    {
+        // Detectar cuando el jugador sale del trigger
+        if (other.CompareTag("Player"))
+        {
+            playerInTrigger = false;
+        }
+    }
+
+    void Update()
+    {
+        // Solo caerá si el jugador está dentro del trigger, no está cayendo ya, y se ha presionado el clic izquierdo
+        if (playerInTrigger && !isFalling && Input.GetMouseButtonDown(0))
+        {
+            // Activar la caída
+            isFalling = true;
+
+            // Determinamos la dirección de la caída en el eje X local
+            if (transform.InverseTransformPoint(GameObject.FindWithTag("Player").transform.position).x > 0)
+            {
+                // Caída hacia la derecha en el eje X local
+                targetLocalRotation = Quaternion.Euler(initialLocalRotation.eulerAngles.x + fallAngle, initialLocalRotation.eulerAngles.y, initialLocalRotation.eulerAngles.z);
+            }
+            else
+            {
+                // Caída hacia la izquierda en el eje X local
+                targetLocalRotation = Quaternion.Euler(initialLocalRotation.eulerAngles.x - fallAngle, initialLocalRotation.eulerAngles.y, initialLocalRotation.eulerAngles.z);
+            }
+
+            // Iniciar la coroutine para la rotación
+            StartCoroutine(RotateTrunk());
+        }
+    }
+
+    private IEnumerator RotateTrunk()
     {
         float elapsedTime = 0f;
-        while (elapsedTime < duration)
+
+        // Rotar desde la rotación inicial hacia la rotación objetivo durante `fallDuration`
+        while (elapsedTime < fallDuration)
         {
-            transform.rotation = Quaternion.Slerp(initialRotation, targetRotation, elapsedTime / duration);
+            // Interpolación en el espacio local
+            transform.localRotation = Quaternion.Slerp(initialLocalRotation, targetLocalRotation, elapsedTime / fallDuration);
             elapsedTime += Time.deltaTime;
             yield return null;
         }
-        transform.rotation = targetRotation; // Asegúrate de que la rotación final sea exacta
+
+        // Aseguramos que la rotación final sea exacta
+        transform.localRotation = targetLocalRotation;
     }
- }
+}
