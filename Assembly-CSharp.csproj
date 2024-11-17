@@ -722,10 +722,6 @@
       <HintPath>Assets\ElseForty\Modifiers\Mesh\ExtrudeMesh\Plugins\ExtrudeMesh.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="USD.NET">
-      <HintPath>Library\PackageCache\com.unity.usd.core@1.0.0-pre.1\Runtime\Plugins\USD.NET.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="SplinePlus">
       <HintPath>Assets\ElseForty\SplinePlus\Plugins\SplinePlus.dll</HintPath>
       <Private>False</Private>
@@ -1286,16 +1282,12 @@
       <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Importer.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Importer.Editor.dll</HintPath>
+    <Reference Include="Unity.AI.Navigation">
+      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.AdaptivePerformance">
       <HintPath>Library\ScriptAssemblies\Unity.AdaptivePerformance.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.AI.Navigation">
-      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
@@ -1366,10 +1358,6 @@
       <HintPath>Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Formats.USD.Common">
-      <HintPath>Library\ScriptAssemblies\Unity.Formats.USD.Common.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.AdaptivePerformance.Profiler.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.AdaptivePerformance.Profiler.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1382,20 +1370,12 @@
       <HintPath>Library\ScriptAssemblies\Unity.AdaptivePerformance.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="USD.NET.Unity">
-      <HintPath>Library\ScriptAssemblies\USD.NET.Unity.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.Collections">
       <HintPath>Library\ScriptAssemblies\Unity.Collections.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="PPv2URPConverters">
       <HintPath>Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.USD.Core">
-      <HintPath>Library\ScriptAssemblies\Unity.USD.Core.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Rendering.LightTransport.Editor">
@@ -1412,18 +1392,6 @@
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Importer.USD.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Importer.USD.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Formats.USD.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Formats.USD.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Importer">
-      <HintPath>Library\ScriptAssemblies\Unity.Importer.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Collections.Editor">
@@ -1538,14 +1506,6 @@
       <HintPath>Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Importer.USD">
-      <HintPath>Library\ScriptAssemblies\Unity.Importer.USD.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Formats.USD.Runtime">
-      <HintPath>Library\ScriptAssemblies\Unity.Formats.USD.Runtime.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1579,10 +1539,6 @@
     <ProjectReference Include="ExternalAttributes.Core.csproj">
       <Project>{99252791-583A-FE29-1860-8B7F4D5CB511}</Project>
       <Name>ExternalAttributes.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="nvidia.omniverse_unity_connector.Editor.csproj">
-      <Project>{C6703E7A-63B0-CF77-5961-9221C07D017B}</Project>
-      <Name>nvidia.omniverse_unity_connector.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="ExternalAttributes.Editor.csproj">
       <Project>{C2338EE4-BFA3-E137-C5CF-B559AC9E9D65}</Project>

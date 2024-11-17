@@ -1,13 +1,5 @@
 {
   "dependencies": {
-    "com.nvidia.omniverse.connector": {
-      "version": "file:C:/Users/oriol/AppData/Local/ov/pkg/unity-connector-202.0.1/com.nvidia.omniverse.connector",
-      "depth": 0,
-      "source": "local",
-      "dependencies": {
-        "com.unity.editorcoroutines": "1.0.0"
-      }
-    },
     "com.unity.adaptiveperformance": {
       "version": "5.0.1",
       "depth": 1,
@@ -70,18 +62,6 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
-    "com.unity.exporter.usd": {
-      "version": "1.0.0-exp.1",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.timeline": "1.0.0",
-        "com.unity.usd.core": "1.0.0-pre.1",
-        "com.unity.modules.physics": "1.0.0",
-        "com.unity.modules.screencapture": "1.0.0"
-      },
-      "url": "https://packages.unity.com"
-    },
     "com.unity.ext.nunit": {
       "version": "2.0.5",
       "depth": 2,
@@ -127,19 +107,6 @@
       "source": "registry",
       "dependencies": {
         "com.unity.test-framework": "1.1.9"
-      },
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.importer.usd": {
-      "version": "1.0.0-pre.2",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.burst": "1.7.3",
-        "com.unity.usd.core": "1.0.0-pre.1",
-        "com.unity.collections": "1.3.1",
-        "com.unity.mathematics": "1.2.6",
-        "com.unity.shadergraph": "15.0.0"
       },
       "url": "https://packages.unity.com"
     },
@@ -314,13 +281,6 @@
         "com.unity.modules.ui": "1.0.0",
         "com.unity.modules.imgui": "1.0.0"
       }
-    },
-    "com.unity.usd.core": {
-      "version": "1.0.0-pre.1",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://packages.unity.com"
     },
     "com.unity.visualscripting": {
       "version": "1.8.0",
